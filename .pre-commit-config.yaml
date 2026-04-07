@@ -1,9 +1,0 @@
-repos:
-  - repo: local
-    hooks:
-      - id: check-no-privado
-        name: Check privado_mantenimiento not staged
-        entry: python scripts/check_privado.py
-        language: python
-        pass_filenames: false
-        always_run: true

@@ -1,4 +1,25 @@
-# Python-generated files
+# =====================================================================
+# REPO PÚBLICO — Solo se publica: publicas/, packs/, docs/, manifest, README
+# El código fuente va en el repo privado: repositorio_Sage50bi_fuente
+# =====================================================================
+
+# ── Código fuente (repo privado) ──
+gestion/
+catalogo/
+integracion/
+tests/
+scripts/
+main.py
+pyproject.toml
+requirements.txt
+uv.lock
+.python-version
+.pre-commit-config.yaml
+PRD.md
+AGENTS.md
+INSTRUCCIONES*.md
+
+# ── Python-generated files ──
 __pycache__/
 *.py[oc]
 build/
@@ -6,25 +27,28 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# ── Virtual environments ──
 .venv
 
-# Versiones en claro - NUNCA se publican
+# ── Versiones en claro - NUNCA se publican ──
 privado_mantenimiento/
 
-# OS
+# ── Plantillas privadas (van en repo privado) ──
+privadas/
+
+# ── OS ──
 .DS_Store
 Thumbs.db
 
-# Temporales
+# ── Temporales ──
 temp/
 *.tmp
 nul
 
-# IDE
+# ── IDE ──
 .idea/
 .vscode/
 *.swp
 
-# Agent Teams Lite
+# ── Agent Teams Lite ──
 .atl/
