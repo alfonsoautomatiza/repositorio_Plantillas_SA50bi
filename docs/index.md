@@ -5,11 +5,31 @@ description: "Catálogo de plantillas SQL gratuitas para Sage50BI. Informes, bal
 
 # 🏢 Plantillas Gratuitas para Sage50BI
 
-Colección de **plantillas SQL y dashboards Streamlit** gratuitas para
-[Sage50BI](https://pedironline.com) de ALCA TIC.
+Colección de **5 plantillas SQL y dashboards Streamlit** gratuitas para [Sage50BI](https://pedironline.com) de ALCA TIC.
 
 Cada plantilla incluye consultas SQL optimizadas, dashboards interactivos,
 actualización automática desde la aplicación y vídeos explicativos.
+
+## 📦 Packs Destacados
+
+### 📦 [Pack Contabilidad Completa](packs/pack-contabilidad-completa.md)
+
+Balances y dashboard. — **2 plantillas**
+
+### 📦 [Pack Gestión Comercial](packs/pack-gestion-comercial.md)
+
+Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI. — **3 plantillas**
+
+
+## 🆕 Últimas Plantillas
+
+| # | Plantilla | Categoría | Versión | Descripción |
+|---|-----------|-----------|---------|-------------|
+| 1000 | [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espa-a.md) | 📋 | 1.0.0 | Listado completo de clientes con filtros por provincia, form... |
+| 1001 | [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md) | 📋 | 1.0.0 | Listado agrupado de proveedores por provincia con totales de... |
+| 2000 | [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md) | 🧾 | 1.0.0 | Modelo de factura profesional con desglose de líneas, IVA, r... |
+| 3000 | [Balance de situación](plantillas/3000-balance-de-situaci-n.md) | 📊 | 1.0.0 | Balance de situación con desglose por cuentas, grupos y subg... |
+| 4000 | [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md) | 📈 | 1.0.0 | Cuadro de mando interactivo con Streamlit mostrando ventas p... |
 
 ## 📂 Categorías
 
@@ -31,4 +51,4 @@ actualización automática desde la aplicación y vídeos explicativos.
 
 🏫 Desarrollado por [ALCA TIC, S.L.](https://pedironline.com)
 
-*Este contenido se genera automáticamente desde los template.json de cada plantilla.*
+*Última actualización: 2026-04-07*

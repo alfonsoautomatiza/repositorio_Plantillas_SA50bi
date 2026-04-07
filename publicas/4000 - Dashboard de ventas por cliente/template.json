@@ -1,0 +1,70 @@
+{
+  "id": 4000,
+  "nombre": "Dashboard de ventas por cliente",
+  "slug": "4000-dashboard-de-ventas-por-cliente",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "4000-4999",
+    "nombre": "Dashboard y Gráficos",
+    "icono": "📈"
+  },
+  "descripcion": "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.",
+  "descripcion_larga": "",
+  "tags": [
+    "dashboard",
+    "ventas",
+    "grafico",
+    "streamlit",
+    "cliente"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "30be6fab8efef52d89ed79522c8d8445549448896844f02aa5559346860935b6",
+      "opcional": false
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-04-07",
+  "fecha_actualizacion": "2026-04-07",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-04-07",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Dashboard de ventas por cliente — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nCuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://wertymsd.github.io/repositorio_Sage50bi/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "dashboard",
+      "ventas",
+      "grafico"
+    ]
+  },
+  "open_graph": {
+    "title": "Dashboard de ventas por cliente — Plantilla gratuita Sage50BI",
+    "description": "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

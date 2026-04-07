@@ -7,6 +7,16 @@ description: "Catálogo de balances y contabilidad para Sage50BI"
 
 Colección de plantillas de **Balances y Contabilidad** para Sage50BI.
 
-*Rango: 3000–3999*
+**1 plantillas disponibles**
 
-*Aún no hay plantillas en esta categoría. Se generarán automáticamente cuando se añadan plantillas con el tool de gestión.*
+## 3000 — Balance de situación
+
+![Preview](../../publicas/3000%20-%20Balance de situación/preview.png)
+
+Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.
+
+**Versión:** 1.0.0 | **Tags:** `balance` `situacion` `contabilidad` `cuentas`
+
+[📄 Ver detalle](../plantillas/3000-balance-de-situaci-n.md)
+
+---

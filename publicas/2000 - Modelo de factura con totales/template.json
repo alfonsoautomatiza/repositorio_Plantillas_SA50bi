@@ -1,0 +1,70 @@
+{
+  "id": 2000,
+  "nombre": "Modelo de factura con totales",
+  "slug": "2000-modelo-de-factura-con-totales",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "2000-2999",
+    "nombre": "Facturas y Documentos",
+    "icono": "🧾"
+  },
+  "descripcion": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
+  "descripcion_larga": "",
+  "tags": [
+    "factura",
+    "modelo",
+    "totales",
+    "iva",
+    "documentos"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "f2e39f79838fc5792e15bb7ed66fa7c70c743cf973923574c1b533c57a7b045e",
+      "opcional": false
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-04-07",
+  "fecha_actualizacion": "2026-04-07",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-04-07",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Modelo de factura con totales — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nModelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://wertymsd.github.io/repositorio_Sage50bi/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "factura",
+      "modelo",
+      "totales"
+    ]
+  },
+  "open_graph": {
+    "title": "Modelo de factura con totales — Plantilla gratuita Sage50BI",
+    "description": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

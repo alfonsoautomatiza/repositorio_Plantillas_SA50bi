@@ -1,0 +1,15 @@
+{
+  "id": "pack-contabilidad-completa",
+  "nombre": "Pack Contabilidad Completa",
+  "slug": "pack-contabilidad-completa",
+  "descripcion": "Balances y dashboard.",
+  "icono": "📦",
+  "plantillas": [
+    3000,
+    4000
+  ],
+  "total_plantillas": 2,
+  "preview": "pack-contabilidad-completa.png",
+  "fecha_creacion": "2026-04-07",
+  "fecha_actualizacion": "2026-04-07"
+}

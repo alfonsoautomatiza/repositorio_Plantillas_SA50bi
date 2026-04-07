@@ -11,8 +11,6 @@ copyright: © 2026 ALCA TIC, S.L.
 theme:
   name: material
   language: es
-  logo: img/logo.png
-  favicon: img/favicon.ico
   features:
     - navigation.tabs
     - navigation.sections

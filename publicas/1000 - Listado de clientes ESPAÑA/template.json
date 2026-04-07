@@ -1,0 +1,70 @@
+{
+  "id": 1000,
+  "nombre": "Listado de clientes ESPAÑA",
+  "slug": "1000-listado-de-clientes-espa-a",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "1000-1999",
+    "nombre": "Informes y Listados",
+    "icono": "📋"
+  },
+  "descripcion": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
+  "descripcion_larga": "",
+  "tags": [
+    "clientes",
+    "listado",
+    "españa",
+    "informes",
+    "sage50"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "94ca06199adbd89c4687fcd3175ebbf9640e55a2253a3fae610a592291309326",
+      "opcional": false
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-04-07",
+  "fecha_actualizacion": "2026-04-07",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-04-07",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Listado de clientes ESPAÑA — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nListado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://wertymsd.github.io/repositorio_Sage50bi/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "clientes",
+      "listado",
+      "españa"
+    ]
+  },
+  "open_graph": {
+    "title": "Listado de clientes ESPAÑA — Plantilla gratuita Sage50BI",
+    "description": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

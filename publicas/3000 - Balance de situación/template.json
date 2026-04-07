@@ -1,0 +1,71 @@
+{
+  "id": 3000,
+  "nombre": "Balance de situación",
+  "slug": "3000-balance-de-situaci-n",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "3000-3999",
+    "nombre": "Balances y Contabilidad",
+    "icono": "📊"
+  },
+  "descripcion": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.",
+  "descripcion_larga": "",
+  "tags": [
+    "balance",
+    "situacion",
+    "contabilidad",
+    "cuentas",
+    "activo",
+    "pasivo"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "62b7740db405bae7e16829767f59f787f7109581f2c8edebacc6d7f8e16d33a8",
+      "opcional": false
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-04-07",
+  "fecha_actualizacion": "2026-04-07",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-04-07",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Balance de situación — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nBalance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://wertymsd.github.io/repositorio_Sage50bi/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "balance",
+      "situacion",
+      "contabilidad"
+    ]
+  },
+  "open_graph": {
+    "title": "Balance de situación — Plantilla gratuita Sage50BI",
+    "description": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

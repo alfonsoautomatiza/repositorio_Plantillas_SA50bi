@@ -7,6 +7,16 @@ description: "Catálogo de facturas y documentos para Sage50BI"
 
 Colección de plantillas de **Facturas y Documentos** para Sage50BI.
 
-*Rango: 2000–2999*
+**1 plantillas disponibles**
 
-*Aún no hay plantillas en esta categoría. Se generarán automáticamente cuando se añadan plantillas con el tool de gestión.*
+## 2000 — Modelo de factura con totales
+
+![Preview](../../publicas/2000%20-%20Modelo de factura con totales/preview.png)
+
+Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.
+
+**Versión:** 1.0.0 | **Tags:** `factura` `modelo` `totales` `iva`
+
+[📄 Ver detalle](../plantillas/2000-modelo-de-factura-con-totales.md)
+
+---

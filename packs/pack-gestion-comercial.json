@@ -1,0 +1,16 @@
+{
+  "id": "pack-gestion-comercial",
+  "nombre": "Pack Gestión Comercial",
+  "slug": "pack-gestion-comercial",
+  "descripcion": "Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI.",
+  "icono": "📦",
+  "plantillas": [
+    1000,
+    1001,
+    2000
+  ],
+  "total_plantillas": 3,
+  "preview": "pack-gestion-comercial.png",
+  "fecha_creacion": "2026-04-07",
+  "fecha_actualizacion": "2026-04-07"
+}
