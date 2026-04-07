@@ -24,9 +24,9 @@ def _plantilla(**kwargs):
 
 
 def test_generar_slug():
-    # Ñ no es [a-z0-9] asi que se reemplaza por guion
-    assert generar_slug("Listado de clientes ESPAÑA", 1000) == "1000-listado-de-clientes-espa-a"
-    assert generar_slug("Balance de situacion", 3000) == "3000-balance-de-situacion"
+    # unidecode convierte Ñ → n, ó → o antes de sanitizar
+    assert generar_slug("Listado de clientes ESPAÑA", 1000) == "1000-listado-de-clientes-espana"
+    assert generar_slug("Balance de situación", 3000) == "3000-balance-de-situacion"
 
 
 def test_pagina_plantilla():

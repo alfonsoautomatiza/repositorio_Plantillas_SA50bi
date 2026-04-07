@@ -7,14 +7,67 @@ import re
 from pathlib import Path
 from datetime import datetime
 from xml.sax.saxutils import escape as xml_escape
+from unidecode import unidecode
+
+
+def _traducir_catalan(texto: str) -> str:
+    """Basic Spanish to Catalan translations for template docs."""
+    traducciones = {
+        "Versión": "Versió",
+        "Categoría": "Categoria",
+        "Descripción": "Descripció",
+        "Etiquetas": "Etiquetes",
+        "Archivos incluidos": "Fitxers inclosos",
+        "Tipo": "Tipus",
+        "Cifrado": "Xifrat",
+        "Recomendaciones": "Recomanacions",
+        "Historial de cambios": "Historial de canvis",
+        "Ver en YouTube": "Veure a YouTube",
+        "Instalar plantilla": "Instal·lar plantilla",
+        "Actualización": "Actualització",
+        "Corrección": "Correcció",
+        "Mejora": "Millora",
+        "Nueva plantilla": "Plantilla nova",
+        "Informes y Listados": "Informes i Llistats",
+        "Facturas y Documentos": "Factures i Documents",
+        "Balances y Contabilidad": "Balanços i Comptabilitat",
+        "Dashboard y Gráficos": "Tauler i Gràfics",
+        "Gratuito": "Gratuït",
+        "Packs Destacados": "Paquets Destacats",
+        "plantillas": "plantilles",
+        "Plantillas": "Plantilles",
+        "Últimas Plantillas": "Últimes Plantilles",
+        "Categorías": "Categories",
+        "Desarrollado por": "Desenvolupat per",
+        "¿Cómo usarlas?": "Com utilitzar-les?",
+        "Campo": "Camp",
+        "Valor": "Valor",
+        "Incluye": "Inclou",
+        "Actualizado": "Actualitzat",
+        "Tags": "Tags",
+        "Detalles": "Detalls",
+        "Vídeo explicativo": "Vídeo explicatiu",
+        "Plantillas relacionadas": "Plantilles relacionades",
+        "Ver detalle": "Veure detall",
+        "plantillas disponibles": "plantilles disponibles",
+        "plantillas incluidas": "plantilles incloses",
+        "Pack instalable directamente desde Sage50BI con un solo click.": "Pack instal·lable directament des de Sage50BI amb un sol clic.",
+        "Colección de plantillas de": "Col·lecció de plantilles de",
+        "para Sage50BI": "per a Sage50BI",
+        "Catálogo de": "Catàleg de",
+        "Gratuitas": "Gratuïtes",
+    }
+    for es, ca in traducciones.items():
+        texto = texto.replace(es, ca)
+    return texto
 
 
 def generar_slug(nombre: str, template_id: int) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "-", nombre.lower()).strip("-")
+    slug = re.sub(r"[^a-z0-9]+", "-", unidecode(nombre.lower())).strip("-")
     return f"{template_id:04d}-{slug}"
 
 
-def generar_pagina_plantilla(template_data: dict) -> str:
+def generar_pagina_plantilla(template_data: dict, idioma: str = "es") -> str:
     tid = template_data["id"]
     nombre = template_data["nombre"]
     version = template_data.get("version", "1.0.0")
@@ -38,6 +91,7 @@ def generar_pagina_plantilla(template_data: dict) -> str:
     lines.append("---")
     lines.append(f'title: "{og_title}"')
     lines.append(f'description: "{og_desc}"')
+    lines.append(f"image: img/og-{tid:04d}.png")
     lines.append("---")
     lines.append("")
     lines.append(f"# {cat_icono} {tid:04d} - {nombre}")
@@ -94,7 +148,10 @@ def generar_pagina_plantilla(template_data: dict) -> str:
             lines.append(f"### v{entry['version']} ({entry['fecha']})")
             lines.append(f"- {entry['cambios']}")
             lines.append("")
-    return "\n".join(lines)
+    result = "\n".join(lines)
+    if idioma == "ca":
+        result = _traducir_catalan(result)
+    return result
 
 
 def generar_rss_feed(
@@ -147,7 +204,7 @@ CATEGORIAS_SLUGS = {
 
 
 def generar_pagina_categoria(
-    categoria_nombre: str, categoria_icono: str, plantillas: list[dict]
+    categoria_nombre: str, categoria_icono: str, plantillas: list[dict], idioma: str = "es"
 ) -> str:
     """
     Genera la página de una categoría listando todas sus plantillas.
@@ -205,13 +262,16 @@ def generar_pagina_categoria(
             lines.append("---")
             lines.append("")
 
-    return "\n".join(lines)
+    result = "\n".join(lines)
+    if idioma == "ca":
+        result = _traducir_catalan(result)
+    return result
 
 
 # === PÁGINA DE PACK ===
 
 
-def generar_pagina_pack(pack_data: dict, plantillas_datos: list[dict]) -> str:
+def generar_pagina_pack(pack_data: dict, plantillas_datos: list[dict], idioma: str = "es") -> str:
     """
     Genera la página de un pack con todas sus plantillas.
 
@@ -262,7 +322,10 @@ def generar_pagina_pack(pack_data: dict, plantillas_datos: list[dict]) -> str:
     lines.append("*Pack instalable directamente desde Sage50BI con un solo click.*")
     lines.append("")
 
-    return "\n".join(lines)
+    result = "\n".join(lines)
+    if idioma == "ca":
+        result = _traducir_catalan(result)
+    return result
 
 
 # === PÁGINA PRIVADA (oculta de nav) ===
@@ -308,7 +371,9 @@ def generar_pagina_privada(template_data: dict) -> str:
 # === PÁGINA INDEX (HOME) ===
 
 
-def generar_pagina_index(plantillas: list[dict], packs: list[dict], stats: dict) -> str:
+def generar_pagina_index(
+    plantillas: list[dict], packs: list[dict], stats: dict, idioma: str = "es"
+) -> str:
     """
     Genera la página principal (index.md) del site MkDocs.
     Catálogo visual con cards, packs destacados, y SEO fuerte.
@@ -404,7 +469,10 @@ def generar_pagina_index(plantillas: list[dict], packs: list[dict], stats: dict)
     lines.append(f"*Última actualización: {datetime.now().strftime('%Y-%m-%d')}*")
     lines.append("")
 
-    return "\n".join(lines)
+    result = "\n".join(lines)
+    if idioma == "ca":
+        result = _traducir_catalan(result)
+    return result
 
 
 # === CSS EXTRA ===
@@ -546,6 +614,13 @@ def generar_todo(
     index_path.write_text(generar_pagina_index(plantillas, packs, stats), encoding="utf-8")
     generados["index"] = index_path
 
+    # --- Index CA ---
+    index_ca_path = docs_dir / "index.ca.md"
+    index_ca_path.write_text(
+        generar_pagina_index(plantillas, packs, stats, idioma="ca"), encoding="utf-8"
+    )
+    generados["index-ca"] = index_ca_path
+
     # --- Páginas de plantillas ---
     for p in plantillas:
         if p.get("tipo") == "publica":
@@ -553,6 +628,10 @@ def generar_todo(
             page_path = docs_dir / "plantillas" / f"{slug}.md"
             page_path.write_text(generar_pagina_plantilla(p), encoding="utf-8")
             generados[f"plantilla-{p['id']}"] = page_path
+            # Catalan version
+            page_ca_path = docs_dir / "plantillas" / f"{slug}.ca.md"
+            page_ca_path.write_text(generar_pagina_plantilla(p, idioma="ca"), encoding="utf-8")
+            generados[f"plantilla-{p['id']}-ca"] = page_ca_path
         elif p.get("tipo") == "privada":
             cliente_codigo = p.get("cliente", {}).get("codigo", "").lower()
             if cliente_codigo:
@@ -580,6 +659,13 @@ def generar_todo(
             generar_pagina_categoria(cat_nombre, icono, cat_plantillas), encoding="utf-8"
         )
         generados[f"categoria-{cat_slug}"] = page_path
+        # Catalan version
+        page_ca_path = docs_dir / "categorias" / f"{cat_slug}.ca.md"
+        page_ca_path.write_text(
+            generar_pagina_categoria(cat_nombre, icono, cat_plantillas, idioma="ca"),
+            encoding="utf-8",
+        )
+        generados[f"categoria-{cat_slug}-ca"] = page_ca_path
 
     # --- Páginas de packs ---
     packs_completos = packs_datos or packs
@@ -589,6 +675,12 @@ def generar_todo(
         page_path = docs_dir / "packs" / f"{pack_slug}.md"
         page_path.write_text(generar_pagina_pack(pack, plantillas_del_pack), encoding="utf-8")
         generados[f"pack-{pack_slug}"] = page_path
+        # Catalan version
+        page_ca_path = docs_dir / "packs" / f"{pack_slug}.ca.md"
+        page_ca_path.write_text(
+            generar_pagina_pack(pack, plantillas_del_pack, idioma="ca"), encoding="utf-8"
+        )
+        generados[f"pack-{pack_slug}-ca"] = page_ca_path
 
     # --- RSS Feed ---
     rss_path = docs_dir / "feed.xml"

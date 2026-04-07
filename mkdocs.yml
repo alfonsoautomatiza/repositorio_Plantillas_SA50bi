@@ -43,6 +43,21 @@ plugins:
   - search:
       lang: es
   - tags
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: es
+          name: Español
+          default: true
+          build: true
+        - locale: ca
+          name: Català
+          build: true
+          nav_translations:
+            Inicio: Inici
+            Categorías: Categories
+            Packs: Paquets
+            Plantillas: Plantilles
 
 markdown_extensions:
   - admonition

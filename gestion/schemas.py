@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any, Optional
 from dataclasses import dataclass, field
 from datetime import datetime
+from unidecode import unidecode
 
 
 # === CONSTANTES DE CATEGORÍAS ===
@@ -285,7 +286,7 @@ def crear_template_json(
     categoria = get_categoria_por_id(id)
 
     # Generar slug
-    slug_nombre = re.sub(r"[^a-z0-9]+", "-", nombre.lower()).strip("-")
+    slug_nombre = re.sub(r"[^a-z0-9]+", "-", unidecode(nombre.lower())).strip("-")
     slug = f"{id:04d}-{slug_nombre}"
 
     # Fecha actual
