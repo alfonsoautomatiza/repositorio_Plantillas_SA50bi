@@ -1,0 +1,48 @@
+name: Create GitHub Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Versión del release (ej: 1.0.0)'
+        required: true
+        type: string
+      prerelease:
+        description: 'Marcar como pre-release'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Generate release assets
+        env:
+          RELEASE_VERSION: ${{ github.event.inputs.version || '' }}
+          GITHUB_REF_TAG: ${{ github.ref_name }}
+        run: |
+          python scripts/generate_release_assets.py
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.version && format('v{0}', github.event.inputs.version) || github.ref_name }}
+          name: ${{ format('Sage50BI Catálogo v{0}', github.event.inputs.version || github.ref_name) }}
+          prerelease: ${{ github.event.inputs.prerelease || false }}
+          body_path: release-notes.md
+          files: |
+            manifest-tienda.json
+            plantillas.csv

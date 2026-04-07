@@ -1,0 +1,191 @@
+{
+  "version_manifest": "1.0.0",
+  "fecha_generacion": "2026-04-07T22:57:33.865693Z",
+  "total_plantillas": 5,
+  "total_packs": 2,
+  "plantillas": [
+    {
+      "id": 1000,
+      "nombre": "Listado de clientes ESPAÑA",
+      "slug": "1000-listado-de-clientes-espana",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Informes y Listados",
+      "categoria_icono": "📋",
+      "descripcion": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
+      "descripcion_corta": "Listado completo de clientes con filtros por provincia, forma de pago y fecha d…",
+      "tags": [
+        "clientes",
+        "listado",
+        "españa",
+        "informes",
+        "sage50"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-04-07",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "94ca06199adbd89c4687fcd3175ebbf9640e55a2253a3fae610a592291309326",
+          "opcional": false
+        }
+      }
+    },
+    {
+      "id": 1001,
+      "nombre": "Listado de proveedores por provincia",
+      "slug": "1001-listado-de-proveedores-por-provincia",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Informes y Listados",
+      "categoria_icono": "📋",
+      "descripcion": "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.",
+      "descripcion_corta": "Listado agrupado de proveedores por provincia con totales de facturación y esta…",
+      "tags": [
+        "proveedores",
+        "listado",
+        "provincia",
+        "informes",
+        "compras"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-04-07",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "b88758722c46291ed99b1edc65e3a478f3e563426001a1a362a637a7cd388603",
+          "opcional": false
+        }
+      }
+    },
+    {
+      "id": 2000,
+      "nombre": "Modelo de factura con totales",
+      "slug": "2000-modelo-de-factura-con-totales",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Facturas y Documentos",
+      "categoria_icono": "🧾",
+      "descripcion": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
+      "descripcion_corta": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totale…",
+      "tags": [
+        "factura",
+        "modelo",
+        "totales",
+        "iva",
+        "documentos"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-04-07",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "f2e39f79838fc5792e15bb7ed66fa7c70c743cf973923574c1b533c57a7b045e",
+          "opcional": false
+        }
+      }
+    },
+    {
+      "id": 3000,
+      "nombre": "Balance de situación",
+      "slug": "3000-balance-de-situacion",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Balances y Contabilidad",
+      "categoria_icono": "📊",
+      "descripcion": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.",
+      "descripcion_corta": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye tota…",
+      "tags": [
+        "balance",
+        "situacion",
+        "contabilidad",
+        "cuentas",
+        "activo",
+        "pasivo"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-04-07",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "62b7740db405bae7e16829767f59f787f7109581f2c8edebacc6d7f8e16d33a8",
+          "opcional": false
+        }
+      }
+    },
+    {
+      "id": 4000,
+      "nombre": "Dashboard de ventas por cliente",
+      "slug": "4000-dashboard-de-ventas-por-cliente",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Dashboard y Gráficos",
+      "categoria_icono": "📈",
+      "descripcion": "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.",
+      "descripcion_corta": "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evoluci…",
+      "tags": [
+        "dashboard",
+        "ventas",
+        "grafico",
+        "streamlit",
+        "cliente"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-04-07",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "30be6fab8efef52d89ed79522c8d8445549448896844f02aa5559346860935b6",
+          "opcional": false
+        }
+      }
+    }
+  ],
+  "packs": [
+    {
+      "id": "pack-contabilidad-completa",
+      "nombre": "Pack Contabilidad Completa",
+      "slug": "pack-contabilidad-completa",
+      "descripcion": "Balances y dashboard.",
+      "icono": "📦",
+      "plantillas": [
+        3000,
+        4000
+      ],
+      "total": 2
+    },
+    {
+      "id": "pack-gestion-comercial",
+      "nombre": "Pack Gestión Comercial",
+      "slug": "pack-gestion-comercial",
+      "descripcion": "Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI.",
+      "icono": "📦",
+      "plantillas": [
+        1000,
+        1001,
+        2000
+      ],
+      "total": 3
+    }
+  ]
+}
