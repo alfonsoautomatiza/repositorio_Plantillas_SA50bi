@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Versiones en claro - NUNCA se publican
+privado_mantenimiento/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporales
+temp/
+*.tmp
+nul
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Agent Teams Lite
+.atl/
