@@ -1,16 +1,20 @@
 # =====================================================================
-# REPO PÚBLICO — Solo se publica: publicas/, packs/, docs/, manifest, README
+# RAMA MASTER — Solo plantillas, packs, manifest, releases
+# La documentación MkDocs va en la rama 'docs'
 # El código fuente va en el repo privado: repositorio_Sage50bi_fuente
 # =====================================================================
+
+# ── Documentación MkDocs (rama docs) ──
+docs/
+mkdocs.yml
+site/
 
 # ── Código fuente (repo privado) ──
 gestion/
 catalogo/
 integracion/
 tests/
-# scripts/ se ignora excepto generate_release_assets.py (necesario para CI)
-scripts/*
-!scripts/generate_release_assets.py
+scripts/
 main.py
 pyproject.toml
 requirements.txt
