@@ -1,4 +1,4 @@
-# 🏢 Plantillas Gratuitas para Sage50BI — ALCA TIC
+# 🏢 Plantillas Gratuitas para Sage50BI 
 
 [![Plantillas](https://img.shields.io/badge/Plantillas-5-blue)](https://wertymsd.github.io/repositorio_Sage50bi/)
 [![Packs](https://img.shields.io/badge/Packs-2-purple)](https://wertymsd.github.io/repositorio_Sage50bi/packs/)
@@ -12,7 +12,7 @@
 ## ¿Qué son estas plantillas?
 
 Colección de **5 plantillas SQL y dashboards Streamlit** gratuitas para
-[Sage50BI](https://pedironline.com), la solución de Business Intelligence para Sage50 de ALCA TIC.
+[Sage50BI](https://pedironline.com), la solución de Business Intelligence para Sage50 
 
 Cada plantilla incluye:
 - 📊 Consultas SQL optimizadas para Sage50
@@ -75,7 +75,7 @@ Cada plantilla incluye:
 
 ## 🚀 ¿Cómo usarlas?
 
-1. Instala **Sage50BI** de [ALCA TIC](https://pedironline.com)
+1. Instala **Sage50BI** 
 2. Las plantillas se **actualizan automáticamente** al iniciar la aplicación
 3. Explora el catálogo desde Sage50BI con búsqueda y recomendaciones
 4. ¡Listo!
