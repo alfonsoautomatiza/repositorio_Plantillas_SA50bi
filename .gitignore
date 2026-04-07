@@ -8,7 +8,9 @@ gestion/
 catalogo/
 integracion/
 tests/
-scripts/
+# scripts/ se ignora excepto generate_release_assets.py (necesario para CI)
+scripts/*
+!scripts/generate_release_assets.py
 main.py
 pyproject.toml
 requirements.txt
