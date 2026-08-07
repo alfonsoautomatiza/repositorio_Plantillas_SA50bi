@@ -9,17 +9,25 @@
 > ⚠️ **Este archivo se genera automáticamente.** No editar manualmente.
 > Para modificar, use el tool de gestión: `python gestion/gestion.py`
 
-## ¿Qué son estas plantillas?
+## ¿Para qué sirve este repositorio?
 
-Colección de **5 plantillas SQL y dashboards Streamlit** gratuitas para
-[Sage50BI](https://pedironline.com), la solución de Business Intelligence para Sage50 
+Este repositorio es el **catálogo público de plantillas para Sage50BI**. Su función es publicar, versionar y distribuir plantillas gratuitas que Sage50BI puede consultar, descargar e instalar automáticamente.
 
-Cada plantilla incluye:
-- 📊 Consultas SQL optimizadas para Sage50
-- 🐍 Dashboards interactivos con Streamlit
-- 🎥 Vídeos explicativos en YouTube
-- 🔄 Actualización automática desde la aplicación
-- 📦 Packs temáticos para instalar varias a la vez
+Sirve como punto central para:
+
+- 📋 Consultar el catálogo de plantillas disponibles.
+- 📦 Descargar packs temáticos de plantillas.
+- 🔄 Mantener Sage50BI actualizado con nuevas plantillas y versiones.
+- 🌐 Publicar la documentación web del catálogo.
+- 🚀 Distribuir los archivos usados por la tienda de plantillas mediante GitHub Pages y GitHub Releases.
+
+Cada plantilla puede incluir:
+
+- 📊 Consultas SQL preparadas para Sage50.
+- 🐍 Dashboards interactivos con Streamlit cuando la plantilla lo requiera.
+- 🎥 Vídeos explicativos en YouTube cuando estén disponibles.
+- 🔄 Metadatos de versión para actualización automática desde Sage50BI.
+- 📦 Packs temáticos para instalar varias plantillas a la vez.
 
 ### ¿Para quién son?
 
@@ -73,12 +81,29 @@ Cada plantilla incluye:
 | 📈 4000–4999 | Dashboard y Gráficos | Cuadros de mando Streamlit, gráficos... |
 | 🔮 5000–5999 | Reservado futuro | — |
 
-## 🚀 ¿Cómo usarlas?
+## 🚀 Uso desde Sage50BI
 
-1. Instala **Sage50BI** 
-2. Las plantillas se **actualizan automáticamente** al iniciar la aplicación
-3. Explora el catálogo desde Sage50BI con búsqueda y recomendaciones
-4. ¡Listo!
+1. Instala o abre **Sage50BI**.
+2. Entra en el catálogo o tienda de plantillas.
+3. Sage50BI lee el manifiesto público de este repositorio.
+4. Elige una plantilla o un pack.
+5. Sage50BI descarga la plantilla cifrada y la instala en tu entorno.
+6. Cuando se publiquen nuevas versiones, Sage50BI puede detectarlas y actualizar el catálogo.
+
+## 🧩 Uso de este repositorio
+
+Este repositorio está pensado principalmente para **distribución**, no para desarrollo interno.
+
+| Archivo o carpeta | Uso |
+|-------------------|-----|
+| `publicas/` | Plantillas públicas cifradas y sus metadatos. |
+| `packs/` | Packs de plantillas agrupadas por temática. |
+| `manifest-templates.json` | Manifest principal que Sage50BI usa para leer el catálogo. |
+| `manifest-tienda.json` | Manifest preparado para la tienda de plantillas. |
+| `plantillas.csv` | Listado tabular de plantillas, útil para revisión o consumo externo. |
+| `release-notes.md` | Notas de publicación de la versión actual. |
+
+> El SQL publicado está cifrado. El mantenimiento de plantillas en claro se realiza fuera de este repositorio público.
 
 ### También puedes:
 - 📖 Ver el [catálogo web completo](https://wertymsd.github.io/repositorio_Sage50bi/)
