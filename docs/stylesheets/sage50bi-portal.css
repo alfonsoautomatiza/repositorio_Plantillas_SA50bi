@@ -45,6 +45,59 @@
     --sage-shadow-lg: 0 22px 50px rgba(0, 0, 0, 0.38);
 }
 
+/* === Category/pack icons: authored line icons, not emoji === */
+/* One color (currentColor via mask), one stroke weight (1.8), consistent
+   across headings, tables and cards regardless of the visitor's OS/emoji font. */
+
+.sage-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    background-color: currentColor;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.sage-icon--informes {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='3' width='16' height='18' rx='2'/%3E%3Cpath d='M8 8h8M8 12h8M8 16h5'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='3' width='16' height='18' rx='2'/%3E%3Cpath d='M8 8h8M8 12h8M8 16h5'/%3E%3C/svg%3E");
+}
+
+.sage-icon--facturas {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 3h12v18l-3-2-3 2-3-2-3 2z'/%3E%3Cpath d='M9 8h6M9 12h6'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 3h12v18l-3-2-3 2-3-2-3 2z'/%3E%3Cpath d='M9 8h6M9 12h6'/%3E%3C/svg%3E");
+}
+
+.sage-icon--balances {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 20V12M12 20V6M19 20V14'/%3E%3Cpath d='M3 20h18'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 20V12M12 20V6M19 20V14'/%3E%3Cpath d='M3 20h18'/%3E%3C/svg%3E");
+}
+
+.sage-icon--dashboards {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 3v18h18'/%3E%3Cpath d='M7 15l4-5 3 3 5-7'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 3v18h18'/%3E%3Cpath d='M7 15l4-5 3 3 5-7'/%3E%3C/svg%3E");
+}
+
+.sage-icon--pack {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l8 4.5v9L12 21l-8-4.5v-9z'/%3E%3Cpath d='M4 7.5l8 4.5 8-4.5M12 12v9'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l8 4.5v9L12 21l-8-4.5v-9z'/%3E%3Cpath d='M4 7.5l8 4.5 8-4.5M12 12v9'/%3E%3C/svg%3E");
+}
+
+.sage-icon--candado {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='9' rx='2'/%3E%3Cpath d='M8 11V7a4 4 0 0 1 8 0v4'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='9' rx='2'/%3E%3Cpath d='M8 11V7a4 4 0 0 1 8 0v4'/%3E%3C/svg%3E");
+}
+
+.sage-icon--reservado {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8' stroke-dasharray='3 3'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8' stroke-dasharray='3 3'/%3E%3C/svg%3E");
+}
+
 /* Base typography for the portal */
 
 .md-typeset {
@@ -135,15 +188,24 @@
     text-transform: uppercase;
 }
 
+/* Decorative headings inside custom cards/hero are not doc anchors: hide the ¶ permalink glyph */
+.md-typeset .sage-hero .headerlink,
+.md-typeset .sage-carousel__card .headerlink,
+.md-typeset .sage-featured-card .headerlink,
+.md-typeset .sage-pack-card .headerlink,
+.md-typeset .sage-step .headerlink {
+    display: none;
+}
+
 .md-typeset .sage-hero h1 {
     grid-column: 1;
-    max-width: 14ch;
+    max-width: 24ch;
     margin: 0;
     color: #ffffff;
-    font-size: clamp(2.35rem, 6.4vw, 4.6rem);
+    font-size: clamp(2rem, 4.6vw, 3.4rem);
     font-weight: 700;
     letter-spacing: -0.035em;
-    line-height: 0.98;
+    line-height: 1.08;
     text-wrap: balance;
 }
 
@@ -176,6 +238,49 @@
     flex-wrap: wrap;
     gap: 0.85rem;
     margin-top: 0.6rem;
+}
+
+/* Prerequisite callout: makes the Sage50BI dependency impossible to miss */
+.md-typeset .sage-hero__requirement {
+    position: relative;
+    grid-column: 1;
+    width: fit-content;
+    max-width: 52ch;
+    margin: 1rem 0 0;
+    padding: 0.6rem 0.95rem 0.6rem 1.7rem;
+    border-radius: var(--sage-radius-sm);
+    background: rgba(242, 169, 0, 0.14);
+    border: 1px solid rgba(242, 169, 0, 0.4);
+    color: rgba(255, 255, 255, 0.94);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.md-typeset .sage-hero__requirement::before {
+    content: "";
+    position: absolute;
+    left: 0.95rem;
+    top: 0.95rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--sage-accent);
+}
+
+.md-typeset .sage-hero__requirement strong {
+    color: var(--sage-accent);
+}
+
+.md-typeset .sage-hero__requirement a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--sage-accent);
+    text-underline-offset: 2px;
+}
+
+.md-typeset .sage-hero__requirement a:hover {
+    color: var(--sage-accent);
 }
 
 /* Totals row: the sum line of a spreadsheet, with its double rule above */
@@ -212,7 +317,7 @@
 .md-typeset .sage-hero__panel {
     grid-column: 2;
     grid-row: 2 / span 5;
-    align-self: end;
+    align-self: start;
     margin: 0;
     padding: 1.5rem;
     border-radius: var(--sage-radius);
@@ -242,6 +347,14 @@
     color: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 4px;
+}
+
+.md-typeset .sage-hero__illustration {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.1rem;
+    filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.22));
 }
 
 /* === Buttons: spreadsheet controls, crisp cells === */
@@ -785,11 +898,19 @@
     z-index: 1;
     display: grid;
     grid-template-columns: 2.6rem 1fr;
-    gap: 1rem;
+    grid-template-rows: auto auto;
+    gap: 0.2rem 1rem;
     align-items: start;
 }
 
-.md-typeset .sage-step > span {
+/* Markdown wraps the loose <span> in an auto <p>: place that wrapper, not the span */
+.md-typeset .sage-step > p:first-child {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    margin: 0;
+}
+
+.md-typeset .sage-step > p:first-child span {
     display: grid;
     place-items: center;
     width: 2.6rem;

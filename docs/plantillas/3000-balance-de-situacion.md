@@ -4,7 +4,7 @@ description: "Balance de situación con desglose por cuentas, grupos y subgrupos
 image: img/og-3000.png
 ---
 
-# 📊 3000 - Balance de situación
+# <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> 3000 - Balance de situación
 
 ![Preview](preview.png)
 
@@ -17,7 +17,7 @@ Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye tota
 | Campo | Valor |
 |-------|-------|
 | Versión | 1.0.0 |
-| Categoría | 📊 Balances y Contabilidad |
+| Categoría | <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> Balances y Contabilidad |
 | Incluye | SQL |
 | Gratuito | ✅ Sí |
 | Actualizado | 2026-04-07 |

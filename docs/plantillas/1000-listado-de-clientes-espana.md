@@ -4,7 +4,7 @@ description: "Listado completo de clientes con filtros por provincia, forma de p
 image: img/og-1000.png
 ---
 
-# 📋 1000 - Listado de clientes ESPAÑA
+# <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> 1000 - Listado de clientes ESPAÑA
 
 ![Preview](preview.png)
 
@@ -17,7 +17,7 @@ Listado completo de clientes con filtros por provincia, forma de pago y fecha de
 | Campo | Valor |
 |-------|-------|
 | Versión | 1.0.0 |
-| Categoría | 📋 Informes y Listados |
+| Categoría | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados |
 | Incluye | SQL |
 | Gratuito | ✅ Sí |
 | Actualizado | 2026-04-07 |

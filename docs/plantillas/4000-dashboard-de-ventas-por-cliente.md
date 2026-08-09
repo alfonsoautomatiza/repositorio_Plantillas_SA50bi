@@ -4,7 +4,7 @@ description: "Cuadro de mando interactivo con Streamlit mostrando ventas por cli
 image: img/og-4000.png
 ---
 
-# 📈 4000 - Dashboard de ventas por cliente
+# <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> 4000 - Dashboard de ventas por cliente
 
 ![Preview](preview.png)
 
@@ -17,7 +17,7 @@ Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evoluci�
 | Campo | Valor |
 |-------|-------|
 | Versión | 1.0.0 |
-| Categoría | 📈 Dashboard y Gráficos |
+| Categoría | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos |
 | Incluye | SQL |
 | Gratuito | ✅ Sí |
 | Actualizado | 2026-04-07 |

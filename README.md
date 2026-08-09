@@ -120,4 +120,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 ALCA TIC, S.L. — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-08-09 19:35*
+*Generado automáticamente el 2026-08-09 22:54*

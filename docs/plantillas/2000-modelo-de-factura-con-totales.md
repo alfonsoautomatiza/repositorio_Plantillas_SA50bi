@@ -4,7 +4,7 @@ description: "Modelo de factura profesional con desglose de líneas, IVA, retenc
 image: img/og-2000.png
 ---
 
-# 🧾 2000 - Modelo de factura con totales
+# <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> 2000 - Modelo de factura con totales
 
 ![Preview](preview.png)
 
@@ -17,7 +17,7 @@ Modelo de factura profesional con desglose de líneas, IVA, retenciones y totale
 | Campo | Valor |
 |-------|-------|
 | Versión | 1.0.0 |
-| Categoría | 🧾 Facturas y Documentos |
+| Categoría | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Facturas y Documentos |
 | Incluye | SQL |
 | Gratuito | ✅ Sí |
 | Actualizado | 2026-04-07 |

@@ -4,7 +4,7 @@ description: "Listado agrupado de proveedores por provincia con totales de factu
 image: img/og-1001.png
 ---
 
-# 📋 1001 - Listado de proveedores por provincia
+# <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> 1001 - Listado de proveedores por provincia
 
 ![Preview](preview.png)
 
@@ -17,7 +17,7 @@ Listado agrupado de proveedores por provincia con totales de facturación y esta
 | Campo | Valor |
 |-------|-------|
 | Versión | 1.0.0 |
-| Categoría | 📋 Informes y Listados |
+| Categoría | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados |
 | Incluye | SQL |
 | Gratuito | ✅ Sí |
 | Actualizado | 2026-04-07 |
