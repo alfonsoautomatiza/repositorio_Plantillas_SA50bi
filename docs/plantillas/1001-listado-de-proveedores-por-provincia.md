@@ -1,6 +1,7 @@
 ---
 title: "Listado de proveedores por provincia — Plantilla gratuita Sage50BI"
 description: "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra."
+image: img/og-1001.png
 ---
 
 # 📋 1001 - Listado de proveedores por provincia

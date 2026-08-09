@@ -1,6 +1,7 @@
 ---
 title: "Dashboard de ventas por cliente — Plantilla gratuita Sage50BI"
 description: "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas."
+image: img/og-4000.png
 ---
 
 # 📈 4000 - Dashboard de ventas por cliente

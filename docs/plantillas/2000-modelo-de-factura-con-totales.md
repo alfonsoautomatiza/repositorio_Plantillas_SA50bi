@@ -1,6 +1,7 @@
 ---
 title: "Modelo de factura con totales — Plantilla gratuita Sage50BI"
 description: "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión."
+image: img/og-2000.png
 ---
 
 # 🧾 2000 - Modelo de factura con totales
