@@ -5,6 +5,16 @@ hide:
   - toc
 ---
 
+<!--
+CONTRACT: Sage50BI portal — The Spreadsheet (seed b3a2cf0c)
+THESIS: The catalog as a live spreadsheet: every template is a cell that opens.
+OWN-WORLD: Teal and amber on paper-light surfaces, ruled sheet grids, column-header color bands, tabular totals; Space Grotesk display over Inter text.
+STORY: A Sage 50 user lands on a familiar ledger: categories read as column headers, templates as rows to open, install, adapt.
+FIRST VIEWPORT: A dark teal ruled sheet with a headline and a totals row above the fold; the four category bands below as column headers.
+FORM: The Spreadsheet, position 6 of 7 grounded directions, seed key b3a2cf0c.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+
 <section class="sage-hero" markdown="1">
 <p class="sage-hero__label">Portal público de plantillas para Sage50BI</p>
 # Convierte Sage 50 en un cuadro de mando útil desde el primer día

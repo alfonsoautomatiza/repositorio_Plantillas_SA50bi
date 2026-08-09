@@ -1,4 +1,7 @@
-/* === Sage50BI commercial portal for MkDocs Material === */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* === Sage50BI · The Spreadsheet — commercial showcase for MkDocs Material === */
+/* The catalog as a live spreadsheet: every template is a cell that opens. */
 
 :root {
     --sage-ink: #102033;
@@ -8,22 +11,60 @@
     --sage-primary: #0f6f68;
     --sage-primary-dark: #0a4d49;
     --sage-accent: #f2a900;
+    --sage-accent-dark: #b97e00;
     --sage-blue: #243c7a;
     --sage-line: rgba(16, 32, 51, 0.12);
-    --sage-shadow: 0 22px 50px rgba(15, 44, 64, 0.16);
+    --sage-line-strong: rgba(16, 32, 51, 0.22);
+    --sage-grid: rgba(16, 32, 51, 0.055);
+    --sage-shadow-sm: 0 1px 2px rgba(16, 44, 64, 0.08), 0 4px 14px rgba(16, 44, 64, 0.06);
+    --sage-shadow: 0 10px 30px rgba(16, 44, 64, 0.12);
+    --sage-shadow-lg: 0 22px 50px rgba(15, 44, 64, 0.18);
+    --sage-radius-sm: 8px;
+    --sage-radius: 14px;
+    --sage-radius-lg: 18px;
+    --sage-transition: 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+    --sage-font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+    --sage-font-text: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 [data-md-color-scheme="slate"] {
     --sage-ink: #f3f7fb;
-    --sage-muted: #c2ccd7;
-    --sage-surface: #111a24;
-    --sage-card: #172332;
+    --sage-muted: #b9c5d2;
+    --sage-surface: #101a24;
+    --sage-card: #16222f;
     --sage-primary: #46c3b8;
     --sage-primary-dark: #7fe0d7;
     --sage-accent: #ffd166;
+    --sage-accent-dark: #ffd166;
     --sage-blue: #9fb7ff;
     --sage-line: rgba(243, 247, 251, 0.14);
-    --sage-shadow: 0 22px 50px rgba(0, 0, 0, 0.32);
+    --sage-line-strong: rgba(243, 247, 251, 0.28);
+    --sage-grid: rgba(243, 247, 251, 0.05);
+    --sage-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25), 0 4px 14px rgba(0, 0, 0, 0.18);
+    --sage-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+    --sage-shadow-lg: 0 22px 50px rgba(0, 0, 0, 0.38);
+}
+
+/* Base typography for the portal */
+
+.md-typeset {
+    font-family: var(--sage-font-text);
+    font-size: 1.02rem;
+    line-height: 1.65;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+    font-family: var(--sage-font-display);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.md-typeset h1 {
+    font-weight: 700;
+    letter-spacing: -0.035em;
 }
 
 .md-typeset .sage-hero,
@@ -31,6 +72,8 @@
 .md-typeset .sage-contact {
     color: var(--sage-ink);
 }
+
+/* === Hero: a ruled spreadsheet sheet with a totals row === */
 
 .md-typeset .sage-hero {
     position: relative;
@@ -40,28 +83,35 @@
     overflow: hidden;
     margin: -0.8rem 0 3rem;
     padding: clamp(2.2rem, 6vw, 4.8rem);
-    border-radius: 1.4rem;
+    border-radius: var(--sage-radius-lg);
     background:
-        radial-gradient(circle at 82% 18%, rgba(242, 169, 0, 0.26), transparent 30%),
-        linear-gradient(135deg, #e9f5f3 0%, #f8fbff 48%, #eaf0ff 100%);
-    box-shadow: var(--sage-shadow);
+        radial-gradient(circle at 84% 14%, rgba(242, 169, 0, 0.30), transparent 30%),
+        radial-gradient(circle at 6% 96%, rgba(70, 195, 184, 0.35), transparent 42%),
+        linear-gradient(135deg, #0e5f59 0%, #0a4f49 48%, #0b2e3a 100%);
+    box-shadow: var(--sage-shadow-lg);
+    color: #ffffff;
+    animation: sage-fade-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Ruled sheet texture over the hero: faint grid lines like a ledger page */
+.md-typeset .sage-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent 85%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent 85%);
+    pointer-events: none;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .sage-hero {
     background:
-        radial-gradient(circle at 82% 18%, rgba(242, 169, 0, 0.18), transparent 30%),
-        linear-gradient(135deg, #10242b 0%, #111a24 54%, #17213b 100%);
-}
-
-.md-typeset .sage-hero::after {
-    content: "";
-    position: absolute;
-    right: -5rem;
-    bottom: -6rem;
-    width: 20rem;
-    height: 20rem;
-    border: 1px solid rgba(15, 111, 104, 0.24);
-    border-radius: 999px;
+        radial-gradient(circle at 84% 14%, rgba(251, 191, 36, 0.20), transparent 30%),
+        radial-gradient(circle at 6% 96%, rgba(45, 212, 191, 0.24), transparent 42%),
+        linear-gradient(135deg, #0a3a36 0%, #0a4f49 48%, #07131e 100%);
 }
 
 .md-typeset .sage-hero > * {
@@ -72,339 +122,759 @@
 .md-typeset .sage-hero__label {
     grid-column: 1 / -1;
     width: fit-content;
-    margin: 0;
-    padding: 0.35rem 0.7rem;
-    border-radius: 999px;
-    background: rgba(15, 111, 104, 0.12);
-    color: var(--sage-primary-dark);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
+    margin: 0 0 0.4rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+    font-family: var(--sage-font-display);
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .md-typeset .sage-hero h1 {
-    max-width: 12ch;
-    margin: 0;
-    color: var(--sage-ink);
-    font-size: clamp(2.35rem, 7vw, 5.4rem);
-    font-weight: 850;
-    letter-spacing: -0.035em;
-    line-height: 0.95;
-}
-
-.md-typeset .sage-hero__lead,
-.md-typeset .sage-hero__sublead {
     grid-column: 1;
-    max-width: 68ch;
+    max-width: 14ch;
     margin: 0;
-    color: var(--sage-muted);
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #ffffff;
+    font-size: clamp(2.35rem, 6.4vw, 4.6rem);
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 0.98;
+    text-wrap: balance;
 }
 
 .md-typeset .sage-hero__lead {
-    margin-top: -1.4rem;
-    font-size: clamp(1.12rem, 2.3vw, 1.38rem);
+    grid-column: 1;
+    max-width: 60ch;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.96);
+    font-size: clamp(1.1rem, 2.2vw, 1.34rem);
+    font-weight: 500;
+    line-height: 1.5;
 }
 
-.md-typeset .sage-hero__actions,
-.md-typeset .sage-hero__metrics {
+.md-typeset .sage-hero__lead strong {
+    color: var(--sage-accent);
+    font-weight: 700;
+}
+
+.md-typeset .sage-hero__sublead {
     grid-column: 1;
+    max-width: 64ch;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: clamp(1rem, 1.8vw, 1.12rem);
 }
 
 .md-typeset .sage-hero__actions {
+    grid-column: 1;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: 0.85rem;
     margin-top: 0.6rem;
 }
 
-.md-typeset .sage-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 2.6rem;
-    padding: 0.65rem 1rem;
-    border-radius: 999px;
-    font-weight: 800;
-    text-decoration: none;
-    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
-}
-
-.md-typeset .sage-button:hover {
-    transform: translateY(-1px);
-}
-
-.md-typeset .sage-button--primary {
-    background: var(--sage-primary);
-    color: #ffffff;
-    box-shadow: 0 10px 24px rgba(15, 111, 104, 0.28);
-}
-
-.md-typeset .sage-button--secondary {
-    border: 1px solid var(--sage-line);
-    background: rgba(255, 255, 255, 0.62);
-    color: var(--sage-primary-dark);
-}
-
-[data-md-color-scheme="slate"] .md-typeset .sage-button--secondary {
-    background: rgba(255, 255, 255, 0.08);
-}
-
+/* Totals row: the sum line of a spreadsheet, with its double rule above */
 .md-typeset .sage-hero__metrics {
+    grid-column: 1;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.8rem;
-    margin-top: 0.8rem;
+    gap: 1.2rem;
+    margin-top: 1.4rem;
+    padding-top: 0.9rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 -4px 0 0 rgba(255, 255, 255, 0.18);
 }
 
 .md-typeset .sage-hero__metrics span {
     display: grid;
     gap: 0.15rem;
-    padding-top: 0.7rem;
-    border-top: 1px solid var(--sage-line);
-    color: var(--sage-muted);
-    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .md-typeset .sage-hero__metrics strong {
-    color: var(--sage-ink);
-    font-size: 1.2rem;
+    color: var(--sage-accent);
+    font-family: var(--sage-font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
 }
 
+/* The selected cell: hero side panel as an active spreadsheet cell */
 .md-typeset .sage-hero__panel {
     grid-column: 2;
     grid-row: 2 / span 5;
     align-self: end;
-    padding: 1.25rem;
-    border: 1px solid var(--sage-line);
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.72);
-    box-shadow: 0 18px 38px rgba(15, 44, 64, 0.14);
+    margin: 0;
+    padding: 1.5rem;
+    border-radius: var(--sage-radius);
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    box-shadow: 0 20px 44px rgba(0, 0, 0, 0.22);
+    color: #ffffff;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .sage-hero__panel {
-    background: rgba(23, 35, 50, 0.86);
+    background: rgba(22, 34, 47, 0.72);
 }
 
 .md-typeset .sage-hero__panel h3 {
-    margin-top: 0;
-    color: var(--sage-ink);
+    margin: 0 0 0.5rem;
+    color: #ffffff;
+    font-size: 1.22rem;
 }
 
+.md-typeset .sage-hero__panel p {
+    margin: 0.4rem 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.md-typeset .sage-hero__panel code {
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 4px;
+}
+
+/* === Buttons: spreadsheet controls, crisp cells === */
+
+.md-typeset .sage-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.85rem 1.6rem;
+    border-radius: var(--sage-radius-sm);
+    font-family: var(--sage-font-display);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    transition: transform var(--sage-transition), box-shadow var(--sage-transition),
+                background var(--sage-transition), border-color var(--sage-transition);
+    will-change: transform;
+}
+
+.md-typeset .sage-button:hover {
+    transform: translateY(-2px);
+}
+
+.md-typeset .sage-button:focus-visible {
+    outline: 3px solid rgba(242, 169, 0, 0.55);
+    outline-offset: 2px;
+}
+
+.md-typeset .sage-button--primary {
+    background: #ffffff;
+    color: var(--sage-primary-dark);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.24);
+}
+
+.md-typeset .sage-button--primary:hover {
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.32);
+}
+
+.md-typeset .sage-button--secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.md-typeset .sage-button--secondary:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+/* === Section headings === */
+
 .md-typeset .sage-section {
-    margin: 3rem 0;
+    margin: 3.5rem 0;
+    scroll-margin-top: 5rem;
 }
 
 .md-typeset .sage-section > h2,
 .md-typeset .sage-contact > h2 {
-    max-width: 15ch;
+    max-width: 18ch;
+    margin: 0 0 0.4rem;
     color: var(--sage-ink);
-    font-size: clamp(1.7rem, 3.8vw, 3rem);
-    font-weight: 820;
+    font-size: clamp(1.8rem, 4vw, 2.9rem);
+    font-weight: 700;
     letter-spacing: -0.03em;
-    line-height: 1;
+    line-height: 1.05;
+    text-wrap: balance;
 }
 
-.md-typeset .sage-business-grid,
-.md-typeset .sage-featured-grid,
-.md-typeset .sage-pack-row {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1.2rem;
-}
+/* === Business tiles: column headers with their color band === */
 
 .md-typeset .sage-business-grid {
+    display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.md-typeset .sage-business-tile,
-.md-typeset .sage-featured-card,
-.md-typeset .sage-pack-card,
-.md-typeset .sage-step {
-    border: 1px solid var(--sage-line);
-    border-radius: 0.9rem;
-    background: var(--sage-card);
-    box-shadow: 0 14px 34px rgba(16, 32, 51, 0.08);
+    gap: 1.1rem;
+    margin-top: 1.6rem;
 }
 
 .md-typeset .sage-business-tile {
+    position: relative;
     display: flex;
-    min-height: 11rem;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
+    gap: 0.55rem;
+    min-height: 13rem;
+    padding: 1.4rem 1.2rem;
+    border-radius: var(--sage-radius);
+    border: 1px solid var(--sage-line);
+    background: var(--sage-card);
+    box-shadow: var(--sage-shadow-sm);
+    color: var(--sage-ink);
+    text-decoration: none;
+    transition: transform var(--sage-transition), box-shadow var(--sage-transition),
+                border-color var(--sage-transition);
+}
+
+/* Color band on top: the column header of a spreadsheet column */
+.md-typeset .sage-business-tile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: var(--sage-radius) var(--sage-radius) 0 0;
+}
+
+.md-typeset .sage-business-tile:nth-child(1)::before { background: #0f6f68; }
+.md-typeset .sage-business-tile:nth-child(2)::before { background: #f2a900; }
+.md-typeset .sage-business-tile:nth-child(3)::before { background: #243c7a; }
+.md-typeset .sage-business-tile:nth-child(4)::before { background: #7c3aed; }
+
+.md-typeset .sage-business-tile:hover {
+    transform: translateY(-5px);
+    border-color: var(--sage-line-strong);
+    box-shadow: var(--sage-shadow);
+}
+
+.md-typeset .sage-business-tile__icon {
+    display: grid;
+    place-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-bottom: 0.35rem;
+    border-radius: var(--sage-radius-sm);
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+.md-typeset .sage-business-tile:nth-child(1) .sage-business-tile__icon {
+    background: rgba(15, 111, 104, 0.14);
+    box-shadow: inset 0 0 0 1px rgba(15, 111, 104, 0.24);
+}
+.md-typeset .sage-business-tile:nth-child(2) .sage-business-tile__icon {
+    background: rgba(242, 169, 0, 0.16);
+    box-shadow: inset 0 0 0 1px rgba(242, 169, 0, 0.30);
+}
+.md-typeset .sage-business-tile:nth-child(3) .sage-business-tile__icon {
+    background: rgba(31, 58, 138, 0.14);
+    box-shadow: inset 0 0 0 1px rgba(31, 58, 138, 0.26);
+}
+.md-typeset .sage-business-tile:nth-child(4) .sage-business-tile__icon {
+    background: rgba(124, 58, 237, 0.14);
+    box-shadow: inset 0 0 0 1px rgba(124, 58, 237, 0.26);
+}
+
+.md-typeset .sage-business-tile__range {
+    color: var(--sage-primary);
+    font-family: var(--sage-font-display);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-business-tile__range {
+    color: var(--sage-primary-dark);
+}
+
+.md-typeset .sage-business-tile strong {
+    font-size: 1.32rem;
+    font-weight: 700;
+    color: var(--sage-ink);
+    line-height: 1.15;
+}
+
+.md-typeset .sage-business-tile span:last-of-type {
+    color: var(--sage-muted);
+    font-size: 0.96rem;
+    line-height: 1.5;
+    margin-top: auto;
+}
+
+/* === Featured cards: spreadsheet rows with an ID cell === */
+
+.md-typeset .sage-featured-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem;
+    margin-top: 1.6rem;
+}
+
+.md-typeset .sage-featured-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-radius: var(--sage-radius);
+    border: 1px solid var(--sage-line);
+    background: var(--sage-card);
+    box-shadow: var(--sage-shadow-sm);
+    transition: transform var(--sage-transition), box-shadow var(--sage-transition),
+                border-color var(--sage-transition);
+}
+
+.md-typeset .sage-featured-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--sage-line-strong);
+    box-shadow: var(--sage-shadow);
+}
+
+.md-typeset .sage-featured-card__id {
+    align-self: flex-start;
+    padding: 0.25rem 0.7rem;
+    border-radius: var(--sage-radius-sm);
+    background: rgba(242, 169, 0, 0.16);
+    color: var(--sage-accent-dark);
+    font-family: var(--sage-font-display);
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-featured-card__id {
+    color: var(--sage-accent);
+}
+
+.md-typeset .sage-featured-card__area {
+    color: var(--sage-primary);
+    font-family: var(--sage-font-display);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-featured-card__area {
+    color: var(--sage-primary-dark);
+}
+
+.md-typeset .sage-featured-card h3 {
+    margin: 0.3rem 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.md-typeset .sage-featured-card h3 a {
     color: var(--sage-ink);
     text-decoration: none;
 }
 
-.md-typeset .sage-business-tile:hover {
-    border-color: rgba(15, 111, 104, 0.5);
-    transform: translateY(-2px);
+.md-typeset .sage-featured-card h3 a:hover {
+    color: var(--sage-primary);
 }
 
-.md-typeset .sage-business-tile strong {
-    font-size: 1.3rem;
-}
-
-.md-typeset .sage-business-tile span:last-child {
+.md-typeset .sage-featured-card p {
     color: var(--sage-muted);
+    margin: 0.2rem 0;
 }
 
-.md-typeset .sage-business-tile__range,
-.md-typeset .sage-featured-card__id,
-.md-typeset .sage-featured-card__area,
-.md-typeset .sage-pack-card > span {
+.md-typeset .sage-featured-card > p:last-child {
+    margin: 0.8rem 0 0;
+}
+
+.md-typeset .sage-featured-card > p:last-child a {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    border-radius: var(--sage-radius-sm);
+    background: rgba(15, 111, 104, 0.10);
     color: var(--sage-primary-dark);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background var(--sage-transition), color var(--sage-transition);
 }
 
-.md-typeset .sage-featured-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+[data-md-color-scheme="slate"] .md-typeset .sage-featured-card > p:last-child a {
+    color: var(--sage-primary-dark);
 }
 
-.md-typeset .sage-featured-card,
+.md-typeset .sage-featured-card > p:last-child a:hover {
+    background: var(--sage-primary);
+    color: #ffffff;
+}
+
+/* === Pack cards === */
+
+.md-typeset .sage-pack-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.2rem;
+    margin-top: 1.6rem;
+}
+
 .md-typeset .sage-pack-card {
-    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-radius: var(--sage-radius);
+    border: 1px solid var(--sage-line);
+    background: var(--sage-card);
+    box-shadow: var(--sage-shadow-sm);
+    transition: transform var(--sage-transition), box-shadow var(--sage-transition),
+                border-color var(--sage-transition);
 }
 
-.md-typeset .sage-featured-card h3,
+.md-typeset .sage-pack-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--sage-line-strong);
+    box-shadow: var(--sage-shadow);
+}
+
 .md-typeset .sage-pack-card h3 {
-    margin: 0.45rem 0;
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
-.md-typeset .sage-featured-card p,
+.md-typeset .sage-pack-card h3 a {
+    color: var(--sage-ink);
+    text-decoration: none;
+}
+
+.md-typeset .sage-pack-card h3 a:hover {
+    color: var(--sage-primary);
+}
+
 .md-typeset .sage-pack-card p {
     color: var(--sage-muted);
 }
 
-.md-typeset .sage-pack-row {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+.md-typeset .sage-pack-card > span {
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 0.3rem 0.85rem;
+    border-radius: var(--sage-radius-sm);
+    background: rgba(15, 111, 104, 0.10);
+    color: var(--sage-primary);
+    font-family: var(--sage-font-display);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
 }
 
-.md-typeset .sage-section--technical {
-    padding: 1.4rem;
-    border-radius: 1rem;
-    background: var(--sage-surface);
+[data-md-color-scheme="slate"] .md-typeset .sage-pack-card > span {
+    color: var(--sage-primary-dark);
 }
+
+/* === Technical + category tables: the real spreadsheet === */
+
+.md-typeset .sage-section--technical {
+    margin: 3.5rem 0;
+    padding: clamp(1.6rem, 3vw, 2.2rem);
+    border-radius: var(--sage-radius);
+    background: var(--sage-surface);
+    border: 1px solid var(--sage-line);
+}
+
+.md-typeset .sage-section--technical > h2 {
+    margin-top: 0;
+}
+
+.md-typeset .sage-section--technical table,
+.md-typeset .sage-section--split table {
+    display: table;
+    width: 100%;
+    margin: 1.2rem 0 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: var(--sage-radius-sm);
+    overflow: hidden;
+    box-shadow: var(--sage-shadow-sm);
+    font-size: 0.95rem;
+    border: 1px solid var(--sage-line);
+}
+
+.md-typeset .sage-section--technical thead,
+.md-typeset .sage-section--split thead {
+    background: var(--sage-primary);
+}
+
+.md-typeset .sage-section--technical th,
+.md-typeset .sage-section--split th {
+    color: #ffffff;
+    font-family: var(--sage-font-display);
+    font-weight: 600;
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.85rem 1rem;
+    text-align: left;
+}
+
+.md-typeset .sage-section--technical td,
+.md-typeset .sage-section--split td {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-bottom: 1px solid var(--sage-line);
+    color: var(--sage-ink);
+    font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .sage-section--technical tbody tr:nth-child(even),
+.md-typeset .sage-section--split tbody tr:nth-child(even) {
+    background: rgba(15, 111, 104, 0.045);
+}
+
+.md-typeset .sage-section--technical tbody tr:hover,
+.md-typeset .sage-section--split tbody tr:hover {
+    background: rgba(242, 169, 0, 0.10);
+}
+
+.md-typeset .sage-section--technical tbody tr:last-child td,
+.md-typeset .sage-section--split tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.md-typeset .sage-section--technical td a,
+.md-typeset .sage-section--split td a {
+    color: var(--sage-primary-dark);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-section--technical td a,
+[data-md-color-scheme="slate"] .md-typeset .sage-section--split td a {
+    color: var(--sage-primary-dark);
+}
+
+.md-typeset .sage-section--technical td a:hover,
+.md-typeset .sage-section--split td a:hover {
+    color: var(--sage-accent-dark);
+}
+
+/* === Split section: categories table + how-it-works steps === */
 
 .md-typeset .sage-section--split {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(17rem, 0.85fr);
-    gap: 2rem;
+    gap: 2.4rem;
     align-items: start;
+    margin: 3.5rem 0;
 }
 
 .md-typeset .sage-steps {
+    position: relative;
     display: grid;
-    gap: 0.8rem;
+    gap: 1.1rem;
+    margin-top: 1.6rem;
+}
+
+/* Step numbers as filled cells with a connecting rule */
+.md-typeset .sage-steps::before {
+    content: "";
+    position: absolute;
+    left: 1.3rem;
+    top: 1.5rem;
+    bottom: 1.5rem;
+    width: 1px;
+    transform: translateX(-0.5px);
+    background: var(--sage-line-strong);
+    z-index: 0;
 }
 
 .md-typeset .sage-step {
     position: relative;
-    padding: 1rem 1rem 1rem 3.3rem;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 2.6rem 1fr;
+    gap: 1rem;
+    align-items: start;
 }
 
 .md-typeset .sage-step > span {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
     display: grid;
-    width: 1.7rem;
-    height: 1.7rem;
     place-items: center;
-    border-radius: 999px;
-    background: var(--sage-accent);
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: var(--sage-radius-sm);
+    background: linear-gradient(135deg, var(--sage-accent) 0%, var(--sage-accent-dark) 100%);
     color: #1d2733;
-    font-weight: 900;
+    font-family: var(--sage-font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 8px 18px rgba(242, 169, 0, 0.40);
 }
 
 .md-typeset .sage-step h3 {
-    margin-top: 0;
+    margin: 0.25rem 0 0.3rem;
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: var(--sage-ink);
 }
+
+.md-typeset .sage-step p {
+    margin: 0;
+    color: var(--sage-muted);
+    font-size: 0.98rem;
+    line-height: 1.55;
+}
+
+/* === Contact band (final CTA): the footer totals cell === */
 
 .md-typeset .sage-contact {
-    margin: 3.5rem 0 1.2rem;
-    padding: clamp(1.6rem, 4vw, 2.4rem);
-    border-radius: 1.1rem;
-    background: var(--sage-primary-dark);
+    position: relative;
+    overflow: hidden;
+    margin: 4rem 0 1.5rem;
+    padding: clamp(2.2rem, 5vw, 3.4rem);
+    border-radius: var(--sage-radius-lg);
+    background:
+        radial-gradient(circle at 92% 18%, rgba(242, 169, 0, 0.28), transparent 40%),
+        linear-gradient(135deg, var(--sage-primary) 0%, var(--sage-primary-dark) 55%, #0b2e3a 100%);
     color: #ffffff;
+    box-shadow: var(--sage-shadow);
+    animation: sage-fade-in 0.55s ease both;
 }
 
-.md-typeset .sage-contact h2,
-.md-typeset .sage-contact p {
+[data-md-color-scheme="slate"] .md-typeset .sage-contact {
+    background:
+        radial-gradient(circle at 92% 18%, rgba(251, 191, 36, 0.20), transparent 40%),
+        linear-gradient(135deg, #0a4f49 0%, #073a36 55%, #07131e 100%);
+}
+
+.md-typeset .sage-contact::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), transparent 90%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), transparent 90%);
+    pointer-events: none;
+}
+
+.md-typeset .sage-contact > * {
+    position: relative;
+    z-index: 1;
+    max-width: 56ch;
+}
+
+.md-typeset .sage-contact h2 {
+    margin: 0 0 0.5rem;
     color: #ffffff;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.md-typeset .sage-contact p {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 1.1rem;
 }
 
 .md-typeset .sage-contact .sage-button--primary {
+    display: inline-flex;
+    margin-top: 0.6rem;
+    padding: 1rem 2rem;
     background: #ffffff;
     color: var(--sage-primary-dark);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.24);
+    font-size: 1.05rem;
 }
 
-/* Cards grid para catálogo */
+.md-typeset .sage-contact .sage-button--primary:hover {
+    box-shadow: 0 20px 42px rgba(0, 0, 0, 0.34);
+}
+
+/* === Legacy catalog grid + badges (kept for backward compatibility) === */
+
 .grid-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
+    gap: 1.2rem;
     margin: 1.5rem 0;
 }
 
 .grid-cards .card {
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 12px;
-    padding: 1rem;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    padding: 1.3rem;
+    border: 1px solid var(--sage-line);
+    border-radius: var(--sage-radius);
+    background: var(--sage-card);
+    box-shadow: var(--sage-shadow-sm);
+    transition: transform var(--sage-transition), box-shadow var(--sage-transition);
 }
 
 .grid-cards .card:hover {
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-    transform: translateY(-2px);
+    transform: translateY(-4px);
+    box-shadow: var(--sage-shadow);
 }
 
 .grid-cards .card img {
     width: 100%;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
+    border-radius: var(--sage-radius-sm);
+    margin-bottom: 0.7rem;
 }
 
-/* Badge tags */
 .md-typeset .badge {
     display: inline-block;
-    padding: 0.15rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    margin-right: 0.25rem;
-    margin-bottom: 0.25rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: 6px;
+    font-size: 0.74rem;
+    font-weight: 700;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    color: #ffffff;
+    letter-spacing: 0.02em;
 }
 
-.badge-blue { background: #2196f3; color: white; }
-.badge-green { background: #4caf50; color: white; }
-.badge-purple { background: #9c27b0; color: white; }
-.badge-orange { background: #ff9800; color: white; }
+.badge-blue { background: #2563eb; color: white; }
+.badge-green { background: #16a34a; color: white; }
+.badge-purple { background: #7c3aed; color: white; }
+.badge-orange { background: #ea580c; color: white; }
 
-/* Preview images */
 .template-preview {
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 8px;
+    border: 1px solid var(--sage-line);
+    border-radius: var(--sage-radius-sm);
     max-width: 100%;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: var(--sage-shadow-sm);
 }
 
-/* Pack card */
 .pack-card {
-    border: 2px solid var(--md-primary-fg-color);
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: var(--md-primary-fg-color--lightest);
+    padding: 1.6rem;
+    border: 1px solid var(--sage-line);
+    border-radius: var(--sage-radius);
+    margin: 1.2rem 0;
+    background: var(--sage-card);
+    box-shadow: var(--sage-shadow-sm);
 }
 
 .pack-card h3 {
     margin-top: 0;
+}
+
+/* Template detail pages: preview framed like a sheet cell */
+.md-typeset img[alt^="Preview"] {
+    border: 1px solid var(--sage-line);
+    border-radius: var(--sage-radius);
+    box-shadow: var(--sage-shadow-sm);
 }
 
 /* Hide private pages from search */
@@ -412,10 +882,38 @@
     display: none;
 }
 
-@media (max-width: 980px) {
+/* === Motion === */
+
+@keyframes sage-fade-up {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes sage-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
     .md-typeset .sage-hero,
-    .md-typeset .sage-section--split {
+    .md-typeset .sage-contact {
+        animation: none;
+    }
+    .md-typeset .sage-button,
+    .md-typeset .sage-business-tile,
+    .md-typeset .sage-featured-card,
+    .md-typeset .sage-pack-card {
+        transition: none;
+    }
+}
+
+/* === Responsive === */
+
+@media (max-width: 768px) {
+    .md-typeset .sage-hero {
         grid-template-columns: 1fr;
+        gap: 1.6rem;
+        padding: clamp(1.8rem, 5vw, 2.6rem);
     }
 
     .md-typeset .sage-hero__panel,
@@ -426,21 +924,55 @@
         grid-column: 1;
     }
 
+    .md-typeset .sage-hero__panel {
+        grid-row: auto;
+    }
+
+    .md-typeset .sage-section--split {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+    }
+
     .md-typeset .sage-business-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-}
 
-@media (max-width: 640px) {
-    .md-typeset .sage-hero {
-        padding: 1.4rem;
-        border-radius: 1rem;
+    .md-typeset .sage-featured-grid {
+        grid-template-columns: 1fr;
     }
 
-    .md-typeset .sage-hero__metrics,
+    .md-typeset .sage-section--technical table,
+    .md-typeset .sage-section--split table {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .md-typeset .sage-hero {
+        padding: 1.6rem;
+        border-radius: var(--sage-radius);
+    }
+
+    .md-typeset .sage-hero h1 {
+        font-size: clamp(1.9rem, 9vw, 2.6rem);
+    }
+
     .md-typeset .sage-business-grid,
+    .md-typeset .sage-hero__metrics,
     .md-typeset .sage-featured-grid,
     .grid-cards {
         grid-template-columns: 1fr;
+    }
+
+    .md-typeset .sage-hero__actions {
+        flex-direction: column;
+    }
+
+    .md-typeset .sage-button {
+        width: 100%;
+    }
+
+    .md-typeset .sage-contact {
+        padding: 1.8rem;
     }
 }
