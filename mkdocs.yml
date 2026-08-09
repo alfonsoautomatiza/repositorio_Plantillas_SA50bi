@@ -2,7 +2,7 @@ site_name: Catálogo Sage50BI
 site_url: https://wertymsd.github.io/repositorio_Sage50bi/
 repo_url: https://github.com/wertyMSD/repositorio_Sage50bi
 repo_name: repositorio_Sage50bi
-copyright: 'Copyright &copy; 2024 ALCA TIC, S.L. — <a href="https://pedironline.com">pedironline.com</a>'
+copyright: 'Copyright &copy; Sage50BI'
 
 # Configuración de tema Material
 theme:
@@ -46,6 +46,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -89,7 +90,7 @@ plugins:
       match_path: plantillas/*.md
       feed_title: Plantillas Sage50BI — Novedades
       feed_description: Últimas plantillas gratuitas para Sage50BI
-      feed_image: img/og-default.png
+      image: img/og-default.png
       categories: [plantillas]
   - git-revision-date-localized:
       enabled: true
@@ -110,10 +111,7 @@ nav:
   - Packs:
       - Gestión Comercial: packs/pack-gestion-comercial.md
       - Contabilidad Completa: packs/pack-contabilidad-completa.md
-  - Acerca de:
-      - Cómo usarlas: acerca/como-usarlas.md
-      - Preguntas frecuentes: acerca/faq.md
-      - Soporte: acerca/soporte.md
+  - Cómo se carga en Sage50BI: como-cargar.md
 
 # Extra CSS y JavaScript
 extra_css:
@@ -132,18 +130,12 @@ i18n:
       Inicio: Inicio
       Plantillas: Plantillas
       Packs: Packs
-      Acerca de: Acerca de
-      Cómo usarlas: Cómo usarlas
-      Preguntas frecuentes: Preguntas frecuentes
-      Soporte: Soporte
+      Cómo se carga en Sage50BI: Cómo se carga en Sage50BI
     ca:
       Inicio: Inici
       Plantillas: Plantilles
       Packs: Paquets
-      Acerca de: Quant a
-      Cómo usarlas: Com utilitzar-les
-      Preguntas frecuentes: Preguntes freqüents
-      Soporte: Suport
+      Cómo se carga en Sage50BI: Com es carrega a Sage50BI
 
 # Validación estricta (opcional, para CI)
 strict: false

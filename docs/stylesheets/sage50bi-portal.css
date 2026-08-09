@@ -584,6 +584,85 @@
     color: var(--sage-primary-dark);
 }
 
+/* === Showcase carousel: a horizontal strip of template cards === */
+
+.md-typeset .sage-carousel {
+    margin-top: 1.6rem;
+    padding-bottom: 0.5rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--sage-line-strong) transparent;
+}
+
+.md-typeset .sage-carousel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.md-typeset .sage-carousel::-webkit-scrollbar-thumb {
+    background: var(--sage-line-strong);
+    border-radius: 8px;
+}
+
+.md-typeset .sage-carousel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.md-typeset .sage-carousel__track {
+    display: flex;
+    gap: 1.2rem;
+    min-width: max-content;
+}
+
+.md-typeset .sage-carousel__card {
+    flex: 0 0 15.5rem;
+    scroll-snap-align: start;
+    padding: 0.85rem 0.85rem 1.1rem;
+    border-radius: var(--sage-radius);
+    border: 1px solid var(--sage-line);
+    background: var(--sage-card);
+    box-shadow: var(--sage-shadow-sm);
+    transition: transform var(--sage-transition), box-shadow var(--sage-transition),
+                border-color var(--sage-transition);
+}
+
+.md-typeset .sage-carousel__card:hover {
+    transform: translateY(-4px);
+    border-color: var(--sage-line-strong);
+    box-shadow: var(--sage-shadow);
+}
+
+.md-typeset .sage-carousel__card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: var(--sage-radius-sm);
+    border: 1px solid var(--sage-line);
+}
+
+.md-typeset .sage-carousel__card h3 {
+    margin: 0.75rem 0 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.md-typeset .sage-carousel__card h3 a {
+    color: var(--sage-ink);
+    text-decoration: none;
+}
+
+.md-typeset .sage-carousel__card h3 a:hover {
+    color: var(--sage-primary);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-carousel__card h3 a:hover {
+    color: var(--sage-primary-dark);
+}
+
 /* === Technical + category tables: the real spreadsheet === */
 
 .md-typeset .sage-section--technical {
@@ -902,7 +981,8 @@
     .md-typeset .sage-button,
     .md-typeset .sage-business-tile,
     .md-typeset .sage-featured-card,
-    .md-typeset .sage-pack-card {
+    .md-typeset .sage-pack-card,
+    .md-typeset .sage-carousel__card {
         transition: none;
     }
 }
@@ -939,6 +1019,10 @@
 
     .md-typeset .sage-featured-grid {
         grid-template-columns: 1fr;
+    }
+
+    .md-typeset .sage-carousel__card {
+        flex-basis: 13rem;
     }
 
     .md-typeset .sage-section--technical table,

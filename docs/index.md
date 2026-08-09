@@ -1,5 +1,5 @@
 ---
-title: "Plantillas Gratuitas Sage50BI - Portal de ALCA TIC"
+title: "Plantillas Gratuitas Sage50BI"
 description: "Portal comercial de plantillas SQL gratuitas para Sage50BI: listados, facturación, contabilidad y dashboards para Sage 50."
 hide:
   - toc
@@ -20,15 +20,15 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 # Convierte Sage 50 en un cuadro de mando útil desde el primer día
 
 <p class="sage-hero__lead">Sage50BI reúne <strong>plantillas gratuitas de informes, facturación, contabilidad y dashboards</strong> para que una empresa pueda consultar sus datos de Sage 50 sin desarrollar cada listado desde cero.</p>
-<p class="sage-hero__sublead">Explora 5 plantillas publicadas, instala las que encajen con tu trabajo y solicita ayuda de ALCA TIC cuando necesites una adaptación a medida.</p>
+<p class="sage-hero__sublead">Explora 5 plantillas publicadas, instala las que encajen con tu trabajo y solicita una adaptación a medida cuando la necesites.</p>
 <div class="sage-hero__actions">
 <a class="sage-button sage-button--primary" href="#catalogo-tecnico-ultimas-plantillas">Ver catálogo de plantillas</a>
-<a class="sage-button sage-button--secondary" href="https://pedironline.com">Solicitar demo o contacto</a>
+<a class="sage-button sage-button--secondary" href="#contacto">Solicitar una adaptación a medida</a>
 </div>
 <div class="sage-hero__metrics">
 <span><strong>5</strong>plantillas listas</span>
 <span><strong>2</strong>packs de trabajo</span>
-<span><strong>ALCA TIC</strong>implantación y soporte</span>
+<span><strong>Adaptación</strong>a medida</span>
 </div>
 <aside class="sage-hero__panel" markdown="1">
 ### Del dato de Sage 50 a una decisión de negocio
@@ -37,6 +37,42 @@ Listados, consultas SQL y dashboards preparados para instalar desde Sage50BI.
 
 `Sage 50` + `Sage50BI` + `Plantillas SQL`
 </aside>
+</section>
+
+<section class="sage-section sage-section--showcase" markdown="1">
+## Escaparate de plantillas
+
+Todas las plantillas públicas en un vistazo: explora cada una e instálala desde Sage50BI.
+
+<div class="sage-carousel">
+<div class="sage-carousel__track">
+<article class="sage-carousel__card" markdown="1">
+[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
+
+### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
+
+### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
+
+### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Balance de situación](img/og-3000.png)](plantillas/3000-balance-de-situacion.md)
+
+### [Balance de situación](plantillas/3000-balance-de-situacion.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Dashboard de ventas por cliente](img/og-4000.png)](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+
+### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+</article>
+</div>
+</div>
 </section>
 
 <section class="sage-section sage-section--business" markdown="1">
@@ -180,17 +216,17 @@ Sage50BI lee el manifest del repositorio, descarga la plantilla cifrada y la dej
 <span>3</span>
 ### Adapta
 
-ALCA TIC puede ajustar consultas, dashboards y packs cuando tu empresa necesita una variante propia.
+Adaptamos consultas, dashboards y packs a las necesidades concretas de tu empresa.
 </article>
 </div>
 </section>
 
-<section class="sage-contact" markdown="1">
-## ¿Querés verlo aplicado a tu Sage 50?
+<section class="sage-contact" id="contacto" markdown="1">
+## ¿Quieres verlo aplicado a tu Sage 50?
 
-Pide una demo o una revisión de tus necesidades con ALCA TIC, S.L. desde pedironline.com.
+Solicita una adaptación a medida cuando tus informes o dashboards necesiten un ajuste propio.
 
-<a class="sage-button sage-button--primary" href="https://pedironline.com">Contactar con ALCA TIC</a>
+<a class="sage-button sage-button--primary" href="como-cargar.md">Solicitar una adaptación a medida</a>
 </section>
 
 *Última actualización: 2026-08-09*
