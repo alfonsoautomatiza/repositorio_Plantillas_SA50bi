@@ -1,4 +1,4 @@
-# 🏢 Plantillas Gratuitas para Sage50BI 
+# 🏢 Plantillas Gratuitas para Sage50BI — ALCA TIC
 
 [![Plantillas](https://img.shields.io/badge/Plantillas-5-blue)](https://wertymsd.github.io/repositorio_Sage50bi/)
 [![Packs](https://img.shields.io/badge/Packs-2-purple)](https://wertymsd.github.io/repositorio_Sage50bi/packs/)
@@ -120,4 +120,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 ALCA TIC, S.L. — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-04-07 13:08*
+*Generado automáticamente el 2026-08-09 13:24*

@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-04-07T13:08:46.981533Z",
+  "fecha_generacion": "2026-08-09T13:24:52.597913Z",
   "total_plantillas": 5,
   "total_packs": 2,
   "plantillas": [
@@ -161,17 +161,5 @@
       "total": 3
     }
   ],
-  "clientes_privados": {
-    "total_plantillas": 5,
-    "publicas": 5,
-    "privadas": 0,
-    "por_categoria": {
-      "Informes y Listados": 2,
-      "Facturas y Documentos": 1,
-      "Balances y Contabilidad": 1,
-      "Dashboard y Gráficos": 1
-    },
-    "total_packs": 2,
-    "ultima_actualizacion": "2026-04-07"
-  }
+  "clientes_privados": []
 }
