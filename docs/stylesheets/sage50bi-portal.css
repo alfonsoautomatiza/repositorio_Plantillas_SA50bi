@@ -1,0 +1,446 @@
+/* === Sage50BI commercial portal for MkDocs Material === */
+
+:root {
+    --sage-ink: #102033;
+    --sage-muted: #516172;
+    --sage-surface: #f4f8fb;
+    --sage-card: #ffffff;
+    --sage-primary: #0f6f68;
+    --sage-primary-dark: #0a4d49;
+    --sage-accent: #f2a900;
+    --sage-blue: #243c7a;
+    --sage-line: rgba(16, 32, 51, 0.12);
+    --sage-shadow: 0 22px 50px rgba(15, 44, 64, 0.16);
+}
+
+[data-md-color-scheme="slate"] {
+    --sage-ink: #f3f7fb;
+    --sage-muted: #c2ccd7;
+    --sage-surface: #111a24;
+    --sage-card: #172332;
+    --sage-primary: #46c3b8;
+    --sage-primary-dark: #7fe0d7;
+    --sage-accent: #ffd166;
+    --sage-blue: #9fb7ff;
+    --sage-line: rgba(243, 247, 251, 0.14);
+    --sage-shadow: 0 22px 50px rgba(0, 0, 0, 0.32);
+}
+
+.md-typeset .sage-hero,
+.md-typeset .sage-section,
+.md-typeset .sage-contact {
+    color: var(--sage-ink);
+}
+
+.md-typeset .sage-hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
+    gap: 2.2rem;
+    overflow: hidden;
+    margin: -0.8rem 0 3rem;
+    padding: clamp(2.2rem, 6vw, 4.8rem);
+    border-radius: 1.4rem;
+    background:
+        radial-gradient(circle at 82% 18%, rgba(242, 169, 0, 0.26), transparent 30%),
+        linear-gradient(135deg, #e9f5f3 0%, #f8fbff 48%, #eaf0ff 100%);
+    box-shadow: var(--sage-shadow);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-hero {
+    background:
+        radial-gradient(circle at 82% 18%, rgba(242, 169, 0, 0.18), transparent 30%),
+        linear-gradient(135deg, #10242b 0%, #111a24 54%, #17213b 100%);
+}
+
+.md-typeset .sage-hero::after {
+    content: "";
+    position: absolute;
+    right: -5rem;
+    bottom: -6rem;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid rgba(15, 111, 104, 0.24);
+    border-radius: 999px;
+}
+
+.md-typeset .sage-hero > * {
+    position: relative;
+    z-index: 1;
+}
+
+.md-typeset .sage-hero__label {
+    grid-column: 1 / -1;
+    width: fit-content;
+    margin: 0;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: rgba(15, 111, 104, 0.12);
+    color: var(--sage-primary-dark);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.md-typeset .sage-hero h1 {
+    max-width: 12ch;
+    margin: 0;
+    color: var(--sage-ink);
+    font-size: clamp(2.35rem, 7vw, 5.4rem);
+    font-weight: 850;
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+}
+
+.md-typeset .sage-hero__lead,
+.md-typeset .sage-hero__sublead {
+    grid-column: 1;
+    max-width: 68ch;
+    margin: 0;
+    color: var(--sage-muted);
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.md-typeset .sage-hero__lead {
+    margin-top: -1.4rem;
+    font-size: clamp(1.12rem, 2.3vw, 1.38rem);
+}
+
+.md-typeset .sage-hero__actions,
+.md-typeset .sage-hero__metrics {
+    grid-column: 1;
+}
+
+.md-typeset .sage-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.6rem;
+}
+
+.md-typeset .sage-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.6rem;
+    padding: 0.65rem 1rem;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.md-typeset .sage-button:hover {
+    transform: translateY(-1px);
+}
+
+.md-typeset .sage-button--primary {
+    background: var(--sage-primary);
+    color: #ffffff;
+    box-shadow: 0 10px 24px rgba(15, 111, 104, 0.28);
+}
+
+.md-typeset .sage-button--secondary {
+    border: 1px solid var(--sage-line);
+    background: rgba(255, 255, 255, 0.62);
+    color: var(--sage-primary-dark);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-button--secondary {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset .sage-hero__metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.md-typeset .sage-hero__metrics span {
+    display: grid;
+    gap: 0.15rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--sage-line);
+    color: var(--sage-muted);
+    font-size: 0.78rem;
+}
+
+.md-typeset .sage-hero__metrics strong {
+    color: var(--sage-ink);
+    font-size: 1.2rem;
+}
+
+.md-typeset .sage-hero__panel {
+    grid-column: 2;
+    grid-row: 2 / span 5;
+    align-self: end;
+    padding: 1.25rem;
+    border: 1px solid var(--sage-line);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: 0 18px 38px rgba(15, 44, 64, 0.14);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .sage-hero__panel {
+    background: rgba(23, 35, 50, 0.86);
+}
+
+.md-typeset .sage-hero__panel h3 {
+    margin-top: 0;
+    color: var(--sage-ink);
+}
+
+.md-typeset .sage-section {
+    margin: 3rem 0;
+}
+
+.md-typeset .sage-section > h2,
+.md-typeset .sage-contact > h2 {
+    max-width: 15ch;
+    color: var(--sage-ink);
+    font-size: clamp(1.7rem, 3.8vw, 3rem);
+    font-weight: 820;
+    letter-spacing: -0.03em;
+    line-height: 1;
+}
+
+.md-typeset .sage-business-grid,
+.md-typeset .sage-featured-grid,
+.md-typeset .sage-pack-row {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.md-typeset .sage-business-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.md-typeset .sage-business-tile,
+.md-typeset .sage-featured-card,
+.md-typeset .sage-pack-card,
+.md-typeset .sage-step {
+    border: 1px solid var(--sage-line);
+    border-radius: 0.9rem;
+    background: var(--sage-card);
+    box-shadow: 0 14px 34px rgba(16, 32, 51, 0.08);
+}
+
+.md-typeset .sage-business-tile {
+    display: flex;
+    min-height: 11rem;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    color: var(--sage-ink);
+    text-decoration: none;
+}
+
+.md-typeset .sage-business-tile:hover {
+    border-color: rgba(15, 111, 104, 0.5);
+    transform: translateY(-2px);
+}
+
+.md-typeset .sage-business-tile strong {
+    font-size: 1.3rem;
+}
+
+.md-typeset .sage-business-tile span:last-child {
+    color: var(--sage-muted);
+}
+
+.md-typeset .sage-business-tile__range,
+.md-typeset .sage-featured-card__id,
+.md-typeset .sage-featured-card__area,
+.md-typeset .sage-pack-card > span {
+    color: var(--sage-primary-dark);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.md-typeset .sage-featured-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.md-typeset .sage-featured-card,
+.md-typeset .sage-pack-card {
+    padding: 1.1rem;
+}
+
+.md-typeset .sage-featured-card h3,
+.md-typeset .sage-pack-card h3 {
+    margin: 0.45rem 0;
+}
+
+.md-typeset .sage-featured-card p,
+.md-typeset .sage-pack-card p {
+    color: var(--sage-muted);
+}
+
+.md-typeset .sage-pack-row {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.md-typeset .sage-section--technical {
+    padding: 1.4rem;
+    border-radius: 1rem;
+    background: var(--sage-surface);
+}
+
+.md-typeset .sage-section--split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(17rem, 0.85fr);
+    gap: 2rem;
+    align-items: start;
+}
+
+.md-typeset .sage-steps {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.md-typeset .sage-step {
+    position: relative;
+    padding: 1rem 1rem 1rem 3.3rem;
+}
+
+.md-typeset .sage-step > span {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: grid;
+    width: 1.7rem;
+    height: 1.7rem;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--sage-accent);
+    color: #1d2733;
+    font-weight: 900;
+}
+
+.md-typeset .sage-step h3 {
+    margin-top: 0;
+}
+
+.md-typeset .sage-contact {
+    margin: 3.5rem 0 1.2rem;
+    padding: clamp(1.6rem, 4vw, 2.4rem);
+    border-radius: 1.1rem;
+    background: var(--sage-primary-dark);
+    color: #ffffff;
+}
+
+.md-typeset .sage-contact h2,
+.md-typeset .sage-contact p {
+    color: #ffffff;
+}
+
+.md-typeset .sage-contact .sage-button--primary {
+    background: #ffffff;
+    color: var(--sage-primary-dark);
+}
+
+/* Cards grid para catálogo */
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.grid-cards .card {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.grid-cards .card:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+.grid-cards .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/* Badge tags */
+.md-typeset .badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.badge-blue { background: #2196f3; color: white; }
+.badge-green { background: #4caf50; color: white; }
+.badge-purple { background: #9c27b0; color: white; }
+.badge-orange { background: #ff9800; color: white; }
+
+/* Preview images */
+.template-preview {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Pack card */
+.pack-card {
+    border: 2px solid var(--md-primary-fg-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: var(--md-primary-fg-color--lightest);
+}
+
+.pack-card h3 {
+    margin-top: 0;
+}
+
+/* Hide private pages from search */
+.md-nav__link[data-md-component="toc"][href*="privadas/"] {
+    display: none;
+}
+
+@media (max-width: 980px) {
+    .md-typeset .sage-hero,
+    .md-typeset .sage-section--split {
+        grid-template-columns: 1fr;
+    }
+
+    .md-typeset .sage-hero__panel,
+    .md-typeset .sage-hero__lead,
+    .md-typeset .sage-hero__sublead,
+    .md-typeset .sage-hero__actions,
+    .md-typeset .sage-hero__metrics {
+        grid-column: 1;
+    }
+
+    .md-typeset .sage-business-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .md-typeset .sage-hero {
+        padding: 1.4rem;
+        border-radius: 1rem;
+    }
+
+    .md-typeset .sage-hero__metrics,
+    .md-typeset .sage-business-grid,
+    .md-typeset .sage-featured-grid,
+    .grid-cards {
+        grid-template-columns: 1fr;
+    }
+}

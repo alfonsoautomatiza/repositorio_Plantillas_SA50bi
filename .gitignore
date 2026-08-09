@@ -1,12 +1,9 @@
 # =====================================================================
-# RAMA MASTER — Solo plantillas, packs, manifest, releases
-# La documentación MkDocs va en la rama 'docs'
+# REPOSITORIO PÚBLICO — Plantillas + docs MkDocs + manifest + releases
 # El código fuente va en el repo privado: repositorio_Sage50bi_fuente
 # =====================================================================
 
-# ── Documentación MkDocs (rama docs) ──
-docs/
-mkdocs.yml
+# ── Build output de MkDocs (se genera en CI) ──
 site/
 
 # ── Código fuente (repo privado) ──
