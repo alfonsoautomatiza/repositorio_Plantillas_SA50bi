@@ -1,11 +1,11 @@
 ---
 title: "Factures i Documents — Plantilles Sage50BI"
-description: "Catàleg de factures i documents per a Sage50BI"
+description: "Catàleg de facturas y documentos per a Sage50BI"
 ---
 
-# 🧾 Factures i Documents
+# <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Factures i Documents
 
-Col·lecció de plantilles de **Factures i Documents** per a Sage50BI.
+Colección de plantilles de **Factures i Documents** per a Sage50BI.
 
 **1 plantilles disponibles**
 
@@ -13,10 +13,10 @@ Col·lecció de plantilles de **Factures i Documents** per a Sage50BI.
 
 ![Preview](../../publicas/2000%20-%20Modelo de factura con totales/preview.png)
 
-Model de factura professional amb desglossament de línies, IVA, retencions i totals. Format optimitzat per a impressió.
+Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.
 
 **Versió:** 1.0.0 | **Tags:** `factura` `modelo` `totales` `iva`
 
-[📄 Veure detall](../plantillas/2000-modelo-de-factura-con-totales.md)
+[📄 Veure detall](../plantilles/2000-modelo-de-factura-con-totales.md)
 
 ---

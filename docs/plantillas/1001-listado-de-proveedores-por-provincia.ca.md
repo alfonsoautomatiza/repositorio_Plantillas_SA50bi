@@ -1,22 +1,23 @@
 ---
-title: "Listado de proveedores por provincia — Plantilla gratuïta Sage50BI"
-description: "Llistat agrupat de proveïdors per província amb totals de facturació i estadístiques de compra."
+title: "Listado de proveedores por provincia — Plantilla gratuita Sage50BI"
+description: "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra."
+image: img/og-1001.png
 ---
 
-# 📋 1001 - Listado de proveedores por provincia
+# <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> 1001 - Listado de proveedores por provincia
 
 ![Preview](preview.png)
 
 ## Descripció
 
-Llistat agrupat de proveïdors per província amb totals de facturació i estadístiques de compra.
+Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.
 
 ## Detalls
 
 | Camp | Valor |
-|------|-------|
+|-------|-------|
 | Versió | 1.0.0 |
-| Categoria | 📋 Informes i Llistats |
+| Categoria | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes i Llistats |
 | Inclou | SQL |
 | Gratuït | ✅ Sí |
 | Actualitzat | 2026-04-07 |

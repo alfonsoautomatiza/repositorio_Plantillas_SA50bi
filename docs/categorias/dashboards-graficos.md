@@ -3,7 +3,7 @@ title: "Dashboard y Gráficos — Plantillas Sage50BI"
 description: "Catálogo de dashboard y gráficos para Sage50BI"
 ---
 
-# 📈 Dashboard y Gráficos
+# <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos
 
 Colección de plantillas de **Dashboard y Gráficos** para Sage50BI.
 

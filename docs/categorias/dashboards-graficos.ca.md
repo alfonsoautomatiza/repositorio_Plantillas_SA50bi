@@ -1,11 +1,11 @@
 ---
 title: "Tauler i Gràfics — Plantilles Sage50BI"
-description: "Catàleg de tauler i gràfics per a Sage50BI"
+description: "Catàleg de dashboard y gráficos per a Sage50BI"
 ---
 
-# 📈 Tauler i Gràfics
+# <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Tauler i Gràfics
 
-Col·lecció de plantilles de **Tauler i Gràfics** per a Sage50BI.
+Colección de plantilles de **Tauler i Gràfics** per a Sage50BI.
 
 **1 plantilles disponibles**
 
@@ -13,10 +13,10 @@ Col·lecció de plantilles de **Tauler i Gràfics** per a Sage50BI.
 
 ![Preview](../../publicas/4000%20-%20Dashboard de ventas por cliente/preview.png)
 
-Quadre de comandament interactiu amb Streamlit mostrant vendes per client, evolució mensual i top 10 clients. Inclou gràfics de barres i línies.
+Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Inclou gráficos de barras y líneas.
 
 **Versió:** 1.0.0 | **Tags:** `dashboard` `ventas` `grafico` `streamlit`
 
-[📄 Veure detall](../plantillas/4000-dashboard-de-ventas-por-cliente.md)
+[📄 Veure detall](../plantilles/4000-dashboard-de-ventas-por-cliente.md)
 
 ---

@@ -1,10 +1,10 @@
-# 🏢 Plantillas Gratuitas para Sage50BI — ALCA TIC
+# 🏢 Plantillas Gratuitas para Sage50BI
 
-[![Plantillas](https://img.shields.io/badge/Plantillas-5-blue)](https://wertymsd.github.io/repositorio_Sage50bi/)
-[![Packs](https://img.shields.io/badge/Packs-2-purple)](https://wertymsd.github.io/repositorio_Sage50bi/packs/)
+[![Plantillas](https://img.shields.io/badge/Plantillas-5-blue)](https://plantillas.sage50eia.com/)
+[![Packs](https://img.shields.io/badge/Packs-2-purple)](https://plantillas.sage50eia.com/packs/)
 [![Versión](https://img.shields.io/badge/Manifest-1.0.0-green)]()
 [![Gratis](https://img.shields.io/badge/Gratuitas-100%25-success)]()
-[![Sage50BI](https://img.shields.io/badge/Sage50BI-Compatible-orange)](https://pedironline.com)
+[![Sage50BI](https://img.shields.io/badge/Sage50BI-Compatible-orange)](https://plantillas.sage50eia.com/)
 
 > ⚠️ **Este archivo se genera automáticamente.** No editar manualmente.
 > Para modificar, use el tool de gestión: `python gestion/gestion.py`
@@ -106,18 +106,17 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 > El SQL publicado está cifrado. El mantenimiento de plantillas en claro se realiza fuera de este repositorio público.
 
 ### También puedes:
-- 📖 Ver el [catálogo web completo](https://wertymsd.github.io/repositorio_Sage50bi/)
-- 📡 Suscribirte al [RSS de novedades](https://wertymsd.github.io/repositorio_Sage50bi/feed.xml)
+- 📖 Ver el [catálogo web completo](https://plantillas.sage50eia.com/)
+- 📡 Suscribirte al [RSS de novedades](https://plantillas.sage50eia.com/feed.xml)
 - 🎥 Ver los [vídeos en YouTube](https://youtube.com/)
 
 ## 🔗 Enlaces
 
-- 🏢 [ALCA TIC — pedironline.com](https://pedironline.com)
-- 📖 [Catálogo web](https://wertymsd.github.io/repositorio_Sage50bi/)
-- 📡 [RSS Novedades](https://wertymsd.github.io/repositorio_Sage50bi/feed.xml)
+- 📖 [Catálogo web](https://plantillas.sage50eia.com/)
+- 📡 [RSS Novedades](https://plantillas.sage50eia.com/feed.xml)
 
 ---
 
-© 2026 ALCA TIC, S.L. — Plantillas gratuitas para usuarios de Sage50BI.
+© 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-08-09 22:54*
+*Generado automáticamente el 2026-08-10 07:02*

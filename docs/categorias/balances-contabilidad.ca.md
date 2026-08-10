@@ -1,11 +1,11 @@
 ---
 title: "Balanços i Comptabilitat — Plantilles Sage50BI"
-description: "Catàleg de balanços i comptabilitat per a Sage50BI"
+description: "Catàleg de balances y contabilidad per a Sage50BI"
 ---
 
-# 📊 Balanços i Comptabilitat
+# <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> Balanços i Comptabilitat
 
-Col·lecció de plantilles de **Balanços i Comptabilitat** per a Sage50BI.
+Colección de plantilles de **Balanços i Comptabilitat** per a Sage50BI.
 
 **1 plantilles disponibles**
 
@@ -13,10 +13,10 @@ Col·lecció de plantilles de **Balanços i Comptabilitat** per a Sage50BI.
 
 ![Preview](../../publicas/3000%20-%20Balance de situación/preview.png)
 
-Balanç de situació amb desglossament per comptes, grups i subgrups. Inclou totals d'actiu, passiu i patrimoni net.
+Balance de situación con desglose por cuentas, grupos y subgrupos. Inclou totales de activo, pasivo y patrimonio neto.
 
 **Versió:** 1.0.0 | **Tags:** `balance` `situacion` `contabilidad` `cuentas`
 
-[📄 Veure detall](../plantillas/3000-balance-de-situaci-n.md)
+[📄 Veure detall](../plantilles/3000-balance-de-situacion.md)
 
 ---

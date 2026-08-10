@@ -1,22 +1,23 @@
 ---
-title: "Modelo de factura con totales — Plantilla gratuïta Sage50BI"
-description: "Model de factura professional amb desglossament de línies, IVA, retencions i totals. Format optimitzat per a impressió."
+title: "Modelo de factura con totales — Plantilla gratuita Sage50BI"
+description: "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión."
+image: img/og-2000.png
 ---
 
-# 🧾 2000 - Modelo de factura con totales
+# <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> 2000 - Modelo de factura con totales
 
 ![Preview](preview.png)
 
 ## Descripció
 
-Model de factura professional amb desglossament de línies, IVA, retencions i totals. Format optimitzat per a impressió.
+Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.
 
 ## Detalls
 
 | Camp | Valor |
-|------|-------|
+|-------|-------|
 | Versió | 1.0.0 |
-| Categoria | 🧾 Factures i Documents |
+| Categoria | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Factures i Documents |
 | Inclou | SQL |
 | Gratuït | ✅ Sí |
 | Actualitzat | 2026-04-07 |

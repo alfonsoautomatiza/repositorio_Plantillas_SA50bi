@@ -272,4 +272,4 @@ Solicita una adaptación a medida cuando tus informes o dashboards necesiten un 
 <a class="sage-button sage-button--primary" href="como-cargar.md">Solicitar una adaptación a medida</a>
 </section>
 
-*Última actualización: 2026-08-09*
+*Última actualización: 2026-08-10*

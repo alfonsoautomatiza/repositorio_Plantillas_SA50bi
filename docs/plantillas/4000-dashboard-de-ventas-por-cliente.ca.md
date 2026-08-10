@@ -1,22 +1,23 @@
 ---
-title: "Dashboard de ventas por cliente — Plantilla gratuïta Sage50BI"
-description: "Quadre de comandament interactiu amb Streamlit mostrant vendes per client, evolució mensual i top 10 clients. Inclou gràfics de barres i línies."
+title: "Dashboard de ventas por cliente — Plantilla gratuita Sage50BI"
+description: "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Inclou gráficos de barras y líneas."
+image: img/og-4000.png
 ---
 
-# 📈 4000 - Dashboard de ventas por cliente
+# <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> 4000 - Dashboard de ventas por cliente
 
 ![Preview](preview.png)
 
 ## Descripció
 
-Quadre de comandament interactiu amb Streamlit mostrant vendes per client, evolució mensual i top 10 clients. Inclou gràfics de barres i línies.
+Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Inclou gráficos de barras y líneas.
 
 ## Detalls
 
 | Camp | Valor |
-|------|-------|
+|-------|-------|
 | Versió | 1.0.0 |
-| Categoria | 📈 Tauler i Gràfics |
+| Categoria | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Tauler i Gràfics |
 | Inclou | SQL |
 | Gratuït | ✅ Sí |
 | Actualitzat | 2026-04-07 |

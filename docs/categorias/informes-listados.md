@@ -3,7 +3,7 @@ title: "Informes y Listados — Plantillas Sage50BI"
 description: "Catálogo de informes y listados para Sage50BI"
 ---
 
-# 📋 Informes y Listados
+# <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados
 
 Colección de plantillas de **Informes y Listados** para Sage50BI.
 
@@ -17,7 +17,7 @@ Listado completo de clientes con filtros por provincia, forma de pago y fecha de
 
 **Versión:** 1.0.0 | **Tags:** `clientes` `listado` `españa` `informes`
 
-[📄 Ver detalle](../plantillas/1000-listado-de-clientes-espa-a.md)
+[📄 Ver detalle](../plantillas/1000-listado-de-clientes-espana.md)
 
 ---
 

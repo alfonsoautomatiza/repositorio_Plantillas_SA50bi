@@ -1,20 +1,20 @@
 ---
-title: "Pack Comptabilitat Completa — Pack Sage50BI"
-description: "Balanços i dashboard."
+title: "Pack Contabilidad Completa — Pack Sage50BI"
+description: "Balances y dashboard."
 ---
 
-# 📦 Pack Contabilidad Completa
+# <span class="sage-icon sage-icon--pack" aria-hidden="true"></span> Pack Contabilidad Completa
 
-Balanços i dashboard.
+Balances y dashboard.
 
-**2 plantilles incloses**
+**2 plantilles incluidas**
 
 ## Plantilles del pack
 
-| # | Nom | Categoria | Versió | Descripció |
-|---|-----|-----------|--------|-------------|
-| 3000 | Balance de situación | 📊 | 1.0.0 | Balanç de situació amb desglossament per comptes, grups i subg... |
-| 4000 | Dashboard de ventas por cliente | 📈 | 1.0.0 | Quadre de comandament interactiu amb Streamlit mostrant vendes p... |
+| # | Nombre | Categoria | Versió | Descripció |
+|---|--------|-----------|---------|-------------|
+| 3000 | Balance de situación | <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> | 1.0.0 | Balance de situación con desglose por cuentas, grupos y subg... |
+| 4000 | Dashboard de ventas por cliente | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> | 1.0.0 | Cuadro de mando interactivo con Streamlit mostrando ventas p... |
 
 ---
 
