@@ -117,6 +117,6 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 ---
 
-© 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
+© 2026 AlfonsoAutomatiza.com — Plantillas gratuitas para usuarios de SA50bi.
 
 *Generado automáticamente el 2026-08-10 07:02*
