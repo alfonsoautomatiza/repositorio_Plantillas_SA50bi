@@ -1,0 +1,76 @@
+{
+  "id": 4003,
+  "nombre": "Ranking de ventas por vendedor",
+  "slug": "4003-ranking-de-ventas-por-vendedor",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "4000-4999",
+    "nombre": "Dashboard y Gráficos",
+    "icono": "📈"
+  },
+  "descripcion": "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.",
+  "descripcion_larga": "📈 Ranking de ventas por vendedor\n\nRanking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.\n\nCuadro de mando interactivo con Streamlit para Sage50BI. Visualiza \ntus datos en tiempo real con gráficos dinámicos.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "ventas",
+    "vendedores",
+    "ranking",
+    "pedidos",
+    "informe"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "a35d7d0fd23104a7347b3f371c2429b93eab03e75fc71780fa214f022eba672e",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "683e6a46c43df52be7fed4987417ac3d15584eddf7d7707d2077f6b757ee1a2e",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Ranking de ventas por vendedor — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nRanking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "ventas",
+      "vendedores",
+      "ranking"
+    ]
+  },
+  "open_graph": {
+    "title": "Ranking de ventas por vendedor — Plantilla gratuita Sage50BI",
+    "description": "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": 1002,
+  "nombre": "Deuda por vendedor",
+  "slug": "1002-deuda-por-vendedor",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "1000-1999",
+    "nombre": "Informes y Listados",
+    "icono": "📋"
+  },
+  "descripcion": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.",
+  "descripcion_larga": "📋 Deuda por vendedor\n\nDeuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.\n\nEste informe de Sage50BI te permite obtener un listado completo con filtros \npersonalizables y exportación a Excel.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "deuda",
+    "vendedor",
+    "cobros",
+    "pendiente",
+    "informe"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "0dfa2eb0c6c6e04b3210226582ec181115fc0f9aec86fb32eedcc794ca5ce7a3",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "eeaa5f1ee59ef3a5ee63c052817b1680bd3d6ca501a55ec15bd6269e9e713b97",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Deuda por vendedor — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nDeuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "deuda",
+      "vendedor",
+      "cobros"
+    ]
+  },
+  "open_graph": {
+    "title": "Deuda por vendedor — Plantilla gratuita Sage50BI",
+    "description": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

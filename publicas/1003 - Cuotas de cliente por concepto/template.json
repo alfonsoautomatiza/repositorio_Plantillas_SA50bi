@@ -1,0 +1,76 @@
+{
+  "id": 1003,
+  "nombre": "Cuotas de cliente por concepto",
+  "slug": "1003-cuotas-de-cliente-por-concepto",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "1000-1999",
+    "nombre": "Informes y Listados",
+    "icono": "📋"
+  },
+  "descripcion": "Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.",
+  "descripcion_larga": "📋 Cuotas de cliente por concepto\n\nCuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.\n\nEste informe de Sage50BI te permite obtener un listado completo con filtros \npersonalizables y exportación a Excel.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "cuotas",
+    "cliente",
+    "conceptos",
+    "cobros",
+    "informe"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "3d21bd75050957d6e776f54f22bcc65f9b704d8660e293b73d6eace691a42ed9",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "cf758f18c0d727c93b54d034a455366ef8ef3d949ef253afd635c685461f5190",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Cuotas de cliente por concepto — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nCuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "cuotas",
+      "cliente",
+      "conceptos"
+    ]
+  },
+  "open_graph": {
+    "title": "Cuotas de cliente por concepto — Plantilla gratuita Sage50BI",
+    "description": "Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}
