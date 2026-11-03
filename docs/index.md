@@ -8,7 +8,7 @@ hide:
 <!--
 CONTRACT: Sage50BI portal — The Spreadsheet (seed b3a2cf0c)
 THESIS: The catalog as a live spreadsheet: every template is a cell that opens.
-OWN-WORLD: Teal and amber on paper-light surfaces, ruled sheet grids, column-header color bands, tabular totals; Space Grotesk display over Inter text.
+OWN-WORLD: Teal and amber on paper-light surfaces, ruled sheet grids, column-header color bands, tabular totals; platform display sans over system text.
 STORY: A Sage 50 user lands on a familiar ledger: categories read as column headers, templates as rows to open, install, adapt.
 FIRST VIEWPORT: A dark teal ruled sheet with a headline and a totals row above the fold; the four category bands below as column headers.
 FORM: The Spreadsheet, position 6 of 7 grounded directions, seed key b3a2cf0c.
@@ -27,7 +27,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 </div>
 <p class="sage-hero__requirement">Requisito: necesitas tener <strong>Sage50BI</strong> instalado en tu Sage 50 para instalar estas plantillas. <a href="https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe">Descargar Sage50BI</a></p>
 <div class="sage-hero__metrics">
-<span><strong>5</strong>plantillas listas</span>
+<span><strong>6</strong>plantillas listas</span>
 <span><strong>2</strong>packs de trabajo</span>
 <span><strong>Adaptación</strong>a medida</span>
 </div>
@@ -84,19 +84,9 @@ Todas las plantillas públicas en un vistazo: explora cada una e instálala desd
 <div class="sage-carousel" markdown="1">
 <div class="sage-carousel__track" markdown="1">
 <article class="sage-carousel__card" markdown="1">
-[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
+[![Carga de camión](img/og-4001.png)](plantillas/4001-carga-de-camion.md)
 
-### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
-[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
-
-### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
-[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
-
-### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
+### [Carga de camión](plantillas/4001-carga-de-camion.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
 [![Balance de situación](img/og-3000.png)](plantillas/3000-balance-de-situacion.md)
@@ -107,6 +97,21 @@ Todas las plantillas públicas en un vistazo: explora cada una e instálala desd
 [![Dashboard de ventas por cliente](img/og-4000.png)](plantillas/4000-dashboard-de-ventas-por-cliente.md)
 
 ### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
+
+### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
+
+### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
+
+### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
 </article>
 </div>
 </div>
@@ -146,13 +151,13 @@ Una entrada rápida al catálogo: piezas útiles para validar el valor de Sage50
 
 <div class="sage-featured-grid" markdown="1">
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#1000</span>
-### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+<span class="sage-featured-card__id">#4000</span>
+### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
 
-<p class="sage-featured-card__area">Informes y Listados</p>
-Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.
+<p class="sage-featured-card__area">Dashboard y Gráficos</p>
+Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de b...
 
-[**Ver detalle**](plantillas/1000-listado-de-clientes-espana.md)
+[**Ver detalle**](plantillas/4000-dashboard-de-ventas-por-cliente.md)
 </article>
 <article class="sage-featured-card" markdown="1">
 <span class="sage-featured-card__id">#2000</span>
@@ -173,13 +178,13 @@ Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye tota
 [**Ver detalle**](plantillas/3000-balance-de-situacion.md)
 </article>
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#4000</span>
-### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+<span class="sage-featured-card__id">#4001</span>
+### [Carga de camión](plantillas/4001-carga-de-camion.md)
 
 <p class="sage-featured-card__area">Dashboard y Gráficos</p>
-Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de b...
+Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y e...
 
-[**Ver detalle**](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+[**Ver detalle**](plantillas/4001-carga-de-camion.md)
 </article>
 </div>
 </section>
@@ -214,11 +219,12 @@ La documentación técnica sigue disponible: versión, categoría y descripción
 
 | # | Plantilla | Área | Versión | Descripción |
 |---|-----------|-----------|---------|-------------|
-| 1000 | [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Listado completo de clientes con filtros por provincia, form... |
-| 1001 | [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Listado agrupado de proveedores por provincia con totales de... |
-| 2000 | [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md) | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Facturas y Documentos | 1.0.0 | Modelo de factura profesional con desglose de líneas, IVA, r... |
+| 4001 | [Carga de camión](plantillas/4001-carga-de-camion.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Informe de carga de camión por familias a partir de albarane... |
 | 3000 | [Balance de situación](plantillas/3000-balance-de-situacion.md) | <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> Balances y Contabilidad | 1.0.0 | Balance de situación con desglose por cuentas, grupos y subg... |
 | 4000 | [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Cuadro de mando interactivo con Streamlit mostrando ventas p... |
+| 1000 | [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Listado completo de clientes con filtros por provincia, form... |
+| 2000 | [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md) | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Facturas y Documentos | 1.0.0 | Modelo de factura profesional con desglose de líneas, IVA, r... |
+| 1001 | [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Listado agrupado de proveedores por provincia con totales de... |
 </section>
 
 <section class="sage-section sage-section--split" markdown="1">
@@ -272,4 +278,4 @@ Solicita una adaptación a medida cuando tus informes o dashboards necesiten un 
 <a class="sage-button sage-button--primary" href="como-cargar.md">Solicitar una adaptación a medida</a>
 </section>
 
-*Última actualización: 2026-08-10*
+*Última actualización: 2026-11-03*

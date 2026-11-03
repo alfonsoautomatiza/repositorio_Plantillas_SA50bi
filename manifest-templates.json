@@ -1,87 +1,9 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-08-10T07:02:16.182198Z",
-  "total_plantillas": 5,
+  "fecha_generacion": "2026-11-03T22:25:19.306181Z",
+  "total_plantillas": 6,
   "total_packs": 2,
   "plantillas": [
-    {
-      "id": 1000,
-      "nombre": "Listado de clientes ESPAÑA",
-      "version": "1.0.0",
-      "tipo": "publica",
-      "categoria": "Informes y Listados",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/",
-      "archivos": {
-        "sql": {
-          "nombre": "template.sql",
-          "hash_sha256": "94ca06199adbd89c4687fcd3175ebbf9640e55a2253a3fae610a592291309326",
-          "opcional": false
-        }
-      },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
-      "youtube_url": "",
-      "recomendaciones": [],
-      "descripcion": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
-      "tags": [
-        "clientes",
-        "listado",
-        "españa",
-        "informes",
-        "sage50"
-      ]
-    },
-    {
-      "id": 1001,
-      "nombre": "Listado de proveedores por provincia",
-      "version": "1.0.0",
-      "tipo": "publica",
-      "categoria": "Informes y Listados",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/",
-      "archivos": {
-        "sql": {
-          "nombre": "template.sql",
-          "hash_sha256": "b88758722c46291ed99b1edc65e3a478f3e563426001a1a362a637a7cd388603",
-          "opcional": false
-        }
-      },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
-      "youtube_url": "",
-      "recomendaciones": [],
-      "descripcion": "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.",
-      "tags": [
-        "proveedores",
-        "listado",
-        "provincia",
-        "informes",
-        "compras"
-      ]
-    },
-    {
-      "id": 2000,
-      "nombre": "Modelo de factura con totales",
-      "version": "1.0.0",
-      "tipo": "publica",
-      "categoria": "Facturas y Documentos",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/",
-      "archivos": {
-        "sql": {
-          "nombre": "template.sql",
-          "hash_sha256": "f2e39f79838fc5792e15bb7ed66fa7c70c743cf973923574c1b533c57a7b045e",
-          "opcional": false
-        }
-      },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
-      "youtube_url": "",
-      "recomendaciones": [],
-      "descripcion": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
-      "tags": [
-        "factura",
-        "modelo",
-        "totales",
-        "iva",
-        "documentos"
-      ]
-    },
     {
       "id": 3000,
       "nombre": "Balance de situación",
@@ -133,6 +55,116 @@
         "grafico",
         "streamlit",
         "cliente"
+      ]
+    },
+    {
+      "id": 1000,
+      "nombre": "Listado de clientes ESPAÑA",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "categoria": "Informes y Listados",
+      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "hash_sha256": "94ca06199adbd89c4687fcd3175ebbf9640e55a2253a3fae610a592291309326",
+          "opcional": false
+        }
+      },
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
+      "youtube_url": "",
+      "recomendaciones": [],
+      "descripcion": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
+      "tags": [
+        "clientes",
+        "listado",
+        "españa",
+        "informes",
+        "sage50"
+      ]
+    },
+    {
+      "id": 2000,
+      "nombre": "Modelo de factura con totales",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "categoria": "Facturas y Documentos",
+      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "hash_sha256": "f2e39f79838fc5792e15bb7ed66fa7c70c743cf973923574c1b533c57a7b045e",
+          "opcional": false
+        }
+      },
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
+      "youtube_url": "",
+      "recomendaciones": [],
+      "descripcion": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
+      "tags": [
+        "factura",
+        "modelo",
+        "totales",
+        "iva",
+        "documentos"
+      ]
+    },
+    {
+      "id": 4001,
+      "nombre": "Carga de camión",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "categoria": "Dashboard y Gráficos",
+      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "hash_sha256": "93ed5b4305da65846b8073a303277a0f385f64d913fce4df749235150a2c31b5",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "hash_sha256": "9eb2f9d32c614ffd0f6834991b7918d6e076572f5f69553bf9de27bd0a3041f9",
+          "opcional": true
+        }
+      },
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/preview.png",
+      "youtube_url": "",
+      "recomendaciones": [],
+      "descripcion": "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.",
+      "tags": [
+        "informe",
+        "albaranes",
+        "familias",
+        "carga",
+        "camion",
+        "streamlit"
+      ]
+    },
+    {
+      "id": 1001,
+      "nombre": "Listado de proveedores por provincia",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "categoria": "Informes y Listados",
+      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "hash_sha256": "b88758722c46291ed99b1edc65e3a478f3e563426001a1a362a637a7cd388603",
+          "opcional": false
+        }
+      },
+      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
+      "youtube_url": "",
+      "recomendaciones": [],
+      "descripcion": "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.",
+      "tags": [
+        "proveedores",
+        "listado",
+        "provincia",
+        "informes",
+        "compras"
       ]
     }
   ],

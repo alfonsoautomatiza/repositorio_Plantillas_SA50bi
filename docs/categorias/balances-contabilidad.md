@@ -11,7 +11,7 @@ Colección de plantillas de **Balances y Contabilidad** para Sage50BI.
 
 ## 3000 — Balance de situación
 
-![Preview](../../publicas/3000%20-%20Balance de situación/preview.png)
+![Vista previa de Balance de situación](../img/og-3000.png){ loading=lazy width=1200 height=630 }
 
 Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.
 

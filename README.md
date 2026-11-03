@@ -1,6 +1,6 @@
 # 🏢 Plantillas Gratuitas para Sage50BI
 
-[![Plantillas](https://img.shields.io/badge/Plantillas-5-blue)](https://plantillas.sage50eia.com/)
+[![Plantillas](https://img.shields.io/badge/Plantillas-6-blue)](https://plantillas.sage50eia.com/)
 [![Packs](https://img.shields.io/badge/Packs-2-purple)](https://plantillas.sage50eia.com/packs/)
 [![Versión](https://img.shields.io/badge/Manifest-1.0.0-green)]()
 [![Gratis](https://img.shields.io/badge/Gratuitas-100%25-success)]()
@@ -69,6 +69,7 @@ Cada plantilla puede incluir:
 | # | Plantilla | Versión | Descripción | Tags | YouTube |
 |---|-----------|---------|-------------|------|---------|
 | 4000 | Dashboard de ventas por cliente | 1.0.0 | Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolució... | `dashboard` `ventas` `grafico` |  |
+| 4001 | Carga de camión | 1.0.0 | Informe de carga de camión por familias a partir de albaranes de venta: filtros ... | `informe` `albaranes` `familias` |  |
 
 ## 📂 Categorías
 
@@ -119,4 +120,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-08-10 07:02*
+*Generado automáticamente el 2026-11-03 22:25*

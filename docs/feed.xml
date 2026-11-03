@@ -5,27 +5,13 @@
     <link>https://plantillas.sage50eia.com/</link>
     <description>Ultimas plantillas gratuitas para Sage50BI</description>
     <language>es</language>
-    <lastBuildDate>Mon, 10 Aug 2026</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026</lastBuildDate>
     <item>
-      <title>Listado de clientes ESPAÑA</title>
-      <link>https://plantillas.sage50eia.com/plantillas/1000-listado-de-clientes-espana/</link>
-      <description>Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.</description>
-      <pubDate>2026-04-07</pubDate>
-      <category>Informes y Listados</category>
-    </item>
-    <item>
-      <title>Listado de proveedores por provincia</title>
-      <link>https://plantillas.sage50eia.com/plantillas/1001-listado-de-proveedores-por-provincia/</link>
-      <description>Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.</description>
-      <pubDate>2026-04-07</pubDate>
-      <category>Informes y Listados</category>
-    </item>
-    <item>
-      <title>Modelo de factura con totales</title>
-      <link>https://plantillas.sage50eia.com/plantillas/2000-modelo-de-factura-con-totales/</link>
-      <description>Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.</description>
-      <pubDate>2026-04-07</pubDate>
-      <category>Facturas y Documentos</category>
+      <title>Carga de camión</title>
+      <link>https://plantillas.sage50eia.com/plantillas/4001-carga-de-camion/</link>
+      <description>Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
     </item>
     <item>
       <title>Balance de situación</title>
@@ -40,6 +26,27 @@
       <description>Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.</description>
       <pubDate>2026-04-07</pubDate>
       <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
+      <title>Listado de clientes ESPAÑA</title>
+      <link>https://plantillas.sage50eia.com/plantillas/1000-listado-de-clientes-espana/</link>
+      <description>Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.</description>
+      <pubDate>2026-04-07</pubDate>
+      <category>Informes y Listados</category>
+    </item>
+    <item>
+      <title>Modelo de factura con totales</title>
+      <link>https://plantillas.sage50eia.com/plantillas/2000-modelo-de-factura-con-totales/</link>
+      <description>Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.</description>
+      <pubDate>2026-04-07</pubDate>
+      <category>Facturas y Documentos</category>
+    </item>
+    <item>
+      <title>Listado de proveedores por provincia</title>
+      <link>https://plantillas.sage50eia.com/plantillas/1001-listado-de-proveedores-por-provincia/</link>
+      <description>Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.</description>
+      <pubDate>2026-04-07</pubDate>
+      <category>Informes y Listados</category>
     </item>
   </channel>
 </rss>

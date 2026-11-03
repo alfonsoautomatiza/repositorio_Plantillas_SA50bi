@@ -13,9 +13,9 @@ Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50B
 
 | # | Nombre | Categoria | Versió | Descripció |
 |---|--------|-----------|---------|-------------|
-| 1000 | Listado de clientes ESPAÑA | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> | 1.0.0 | Listado completo de clientes con filtros por provincia, form... |
-| 1001 | Listado de proveedores por provincia | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> | 1.0.0 | Listado agrupado de proveedores por provincia con totales de... |
-| 2000 | Modelo de factura con totales | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> | 1.0.0 | Modelo de factura profesional con desglose de líneas, IVA, r... |
+| 1000 | [Listado de clientes ESPAÑA](../plantillas/1000-listado-de-clientes-espana.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> | 1.0.0 | Listado completo de clientes con filtros por provincia, form... |
+| 1001 | [Listado de proveedores por provincia](../plantillas/1001-listado-de-proveedores-por-provincia.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> | 1.0.0 | Listado agrupado de proveedores por provincia con totales de... |
+| 2000 | [Modelo de factura con totales](../plantillas/2000-modelo-de-factura-con-totales.md) | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> | 1.0.0 | Modelo de factura profesional con desglose de líneas, IVA, r... |
 
 ---
 

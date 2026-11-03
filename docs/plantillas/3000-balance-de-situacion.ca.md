@@ -1,12 +1,11 @@
 ---
 title: "Balance de situación — Plantilla gratuita Sage50BI"
 description: "Balance de situación con desglose por cuentas, grupos y subgrupos. Inclou totales de activo, pasivo y patrimonio neto."
-image: img/og-3000.png
 ---
 
 # <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> 3000 - Balance de situación
 
-![Preview](preview.png)
+![Vista previa de Balance de situación](../img/og-3000.png){ width=1200 height=630 }
 
 ## Descripció
 
