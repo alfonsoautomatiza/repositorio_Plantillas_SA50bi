@@ -18,18 +18,20 @@ corrigiendo el bug detectado y eliminando la marca del cliente Distrigonza.
 
 ## Tasks
 
-- T1 [S1] bugfix inline: fix `pd.DataFrame` kwargs — RED antes del fix.
-- T2 [S2] inline: generalizar naming en dashboard.py.
-- T3 [S3] inline: extraer SELECT → maestro privado.
-- T4 [S4] pipeline fuente: cifrado Fernet público.
-- T5 [S5] pipeline fuente: template.json vía schemas (sql + dashboard).
-- T6 [S6] pipeline fuente: preview.png.
-- T7 [S7] pipeline fuente: regenerar catálogo.
-- T8 [S8] inline: verificación completa.
-- T9 [S9] inline: commits por slices.
+- T1 [S1] bugfix inline: fix `pd.DataFrame` kwargs — RED antes del fix. ✓ commit `72daf17`
+- T2 [S2] inline: generalizar naming en dashboard.py. ✓ commit `72daf17`
+- T3 [S3] inline: extraer SELECT → maestro privado. ✓ bóveda gitignored, commit `72daf17` (cifrado)
+- T4 [S4] pipeline fuente: cifrado Fernet público. ✓ commit `72daf17` — con clave de producción (ver Log L4)
+- T5 [S5] pipeline fuente: template.json vía schemas (sql + dashboard). ✓ commit `72daf17`
+- T6 [S6] pipeline fuente: preview.png. ✓ commit `72daf17`
+- T7 [S7] pipeline fuente: regenerar catálogo. ✓ commit `04a907b`
+- T8 [S8] inline: verificación completa. ✓ 233 tests OK, verificar 6/6, hashes válidos
+- T9 [S9] inline: commits por slices. ✓ `2c01e25` (chore gitattributes), `72daf17` (feat), `04a907b` (catálogo)
 
 ## Log
 
 - L1: "retoma esto" — reanudar la plantilla 4001 - Carga camion de la sesión del 13/10 (bugs ya corregidos: pintar(df=...), filtro fechas, separadores, TXT en Windows, barra exportación).
 - L2: Decisión del usuario (ask_user_choice): "Publicar como pública genérica" — renombrar distrigonza → carga de camión, quitar marca del cliente, template.json + SQL cifrado + preview, regenerar catálogo y commitear.
 - L3: Hallazgo durante revisión: credencial `clavevista` en `[INFORME]` del cuadro INI — no publicar el INI, solo la SELECT.
+- L4: Hallazgo crítico de cifrado: las plantillas publicadas (1000-4000) NO descifran con la clave actual de `mislibrerias/libwertyconfig.py` (ni con el fallback de `cifrado.py`). La clave de producción es la `_FERNET_SEED` de `libwertyconfig.py.old` (misma que compila el `.pyd` desde `pipx/pydobj/.../libwertyconfig.c`). Se re-cifró 4001 con esa clave y se verificó round-trip de las 6 plantillas contra sus maestros.
+- L5: Verificación final: pytest fuente 233 passed; `verificar` 6/6 OK; hashes sha256 válidos; maestro dashboard.py compila. Commits en `feat/4001-carga-camion`: `2c01e25`, `72daf17`, `04a907b`. Push y release quedan como decisión del usuario (CSV/manifest-tienda se generan en el release).
