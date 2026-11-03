@@ -1,6 +1,6 @@
 ## Sage50BI — Catálogo de Plantillas v1.0.0
 
-**Fecha:** 2026-04-07 | **Total:** 5 plantillas, 2 packs
+**Fecha:** 2026-11-03 | **Total:** 6 plantillas, 2 packs
 
 ### 📊 Resumen por categoría
 
@@ -9,7 +9,7 @@
 | 📋 Informes y Listados | 2 |
 | 🧾 Facturas y Documentos | 1 |
 | 📊 Balances y Contabilidad | 1 |
-| 📈 Dashboard y Gráficos | 1 |
+| 📈 Dashboard y Gráficos | 2 |
 
 ### 📋 Detalle de plantillas
 
@@ -37,6 +37,7 @@
 | ID | Nombre | Versión | Descripción |
 |----|--------|---------|-------------|
 | 4000 | Dashboard de ventas por cliente | 1.0.0 | Cuadro de mando interactivo con Streamlit mostrando ventas… |
+| 4001 | Carga de camión | 1.0.0 | Informe de carga de camión por familias a partir de albaran… |
 
 ### 📦 Packs disponibles
 
@@ -49,8 +50,8 @@
 
 ```bash
 # Descargar manifest de la tienda
-curl -L -o manifest-tienda.json https://github.com/wertyMSD/repositorio_Sage50bi/releases/download/v1.0.0/manifest-tienda.json
+curl -L -o manifest-tienda.json https://github.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/releases/download/v1.0.0/manifest-tienda.json
 
 # Descargar CSV de plantillas
-curl -L -o plantillas.csv https://github.com/wertyMSD/repositorio_Sage50bi/releases/download/v1.0.0/plantillas.csv
+curl -L -o plantillas.csv https://github.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/releases/download/v1.0.0/plantillas.csv
 ```

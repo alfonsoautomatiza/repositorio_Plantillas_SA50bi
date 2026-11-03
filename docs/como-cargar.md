@@ -6,7 +6,7 @@ description: "Guía de uso del catálogo de plantillas dentro de Sage50BI: qué 
 # Cómo se carga en Sage50BI
 
 !!! warning "Requisito previo"
-    Antes de instalar cualquier plantilla necesitas tener **Sage50BI** instalado en tu Sage 50. [Descargar Sage50BI](https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe).
+    Antes de instalar cualquier plantilla necesitas tener **Sage50BI** instalado en tu Sage 50. [Descargar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe).
 
 ## ¿Qué es Sage50BI?
 

@@ -25,7 +25,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <a class="sage-button sage-button--primary" href="#cataleg-tecnic-ultimes-plantilles">Veure catàleg de plantilles</a>
 <a class="sage-button sage-button--secondary" href="#contacto">Sol·licitar una adaptació a mida</a>
 </div>
-<p class="sage-hero__requirement">Requisit: necessites tenir <strong>Sage50BI</strong> instal·lat al teu Sage 50 per instal·lar aquestes plantilles. <a href="https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe">Descarregar Sage50BI</a></p>
+<p class="sage-hero__requirement">Requisit: necessites tenir <strong>Sage50BI</strong> instal·lat al teu Sage 50 per instal·lar aquestes plantilles. <a href="https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe">Descarregar Sage50BI</a></p>
 <div class="sage-hero__metrics">
 <span><strong>6</strong>plantilles llestes</span>
 <span><strong>2</strong>paquets de treball</span>
@@ -247,7 +247,7 @@ Entra per l'àrea que vulguis millorar primer i baixa al detall de cada plantill
 <span>1</span>
 ### Descarrega Sage50BI
 
-Instal·la Sage50BI al teu Sage 50 si encara no el tens: és el requisit previ per poder instal·lar qualsevol plantilla. [Descarregar Sage50BI](https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe)
+Instal·la Sage50BI al teu Sage 50 si encara no el tens: és el requisit previ per poder instal·lar qualsevol plantilla. [Descarregar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe)
 </article>
 <article class="sage-step" markdown="1">
 <span>2</span>

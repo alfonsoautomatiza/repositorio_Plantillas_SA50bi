@@ -120,4 +120,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-11-03 22:25*
+*Generado automáticamente el 2026-11-03 22:58*

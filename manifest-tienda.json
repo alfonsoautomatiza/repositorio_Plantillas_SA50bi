@@ -1,7 +1,7 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-04-07T22:57:33.865693Z",
-  "total_plantillas": 5,
+  "fecha_generacion": "2026-11-03T23:00:51.999175Z",
+  "total_plantillas": 6,
   "total_packs": 2,
   "plantillas": [
     {
@@ -22,7 +22,7 @@
         "informes",
         "sage50"
       ],
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
       "youtube_url": "",
       "sage50bi_min_version": "1.0.0",
       "fecha_actualizacion": "2026-04-07",
@@ -53,7 +53,7 @@
         "informes",
         "compras"
       ],
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
       "youtube_url": "",
       "sage50bi_min_version": "1.0.0",
       "fecha_actualizacion": "2026-04-07",
@@ -84,7 +84,7 @@
         "iva",
         "documentos"
       ],
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
       "youtube_url": "",
       "sage50bi_min_version": "1.0.0",
       "fecha_actualizacion": "2026-04-07",
@@ -116,7 +116,7 @@
         "activo",
         "pasivo"
       ],
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/preview.png",
       "youtube_url": "",
       "sage50bi_min_version": "1.0.0",
       "fecha_actualizacion": "2026-04-07",
@@ -147,7 +147,7 @@
         "streamlit",
         "cliente"
       ],
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/preview.png",
       "youtube_url": "",
       "sage50bi_min_version": "1.0.0",
       "fecha_actualizacion": "2026-04-07",
@@ -157,6 +157,44 @@
           "cifrado": true,
           "hash_sha256": "30be6fab8efef52d89ed79522c8d8445549448896844f02aa5559346860935b6",
           "opcional": false
+        }
+      }
+    },
+    {
+      "id": 4001,
+      "nombre": "Carga de camión",
+      "slug": "4001-carga-de-camion",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Dashboard y Gráficos",
+      "categoria_icono": "📈",
+      "descripcion": "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.",
+      "descripcion_corta": "Informe de carga de camión por familias a partir de albaranes de venta: filtros…",
+      "tags": [
+        "informe",
+        "albaranes",
+        "familias",
+        "carga",
+        "camion",
+        "streamlit"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "93ed5b4305da65846b8073a303277a0f385f64d913fce4df749235150a2c31b5",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "9eb2f9d32c614ffd0f6834991b7918d6e076572f5f69553bf9de27bd0a3041f9",
+          "opcional": true
         }
       }
     }

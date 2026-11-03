@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-03T22:25:19.306181Z",
+  "fecha_generacion": "2026-11-03T22:58:45.779240Z",
   "total_plantillas": 6,
   "total_packs": 2,
   "plantillas": [
@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "Balances y Contabilidad",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -18,7 +18,7 @@
           "opcional": false
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/3000%20-%20Balance%20de%20situaci%C3%B3n/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.",
@@ -37,7 +37,7 @@
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "Dashboard y Gráficos",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -45,7 +45,7 @@
           "opcional": false
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4000%20-%20Dashboard%20de%20ventas%20por%20cliente/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.",
@@ -63,7 +63,7 @@
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "Informes y Listados",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -71,7 +71,7 @@
           "opcional": false
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1000%20-%20Listado%20de%20clientes%20ESPA%C3%91A/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
@@ -89,7 +89,7 @@
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "Facturas y Documentos",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -97,7 +97,7 @@
           "opcional": false
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/2000%20-%20Modelo%20de%20factura%20con%20totales/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
@@ -115,7 +115,7 @@
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "Dashboard y Gráficos",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -128,7 +128,7 @@
           "opcional": true
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4001%20-%20Carga%20de%20cami%C3%B3n/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.",
@@ -147,7 +147,7 @@
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "Informes y Listados",
-      "url_base": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -155,7 +155,7 @@
           "opcional": false
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/wertyMSD/repositorio_Sage50bi/main/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1001%20-%20Listado%20de%20proveedores%20por%20provincia/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.",

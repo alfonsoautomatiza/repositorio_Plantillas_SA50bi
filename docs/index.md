@@ -25,7 +25,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <a class="sage-button sage-button--primary" href="#catalogo-tecnico-ultimas-plantillas">Ver catálogo de plantillas</a>
 <a class="sage-button sage-button--secondary" href="#contacto">Solicitar una adaptación a medida</a>
 </div>
-<p class="sage-hero__requirement">Requisito: necesitas tener <strong>Sage50BI</strong> instalado en tu Sage 50 para instalar estas plantillas. <a href="https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe">Descargar Sage50BI</a></p>
+<p class="sage-hero__requirement">Requisito: necesitas tener <strong>Sage50BI</strong> instalado en tu Sage 50 para instalar estas plantillas. <a href="https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe">Descargar Sage50BI</a></p>
 <div class="sage-hero__metrics">
 <span><strong>6</strong>plantillas listas</span>
 <span><strong>2</strong>packs de trabajo</span>
@@ -247,7 +247,7 @@ Entra por el área que quieras mejorar primero y baja al detalle de cada plantil
 <span>1</span>
 ### Descarga Sage50BI
 
-Instala Sage50BI en tu Sage 50 si todavía no lo tienes: es el requisito previo para poder instalar cualquier plantilla. [Descargar Sage50BI](https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe)
+Instala Sage50BI en tu Sage 50 si todavía no lo tienes: es el requisito previo para poder instalar cualquier plantilla. [Descargar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe)
 </article>
 <article class="sage-step" markdown="1">
 <span>2</span>
