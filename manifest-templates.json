@@ -1,9 +1,45 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-03T23:11:57.097638Z",
-  "total_plantillas": 13,
+  "fecha_generacion": "2026-11-03T23:30:45.193530Z",
+  "total_plantillas": 14,
   "total_packs": 2,
   "plantillas": [
+    {
+      "id": 4006,
+      "nombre": "Informe de actividad comercial",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "categoria": "Dashboard y Gráficos",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4006%20-%20Informe%20de%20actividad%20comercial/",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "hash_sha256": "71b42ed880e1bae7a4157e555cb533a900cb88825d56c518246b12b11a47dbab",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "hash_sha256": "7a94e4e541826cfdea507821b29d207aa354cd4d594eb1950418055e14400d02",
+          "opcional": true
+        },
+        "nucleo": {
+          "nombre": "informes_ssm_core.cp313-win_amd64.pyd",
+          "hash_sha256": "",
+          "opcional": true
+        }
+      },
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4006%20-%20Informe%20de%20actividad%20comercial/preview.png",
+      "youtube_url": "",
+      "recomendaciones": [],
+      "descripcion": "Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.",
+      "tags": [
+        "actividad",
+        "comercial",
+        "crm",
+        "clientes",
+        "informe"
+      ]
+    },
     {
       "id": 1004,
       "nombre": "Deuda y plazo medio por vendedor",

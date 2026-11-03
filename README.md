@@ -1,6 +1,6 @@
 # 🏢 Plantillas Gratuitas para Sage50BI
 
-[![Plantillas](https://img.shields.io/badge/Plantillas-13-blue)](https://plantillas.sage50eia.com/)
+[![Plantillas](https://img.shields.io/badge/Plantillas-14-blue)](https://plantillas.sage50eia.com/)
 [![Packs](https://img.shields.io/badge/Packs-2-purple)](https://plantillas.sage50eia.com/packs/)
 [![Versión](https://img.shields.io/badge/Manifest-1.0.0-green)]()
 [![Gratis](https://img.shields.io/badge/Gratuitas-100%25-success)]()
@@ -77,6 +77,7 @@ Cada plantilla puede incluir:
 | 4003 | Ranking de ventas por vendedor | 1.0.0 | Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido s... | `ventas` `vendedores` `ranking` |  |
 | 4004 | Rentabilidad de albaranes por lote | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio ... | `rentabilidad` `albaranes` `lotes` |  |
 | 4005 | Detalle de carga de camión | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, u... | `carga` `camion` `albaranes` |  |
+| 4006 | Informe de actividad comercial | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CRM: actividades por c... | `actividad` `comercial` `crm` |  |
 
 ## 📂 Categorías
 
@@ -127,4 +128,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-11-03 23:11*
+*Generado automáticamente el 2026-11-03 23:30*

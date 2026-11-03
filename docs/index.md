@@ -27,7 +27,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 </div>
 <p class="sage-hero__requirement">Requisito: necesitas tener <strong>Sage50BI</strong> instalado en tu Sage 50 para instalar estas plantillas. <a href="https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe">Descargar Sage50BI</a></p>
 <div class="sage-hero__metrics">
-<span><strong>13</strong>plantillas listas</span>
+<span><strong>14</strong>plantillas listas</span>
 <span><strong>2</strong>packs de trabajo</span>
 <span><strong>Adaptación</strong>a medida</span>
 </div>
@@ -83,6 +83,11 @@ Todas las plantillas públicas en un vistazo: explora cada una e instálala desd
 
 <div class="sage-carousel" markdown="1">
 <div class="sage-carousel__track" markdown="1">
+<article class="sage-carousel__card" markdown="1">
+[![Informe de actividad comercial](img/og-4006.png)](plantillas/4006-informe-de-actividad-comercial.md)
+
+### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
+</article>
 <article class="sage-carousel__card" markdown="1">
 [![Deuda y plazo medio por vendedor](img/og-1004.png)](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 
@@ -213,13 +218,13 @@ Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye tota
 [**Ver detalle**](plantillas/3000-balance-de-situacion.md)
 </article>
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#4005</span>
-### [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md)
+<span class="sage-featured-card__id">#4006</span>
+### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
 
 <p class="sage-featured-card__area">Dashboard y Gráficos</p>
-Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.
+Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y super...
 
-[**Ver detalle**](plantillas/4005-detalle-de-carga-de-camion.md)
+[**Ver detalle**](plantillas/4006-informe-de-actividad-comercial.md)
 </article>
 </div>
 </section>
@@ -254,12 +259,12 @@ La documentación técnica sigue disponible: versión, categoría y descripción
 
 | # | Plantilla | Área | Versión | Descripción |
 |---|-----------|-----------|---------|-------------|
+| 4006 | [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CR... |
 | 1004 | [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Deuda pendiente y plazo medio de cobro por vendedor y mes, c... |
 | 1003 | [Cuotas de cliente por concepto](plantillas/1003-cuotas-de-cliente-por-concepto.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Cuotas vigentes por cliente y concepto: fechas de vigencia, ... |
 | 4005 | [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán d... |
 | 4004 | [Rentabilidad de albaranes por lote](plantillas/4004-rentabilidad-de-albaranes-por-lote.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: importe... |
 | 4002 | [Ventas y descuentos por artículo](plantillas/4002-ventas-y-descuentos-por-articulo.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Ventas de albaranes por familia, artículo, cliente y vendedo... |
-| 1002 | [Deuda por vendedor](plantillas/1002-deuda-por-vendedor.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Deuda pendiente de cobro por vendedor con el porcentaje que ... |
 </section>
 
 <section class="sage-section sage-section--split" markdown="1">
