@@ -30,7 +30,7 @@
     "dashboard": {
       "nombre": "dashboard.py",
       "cifrado": true,
-      "hash_sha256": "9eb2f9d32c614ffd0f6834991b7918d6e076572f5f69553bf9de27bd0a3041f9",
+      "hash_sha256": "346c1b00d60be71ad4b51ad90dc402501abf979b607bbd33e8409657989445b3",
       "opcional": true
     }
   },
