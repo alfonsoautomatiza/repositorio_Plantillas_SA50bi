@@ -35,3 +35,31 @@ usuario (2026-11-03).
 
 - L1: "estudiar si es viable que esto esté en la pública con toda la lógica que tiene para que aparezca en el portal, pero encriptado en pyd la parte de código; hazme las preguntas que te surgan" — estudio hecho, viable; decisiones D1-D4 del usuario.
 - L2: Origen: `clientes personalizado/fm_barrancos` (informe_comercial.py 751 líneas + bistream.py 371, apiforce; sin strings "barranco" en código; branding solo en carpeta/proyecto).
+
+## Instrucciones pendientes del usuario (T5)
+
+### A) Compilar el núcleo .pyd (Windows, Python 3.13 x64)
+1. Copiar `repositorio_Sage50bi_fuente/privado_mantenimiento/4006 - Informe de actividad comercial/informes_ssm_core.py` a una carpeta de trabajo.
+2. Crear `setup.py` junto a él:
+   ```python
+   from setuptools import setup
+   from Cython.Build import cythonize
+   setup(ext_modules=cythonize("informes_ssm_core.py", compiler_directives={"language_level": 3}))
+   ```
+3. `python -m pip install cython setuptools` y `python setup.py build_ext --inplace`
+   → genera `informes_ssm_core.cp313-win_amd64.pyd`.
+4. Cifrarlo y añadirlo a la plantilla (con el venv del fuente):
+   ```python
+   from upplantillas.gestion.cifrado import cifrar_archivo_publico
+   h = cifrar_archivo_publico(ruta_pyd, ruta/"publicas/4006 - Informe de actividad comercial/informes_ssm_core.cp313-win_amd64.pyd")
+   # y actualizar archivos.nucleo.hash_sha256 = h en template.json
+   ```
+
+### B) Host Sage50BI (repo producto)
+- Añadir `apiforce` y `cryptutil` (rutas internas werty) a `pyproject.toml`/instalador y regenerar el instalador.
+- Opcional: fijar `SAGE50BI_DATOS` al lanzar cuadros para que las credenciales de la plantilla caigan en la raíz de datos del producto (la cáscara ya lo respeta; si no, usa ~/.informes_ssm).
+- No hace falta cambiar el runner: la cáscara inserta su propia carpeta en sys.path e importa el núcleo.
+
+## Log (adicional)
+
+- L3: Implementado: formato nucleo en fuente (2b4d6c5 pushed, 251 tests), app genérica núcleo+cáscara (408+598 líneas, sin branding, degradación elegante sin núcleo ni apiforce), 4006 empaquetada (SQL placeholder, 2 blobs round-trip OK, nucleo opcional sin binario), catálogo a 14 (96eca28, 01b5bbe local). Verificación: 23 blobs OK/0 fallos, verificar 14/14, 0 URLs muertas, 0 barranco, smoke Streamlit headless http 200 sin tracebacks.
