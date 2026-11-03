@@ -1,0 +1,77 @@
+{
+  "id": 4001,
+  "nombre": "Carga de camión",
+  "slug": "4001-carga-de-camion",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "4000-4999",
+    "nombre": "Dashboard y Gráficos",
+    "icono": "📈"
+  },
+  "descripcion": "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.",
+  "descripcion_larga": "📈 Carga de camión\n\nInforme de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.\n\nCuadro de mando interactivo con Streamlit para Sage50BI. Visualiza \ntus datos en tiempo real con gráficos dinámicos.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "informe",
+    "albaranes",
+    "familias",
+    "carga",
+    "camion",
+    "streamlit"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "93ed5b4305da65846b8073a303277a0f385f64d913fce4df749235150a2c31b5",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "9eb2f9d32c614ffd0f6834991b7918d6e076572f5f69553bf9de27bd0a3041f9",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Carga de camión — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nInforme de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://wertymsd.github.io/repositorio_Sage50bi/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "informe",
+      "albaranes",
+      "familias"
+    ]
+  },
+  "open_graph": {
+    "title": "Carga de camión — Plantilla gratuita Sage50BI",
+    "description": "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y ",
+    "image": "preview.png",
+    "type": "article"
+  }
+}
