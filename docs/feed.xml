@@ -7,6 +7,55 @@
     <language>es</language>
     <lastBuildDate>Tue, 03 Nov 2026</lastBuildDate>
     <item>
+      <title>Deuda y plazo medio por vendedor</title>
+      <link>https://plantillas.sage50eia.com/plantillas/1004-deuda-y-plazo-medio-por-vendedor/</link>
+      <description>Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Informes y Listados</category>
+    </item>
+    <item>
+      <title>Cuotas de cliente por concepto</title>
+      <link>https://plantillas.sage50eia.com/plantillas/1003-cuotas-de-cliente-por-concepto/</link>
+      <description>Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Informes y Listados</category>
+    </item>
+    <item>
+      <title>Detalle de carga de camión</title>
+      <link>https://plantillas.sage50eia.com/plantillas/4005-detalle-de-carga-de-camion/</link>
+      <description>Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
+      <title>Rentabilidad de albaranes por lote</title>
+      <link>https://plantillas.sage50eia.com/plantillas/4004-rentabilidad-de-albaranes-por-lote/</link>
+      <description>Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
+      <title>Ventas y descuentos por artículo</title>
+      <link>https://plantillas.sage50eia.com/plantillas/4002-ventas-y-descuentos-por-articulo/</link>
+      <description>Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
+      <title>Deuda por vendedor</title>
+      <link>https://plantillas.sage50eia.com/plantillas/1002-deuda-por-vendedor/</link>
+      <description>Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Informes y Listados</category>
+    </item>
+    <item>
+      <title>Ranking de ventas por vendedor</title>
+      <link>https://plantillas.sage50eia.com/plantillas/4003-ranking-de-ventas-por-vendedor/</link>
+      <description>Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
       <title>Carga de camión</title>
       <link>https://plantillas.sage50eia.com/plantillas/4001-carga-de-camion/</link>
       <description>Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.</description>

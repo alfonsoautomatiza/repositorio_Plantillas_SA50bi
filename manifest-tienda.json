@@ -1,7 +1,7 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-03T23:00:51.999175Z",
-  "total_plantillas": 6,
+  "fecha_generacion": "2026-11-03T23:11:57.153310Z",
+  "total_plantillas": 13,
   "total_packs": 2,
   "plantillas": [
     {
@@ -63,6 +63,117 @@
           "cifrado": true,
           "hash_sha256": "b88758722c46291ed99b1edc65e3a478f3e563426001a1a362a637a7cd388603",
           "opcional": false
+        }
+      }
+    },
+    {
+      "id": 1002,
+      "nombre": "Deuda por vendedor",
+      "slug": "1002-deuda-por-vendedor",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Informes y Listados",
+      "categoria_icono": "📋",
+      "descripcion": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.",
+      "descripcion_corta": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la…",
+      "tags": [
+        "deuda",
+        "vendedor",
+        "cobros",
+        "pendiente",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1002%20-%20Deuda%20por%20vendedor/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "0dfa2eb0c6c6e04b3210226582ec181115fc0f9aec86fb32eedcc794ca5ce7a3",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "eeaa5f1ee59ef3a5ee63c052817b1680bd3d6ca501a55ec15bd6269e9e713b97",
+          "opcional": true
+        }
+      }
+    },
+    {
+      "id": 1003,
+      "nombre": "Cuotas de cliente por concepto",
+      "slug": "1003-cuotas-de-cliente-por-concepto",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Informes y Listados",
+      "categoria_icono": "📋",
+      "descripcion": "Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.",
+      "descripcion_corta": "Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de c…",
+      "tags": [
+        "cuotas",
+        "cliente",
+        "conceptos",
+        "cobros",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1003%20-%20Cuotas%20de%20cliente%20por%20concepto/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "3d21bd75050957d6e776f54f22bcc65f9b704d8660e293b73d6eace691a42ed9",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "cf758f18c0d727c93b54d034a455366ef8ef3d949ef253afd635c685461f5190",
+          "opcional": true
+        }
+      }
+    },
+    {
+      "id": 1004,
+      "nombre": "Deuda y plazo medio por vendedor",
+      "slug": "1004-deuda-y-plazo-medio-por-vendedor",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Informes y Listados",
+      "categoria_icono": "📋",
+      "descripcion": "Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.",
+      "descripcion_corta": "Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entr…",
+      "tags": [
+        "deuda",
+        "vendedor",
+        "plazo",
+        "cobros",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/1004%20-%20Deuda%20y%20plazo%20medio%20por%20vendedor/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "9479045353b278af5cb7dfe076365a9fd918c9ca2bdf9db976f1559e0bbb4ec3",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "a89538a1d93160ba37b908dff054f823b142133ad84913197a7af69ae067ead9",
+          "opcional": true
         }
       }
     },
@@ -193,7 +304,155 @@
         "dashboard": {
           "nombre": "dashboard.py",
           "cifrado": true,
-          "hash_sha256": "9eb2f9d32c614ffd0f6834991b7918d6e076572f5f69553bf9de27bd0a3041f9",
+          "hash_sha256": "346c1b00d60be71ad4b51ad90dc402501abf979b607bbd33e8409657989445b3",
+          "opcional": true
+        }
+      }
+    },
+    {
+      "id": 4002,
+      "nombre": "Ventas y descuentos por artículo",
+      "slug": "4002-ventas-y-descuentos-por-articulo",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Dashboard y Gráficos",
+      "categoria_icono": "📈",
+      "descripcion": "Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.",
+      "descripcion_corta": "Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y co…",
+      "tags": [
+        "ventas",
+        "descuentos",
+        "albaranes",
+        "familias",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4002%20-%20Ventas%20y%20descuentos%20por%20art%C3%ADculo/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "abebb6d08f6d651450fab87e549fa574174417cb9b50502ce31ab4e15373d57d",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "995ef9d929c447a5150aa5e56fe9ce2991084b2ea10e40e856ed21cc96b4afa2",
+          "opcional": true
+        }
+      }
+    },
+    {
+      "id": 4003,
+      "nombre": "Ranking de ventas por vendedor",
+      "slug": "4003-ranking-de-ventas-por-vendedor",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Dashboard y Gráficos",
+      "categoria_icono": "📈",
+      "descripcion": "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.",
+      "descripcion_corta": "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido…",
+      "tags": [
+        "ventas",
+        "vendedores",
+        "ranking",
+        "pedidos",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4003%20-%20Ranking%20de%20ventas%20por%20vendedor/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "a35d7d0fd23104a7347b3f371c2429b93eab03e75fc71780fa214f022eba672e",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "683e6a46c43df52be7fed4987417ac3d15584eddf7d7707d2077f6b757ee1a2e",
+          "opcional": true
+        }
+      }
+    },
+    {
+      "id": 4004,
+      "nombre": "Rentabilidad de albaranes por lote",
+      "slug": "4004-rentabilidad-de-albaranes-por-lote",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Dashboard y Gráficos",
+      "categoria_icono": "📈",
+      "descripcion": "Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.",
+      "descripcion_corta": "Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio…",
+      "tags": [
+        "rentabilidad",
+        "albaranes",
+        "lotes",
+        "costes",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4004%20-%20Rentabilidad%20de%20albaranes%20por%20lote/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "8da969befb3af3f0105f2d0bf467484c339baa8f928df185cffa8b3f6f39e787",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "1682b105a98a3058399a9a6e9eed2001e852e093b9afffb6565253c3e413df1c",
+          "opcional": true
+        }
+      }
+    },
+    {
+      "id": 4005,
+      "nombre": "Detalle de carga de camión",
+      "slug": "4005-detalle-de-carga-de-camion",
+      "version": "1.0.0",
+      "tipo": "publica",
+      "gratuita": true,
+      "categoria": "Dashboard y Gráficos",
+      "categoria_icono": "📈",
+      "descripcion": "Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.",
+      "descripcion_corta": "Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo,…",
+      "tags": [
+        "carga",
+        "camion",
+        "albaranes",
+        "etiquetas",
+        "informe"
+      ],
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4005%20-%20Detalle%20de%20carga%20de%20cami%C3%B3n/preview.png",
+      "youtube_url": "",
+      "sage50bi_min_version": "1.0.0",
+      "fecha_actualizacion": "2026-11-03",
+      "archivos": {
+        "sql": {
+          "nombre": "template.sql",
+          "cifrado": true,
+          "hash_sha256": "32466ab61afb21833a2435d3779fdbd72459f6577a7086336ff8a008e1dced8b",
+          "opcional": false
+        },
+        "dashboard": {
+          "nombre": "dashboard.py",
+          "cifrado": true,
+          "hash_sha256": "82218bd8215f20b1087b03997d90801d78ea2d2cdeffd6bde2d20cad07efecf0",
           "opcional": true
         }
       }
