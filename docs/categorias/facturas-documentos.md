@@ -11,7 +11,7 @@ Colección de plantillas de **Facturas y Documentos** para Sage50BI.
 
 ## 2000 — Modelo de factura con totales
 
-![Preview](../../publicas/2000%20-%20Modelo de factura con totales/preview.png)
+![Vista previa de Modelo de factura con totales](../img/og-2000.png){ loading=lazy width=1200 height=630 }
 
 Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.
 

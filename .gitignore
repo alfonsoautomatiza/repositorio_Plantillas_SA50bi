@@ -55,3 +55,9 @@ nul
 
 # ── Agent Teams Lite ──
 .atl/
+
+# ── Config local de herramientas de agente ──
+.claude/
+
+# Internal development notes (never published)
+odd/

@@ -1,12 +1,11 @@
 ---
 title: "Listado de clientes ESPAÑA — Plantilla gratuita Sage50BI"
 description: "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados."
-image: img/og-1000.png
 ---
 
 # <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> 1000 - Listado de clientes ESPAÑA
 
-![Preview](preview.png)
+![Vista previa de Listado de clientes ESPAÑA](../img/og-1000.png){ width=1200 height=630 }
 
 ## Descripción
 

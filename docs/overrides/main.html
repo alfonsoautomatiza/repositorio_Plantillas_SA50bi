@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+  {% set alternates = config.extra.alternate %}
+  {% set _ = config.extra.update({"alternate": none}) %}
+  {{ super() }}
+  {% set _ = config.extra.update({"alternate": alternates}) %}
+{% endblock %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% if page and page.meta and page.meta.robots %}
+    <meta name="robots" content="{{ page.meta.robots }}">
+  {% endif %}
+{% endblock %}

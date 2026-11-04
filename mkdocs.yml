@@ -1,12 +1,14 @@
 site_name: Catálogo Sage50BI
 site_url: https://plantillas.sage50eia.com/
-repo_url: https://github.com/wertyMSD/repositorio_Sage50bi
+site_description: 'Catálogo de plantillas gratuitas para Sage50BI'
+repo_url: https://github.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi
 repo_name: repositorio_Sage50bi
 copyright: 'Copyright &copy; Sage50BI'
 
 # Configuración de tema Material
 theme:
   name: material
+  custom_dir: docs/overrides
   language: es
   locale: es
   palette:
@@ -35,9 +37,7 @@ theme:
     - content.footnote.tooltips
   icon:
     repo: fontawesome/brands/github
-  font:
-    text: Inter
-    code: Space Mono
+  font: false
 
 # Extensiones de Markdown
 markdown_extensions:
@@ -68,9 +68,7 @@ markdown_extensions:
       repo_url_shorthand: true
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -84,8 +82,36 @@ markdown_extensions:
 
 # Plugins
 plugins:
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: es
+          name: Español
+          default: true
+          build: true
+          nav_translations:
+            Inicio: Inicio
+            Plantillas: Plantillas
+            Packs: Packs
+            Cómo se carga en Sage50BI: Cómo se carga en Sage50BI
+        - locale: ca
+          name: Català
+          build: true
+          site_name: Catàleg Sage50BI
+          site_description: 'Catàleg de plantilles gratuïtes per a Sage50BI'
+          nav_translations:
+            Inicio: Inici
+            Plantillas: Plantilles
+            Packs: Paquets
+            Cómo se carga en Sage50BI: Com es carrega a Sage50BI
   - search:
-      lang: [es, ca]
+      lang: es
+  - social
+  - optimize:
+      optimize_png: false
   - rss:
       match_path: plantillas/*.md
       feed_title: Plantillas Sage50BI — Novedades
@@ -113,29 +139,12 @@ nav:
       - Contabilidad Completa: packs/pack-contabilidad-completa.md
   - Cómo se carga en Sage50BI: como-cargar.md
 
-# Extra CSS y JavaScript
+# Extra CSS
 extra_css:
   - stylesheets/sage50bi-portal.css
-extra_javascript:
-  - js/extra.js
 
-# Configuración de i18n (mkdocs-static-i18n)
-i18n:
-  default_language: es
-  languages:
-    es: Español
-    ca: Català
-  nav_translations:
-    es:
-      Inicio: Inicio
-      Plantillas: Plantillas
-      Packs: Packs
-      Cómo se carga en Sage50BI: Cómo se carga en Sage50BI
-    ca:
-      Inicio: Inici
-      Plantillas: Plantilles
-      Packs: Paquets
-      Cómo se carga en Sage50BI: Com es carrega a Sage50BI
+# Never publish customer documentation, even if stale files remain in docs/
+exclude_docs: privadas/
 
 # Validación estricta (opcional, para CI)
 strict: false

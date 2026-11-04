@@ -1,0 +1,76 @@
+{
+  "id": 4002,
+  "nombre": "Ventas y descuentos por artículo",
+  "slug": "4002-ventas-y-descuentos-por-articulo",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "4000-4999",
+    "nombre": "Dashboard y Gráficos",
+    "icono": "📈"
+  },
+  "descripcion": "Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.",
+  "descripcion_larga": "📈 Ventas y descuentos por artículo\n\nVentas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.\n\nCuadro de mando interactivo con Streamlit para Sage50BI. Visualiza \ntus datos en tiempo real con gráficos dinámicos.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "ventas",
+    "descuentos",
+    "albaranes",
+    "familias",
+    "informe"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "abebb6d08f6d651450fab87e549fa574174417cb9b50502ce31ab4e15373d57d",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "995ef9d929c447a5150aa5e56fe9ce2991084b2ea10e40e856ed21cc96b4afa2",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Ventas y descuentos por artículo — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nVentas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "ventas",
+      "descuentos",
+      "albaranes"
+    ]
+  },
+  "open_graph": {
+    "title": "Ventas y descuentos por artículo — Plantilla gratuita Sage50BI",
+    "description": "Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

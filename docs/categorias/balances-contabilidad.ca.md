@@ -11,12 +11,12 @@ Colección de plantilles de **Balanços i Comptabilitat** per a Sage50BI.
 
 ## 3000 — Balance de situación
 
-![Preview](../../publicas/3000%20-%20Balance de situación/preview.png)
+![Vista previa de Balance de situación](../img/og-3000.png){ loading=lazy width=1200 height=630 }
 
 Balance de situación con desglose por cuentas, grupos y subgrupos. Inclou totales de activo, pasivo y patrimonio neto.
 
 **Versió:** 1.0.0 | **Tags:** `balance` `situacion` `contabilidad` `cuentas`
 
-[📄 Veure detall](../plantilles/3000-balance-de-situacion.md)
+[📄 Veure detall](../plantillas/3000-balance-de-situacion.md)
 
 ---

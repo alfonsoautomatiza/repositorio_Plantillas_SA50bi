@@ -1,0 +1,76 @@
+{
+  "id": 4004,
+  "nombre": "Rentabilidad de albaranes por lote",
+  "slug": "4004-rentabilidad-de-albaranes-por-lote",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "4000-4999",
+    "nombre": "Dashboard y Gráficos",
+    "icono": "📈"
+  },
+  "descripcion": "Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.",
+  "descripcion_larga": "📈 Rentabilidad de albaranes por lote\n\nRentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.\n\nCuadro de mando interactivo con Streamlit para Sage50BI. Visualiza \ntus datos en tiempo real con gráficos dinámicos.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "rentabilidad",
+    "albaranes",
+    "lotes",
+    "costes",
+    "informe"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "8da969befb3af3f0105f2d0bf467484c339baa8f928df185cffa8b3f6f39e787",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "1682b105a98a3058399a9a6e9eed2001e852e093b9afffb6565253c3e413df1c",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Rentabilidad de albaranes por lote — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nRentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "rentabilidad",
+      "albaranes",
+      "lotes"
+    ]
+  },
+  "open_graph": {
+    "title": "Rentabilidad de albaranes por lote — Plantilla gratuita Sage50BI",
+    "description": "Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

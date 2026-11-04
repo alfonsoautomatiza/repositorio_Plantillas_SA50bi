@@ -1,0 +1,76 @@
+{
+  "id": 4005,
+  "nombre": "Detalle de carga de camión",
+  "slug": "4005-detalle-de-carga-de-camion",
+  "version": "1.0.0",
+  "categoria": {
+    "rango": "4000-4999",
+    "nombre": "Dashboard y Gráficos",
+    "icono": "📈"
+  },
+  "descripcion": "Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.",
+  "descripcion_larga": "📈 Detalle de carga de camión\n\nDetalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.\n\nCuadro de mando interactivo con Streamlit para Sage50BI. Visualiza \ntus datos en tiempo real con gráficos dinámicos.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "tags": [
+    "carga",
+    "camion",
+    "albaranes",
+    "etiquetas",
+    "informe"
+  ],
+  "gratuita": true,
+  "tipo": "publica",
+  "archivos": {
+    "sql": {
+      "nombre": "template.sql",
+      "cifrado": true,
+      "hash_sha256": "32466ab61afb21833a2435d3779fdbd72459f6577a7086336ff8a008e1dced8b",
+      "opcional": false
+    },
+    "dashboard": {
+      "nombre": "dashboard.py",
+      "cifrado": true,
+      "hash_sha256": "82218bd8215f20b1087b03997d90801d78ea2d2cdeffd6bde2d20cad07efecf0",
+      "opcional": true
+    }
+  },
+  "media": {
+    "preview": "preview.png",
+    "video_youtube": "",
+    "video_miniatura": ""
+  },
+  "recomendaciones": [],
+  "packs": [],
+  "sage50bi": {
+    "min_version": "1.0.0",
+    "compatibilidad": [
+      "sage50bi"
+    ]
+  },
+  "fecha_creacion": "2026-11-03",
+  "fecha_actualizacion": "2026-11-03",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "fecha": "2026-11-03",
+      "cambios": "Versión inicial"
+    }
+  ],
+  "youtube_seo": {
+    "titulo": "Detalle de carga de camión — Plantilla gratuita para Sage50BI",
+    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nDetalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "tags_youtube": [
+      "sage50",
+      "sage50bi",
+      "plantillas sql",
+      "carga",
+      "camion",
+      "albaranes"
+    ]
+  },
+  "open_graph": {
+    "title": "Detalle de carga de camión — Plantilla gratuita Sage50BI",
+    "description": "Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.",
+    "image": "preview.png",
+    "type": "article"
+  }
+}

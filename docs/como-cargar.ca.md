@@ -6,7 +6,7 @@ description: "Guia d'ús del catàleg de plantilles dins de Sage50BI: què són,
 # Com es carrega a Sage50BI
 
 !!! warning "Requisit previ"
-    Abans d'instal·lar qualsevol plantilla necessites tenir **Sage50BI** instal·lat al teu Sage 50. [Descarregar Sage50BI](https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe).
+    Abans d'instal·lar qualsevol plantilla necessites tenir **Sage50BI** instal·lat al teu Sage 50. [Descarregar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe).
 
 ## Què és Sage50BI?
 

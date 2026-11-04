@@ -8,7 +8,7 @@ hide:
 <!--
 CONTRACT: Sage50BI portal — The Spreadsheet (seed b3a2cf0c)
 THESIS: The catalog as a live spreadsheet: every template is a cell that opens.
-OWN-WORLD: Teal and amber on paper-light surfaces, ruled sheet grids, column-header color bands, tabular totals; Space Grotesk display over Inter text.
+OWN-WORLD: Teal and amber on paper-light surfaces, ruled sheet grids, column-header color bands, tabular totals; platform display sans over system text.
 STORY: A Sage 50 user lands on a familiar ledger: categories read as column headers, templates as rows to open, install, adapt.
 FIRST VIEWPORT: A dark teal ruled sheet with a headline and a totals row above the fold; the four category bands below as column headers.
 FORM: The Spreadsheet, position 6 of 7 grounded directions, seed key b3a2cf0c.
@@ -25,9 +25,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <a class="sage-button sage-button--primary" href="#catalogo-tecnico-ultimas-plantillas">Ver catálogo de plantillas</a>
 <a class="sage-button sage-button--secondary" href="#contacto">Solicitar una adaptación a medida</a>
 </div>
-<p class="sage-hero__requirement">Requisito: necesitas tener <strong>Sage50BI</strong> instalado en tu Sage 50 para instalar estas plantillas. <a href="https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe">Descargar Sage50BI</a></p>
+<p class="sage-hero__requirement">Requisito: necesitas tener <strong>Sage50BI</strong> instalado en tu Sage 50 para instalar estas plantillas. <a href="https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe">Descargar Sage50BI</a></p>
 <div class="sage-hero__metrics">
-<span><strong>5</strong>plantillas listas</span>
+<span><strong>14</strong>plantillas listas</span>
 <span><strong>2</strong>packs de trabajo</span>
 <span><strong>Adaptación</strong>a medida</span>
 </div>
@@ -84,19 +84,49 @@ Todas las plantillas públicas en un vistazo: explora cada una e instálala desd
 <div class="sage-carousel" markdown="1">
 <div class="sage-carousel__track" markdown="1">
 <article class="sage-carousel__card" markdown="1">
-[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
+[![Informe de actividad comercial](img/og-4006.png)](plantillas/4006-informe-de-actividad-comercial.md)
 
-### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
+[![Deuda y plazo medio por vendedor](img/og-1004.png)](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 
-### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
+### [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
+[![Cuotas de cliente por concepto](img/og-1003.png)](plantillas/1003-cuotas-de-cliente-por-concepto.md)
 
-### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
+### [Cuotas de cliente por concepto](plantillas/1003-cuotas-de-cliente-por-concepto.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Detalle de carga de camión](img/og-4005.png)](plantillas/4005-detalle-de-carga-de-camion.md)
+
+### [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Rentabilidad de albaranes por lote](img/og-4004.png)](plantillas/4004-rentabilidad-de-albaranes-por-lote.md)
+
+### [Rentabilidad de albaranes por lote](plantillas/4004-rentabilidad-de-albaranes-por-lote.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Ventas y descuentos por artículo](img/og-4002.png)](plantillas/4002-ventas-y-descuentos-por-articulo.md)
+
+### [Ventas y descuentos por artículo](plantillas/4002-ventas-y-descuentos-por-articulo.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Deuda por vendedor](img/og-1002.png)](plantillas/1002-deuda-por-vendedor.md)
+
+### [Deuda por vendedor](plantillas/1002-deuda-por-vendedor.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Ranking de ventas por vendedor](img/og-4003.png)](plantillas/4003-ranking-de-ventas-por-vendedor.md)
+
+### [Ranking de ventas por vendedor](plantillas/4003-ranking-de-ventas-por-vendedor.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Carga de camión](img/og-4001.png)](plantillas/4001-carga-de-camion.md)
+
+### [Carga de camión](plantillas/4001-carga-de-camion.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
 [![Balance de situación](img/og-3000.png)](plantillas/3000-balance-de-situacion.md)
@@ -107,6 +137,21 @@ Todas las plantillas públicas en un vistazo: explora cada una e instálala desd
 [![Dashboard de ventas por cliente](img/og-4000.png)](plantillas/4000-dashboard-de-ventas-por-cliente.md)
 
 ### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
+
+### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
+
+### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
+
+### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
 </article>
 </div>
 </div>
@@ -146,13 +191,13 @@ Una entrada rápida al catálogo: piezas útiles para validar el valor de Sage50
 
 <div class="sage-featured-grid" markdown="1">
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#1000</span>
-### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+<span class="sage-featured-card__id">#1004</span>
+### [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 
 <p class="sage-featured-card__area">Informes y Listados</p>
-Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.
+Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.
 
-[**Ver detalle**](plantillas/1000-listado-de-clientes-espana.md)
+[**Ver detalle**](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 </article>
 <article class="sage-featured-card" markdown="1">
 <span class="sage-featured-card__id">#2000</span>
@@ -173,13 +218,13 @@ Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye tota
 [**Ver detalle**](plantillas/3000-balance-de-situacion.md)
 </article>
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#4000</span>
-### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+<span class="sage-featured-card__id">#4006</span>
+### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
 
 <p class="sage-featured-card__area">Dashboard y Gráficos</p>
-Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de b...
+Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y super...
 
-[**Ver detalle**](plantillas/4000-dashboard-de-ventas-por-cliente.md)
+[**Ver detalle**](plantillas/4006-informe-de-actividad-comercial.md)
 </article>
 </div>
 </section>
@@ -214,11 +259,12 @@ La documentación técnica sigue disponible: versión, categoría y descripción
 
 | # | Plantilla | Área | Versión | Descripción |
 |---|-----------|-----------|---------|-------------|
-| 1000 | [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Listado completo de clientes con filtros por provincia, form... |
-| 1001 | [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Listado agrupado de proveedores por provincia con totales de... |
-| 2000 | [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md) | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Facturas y Documentos | 1.0.0 | Modelo de factura profesional con desglose de líneas, IVA, r... |
-| 3000 | [Balance de situación](plantillas/3000-balance-de-situacion.md) | <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> Balances y Contabilidad | 1.0.0 | Balance de situación con desglose por cuentas, grupos y subg... |
-| 4000 | [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Cuadro de mando interactivo con Streamlit mostrando ventas p... |
+| 4006 | [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CR... |
+| 1004 | [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Deuda pendiente y plazo medio de cobro por vendedor y mes, c... |
+| 1003 | [Cuotas de cliente por concepto](plantillas/1003-cuotas-de-cliente-por-concepto.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados | 1.0.0 | Cuotas vigentes por cliente y concepto: fechas de vigencia, ... |
+| 4005 | [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán d... |
+| 4004 | [Rentabilidad de albaranes por lote](plantillas/4004-rentabilidad-de-albaranes-por-lote.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: importe... |
+| 4002 | [Ventas y descuentos por artículo](plantillas/4002-ventas-y-descuentos-por-articulo.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboard y Gráficos | 1.0.0 | Ventas de albaranes por familia, artículo, cliente y vendedo... |
 </section>
 
 <section class="sage-section sage-section--split" markdown="1">
@@ -241,7 +287,7 @@ Entra por el área que quieras mejorar primero y baja al detalle de cada plantil
 <span>1</span>
 ### Descarga Sage50BI
 
-Instala Sage50BI en tu Sage 50 si todavía no lo tienes: es el requisito previo para poder instalar cualquier plantilla. [Descargar Sage50BI](https://github.com/wertyMSD/Sage50bi/releases/latest/download/Sage50bi.exe)
+Instala Sage50BI en tu Sage 50 si todavía no lo tienes: es el requisito previo para poder instalar cualquier plantilla. [Descargar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe)
 </article>
 <article class="sage-step" markdown="1">
 <span>2</span>
@@ -272,4 +318,4 @@ Solicita una adaptación a medida cuando tus informes o dashboards necesiten un 
 <a class="sage-button sage-button--primary" href="como-cargar.md">Solicitar una adaptación a medida</a>
 </section>
 
-*Última actualización: 2026-08-10*
+*Última actualización: 2026-11-03*
