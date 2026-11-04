@@ -1,0 +1,21 @@
+# S50bi
+
+Catálogo público de plantillas para S50bi.
+Portal: https://plantillas.alfonsoautomatiza.com/
+
+## Plantillas públicas
+
+- [Listado de clientes ESPAÑA](https://plantillas.alfonsoautomatiza.com/plantillas/1000-listado-de-clientes-espana/) — Informes y Listados — Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.
+- [Listado de proveedores por provincia](https://plantillas.alfonsoautomatiza.com/plantillas/1001-listado-de-proveedores-por-provincia/) — Informes y Listados — Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.
+- [Deuda por vendedor](https://plantillas.alfonsoautomatiza.com/plantillas/1002-deuda-por-vendedor/) — Informes y Listados — Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.
+- [Cuotas de cliente por concepto](https://plantillas.alfonsoautomatiza.com/plantillas/1003-cuotas-de-cliente-por-concepto/) — Informes y Listados — Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.
+- [Deuda y plazo medio por vendedor](https://plantillas.alfonsoautomatiza.com/plantillas/1004-deuda-y-plazo-medio-por-vendedor/) — Informes y Listados — Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.
+- [Modelo de factura con totales](https://plantillas.alfonsoautomatiza.com/plantillas/2000-modelo-de-factura-con-totales/) — Facturas y Documentos — Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.
+- [Balance de situación](https://plantillas.alfonsoautomatiza.com/plantillas/3000-balance-de-situacion/) — Balances y Contabilidad — Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.
+- [Dashboard de ventas por cliente](https://plantillas.alfonsoautomatiza.com/plantillas/4000-dashboard-de-ventas-por-cliente/) — Dashboard y Gráficos — Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.
+- [Carga de camión](https://plantillas.alfonsoautomatiza.com/plantillas/4001-carga-de-camion/) — Dashboard y Gráficos — Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.
+- [Ventas y descuentos por artículo](https://plantillas.alfonsoautomatiza.com/plantillas/4002-ventas-y-descuentos-por-articulo/) — Dashboard y Gráficos — Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.
+- [Ranking de ventas por vendedor](https://plantillas.alfonsoautomatiza.com/plantillas/4003-ranking-de-ventas-por-vendedor/) — Dashboard y Gráficos — Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.
+- [Rentabilidad de albaranes por lote](https://plantillas.alfonsoautomatiza.com/plantillas/4004-rentabilidad-de-albaranes-por-lote/) — Dashboard y Gráficos — Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.
+- [Detalle de carga de camión](https://plantillas.alfonsoautomatiza.com/plantillas/4005-detalle-de-carga-de-camion/) — Dashboard y Gráficos — Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.
+- [Informe de actividad comercial](https://plantillas.alfonsoautomatiza.com/plantillas/4006-informe-de-actividad-comercial/) — Dashboard y Gráficos — Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.

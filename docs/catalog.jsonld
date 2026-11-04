@@ -1,0 +1,528 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Catálogo público de plantillas S50bi",
+  "url": "https://plantillas.alfonsoautomatiza.com/",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Listado de clientes ESPAÑA",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/1000-listado-de-clientes-espana/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Informes y Listados",
+        "description": "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "clientes",
+          "listado",
+          "españa",
+          "informes",
+          "sage50"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-04-07",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Listado de proveedores por provincia",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/1001-listado-de-proveedores-por-provincia/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Informes y Listados",
+        "description": "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "proveedores",
+          "listado",
+          "provincia",
+          "informes",
+          "compras"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-04-07",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Deuda por vendedor",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/1002-deuda-por-vendedor/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Informes y Listados",
+        "description": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "deuda",
+          "vendedor",
+          "cobros",
+          "pendiente",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Cuotas de cliente por concepto",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/1003-cuotas-de-cliente-por-concepto/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Informes y Listados",
+        "description": "Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "cuotas",
+          "cliente",
+          "conceptos",
+          "cobros",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Deuda y plazo medio por vendedor",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/1004-deuda-y-plazo-medio-por-vendedor/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Informes y Listados",
+        "description": "Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "deuda",
+          "vendedor",
+          "plazo",
+          "cobros",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Modelo de factura con totales",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/2000-modelo-de-factura-con-totales/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Facturas y Documentos",
+        "description": "Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "factura",
+          "modelo",
+          "totales",
+          "iva",
+          "documentos"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-04-07",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Balance de situación",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/3000-balance-de-situacion/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Balances y Contabilidad",
+        "description": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "balance",
+          "situacion",
+          "contabilidad",
+          "cuentas",
+          "activo",
+          "pasivo"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-04-07",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Dashboard de ventas por cliente",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4000-dashboard-de-ventas-por-cliente/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "dashboard",
+          "ventas",
+          "grafico",
+          "streamlit",
+          "cliente"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-04-07",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Carga de camión",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4001-carga-de-camion/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "informe",
+          "albaranes",
+          "familias",
+          "carga",
+          "camion",
+          "streamlit"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Ventas y descuentos por artículo",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4002-ventas-y-descuentos-por-articulo/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "ventas",
+          "descuentos",
+          "albaranes",
+          "familias",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Ranking de ventas por vendedor",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4003-ranking-de-ventas-por-vendedor/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "ventas",
+          "vendedores",
+          "ranking",
+          "pedidos",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Rentabilidad de albaranes por lote",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4004-rentabilidad-de-albaranes-por-lote/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "rentabilidad",
+          "albaranes",
+          "lotes",
+          "costes",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Detalle de carga de camión",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4005-detalle-de-carga-de-camion/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "carga",
+          "camion",
+          "albaranes",
+          "etiquetas",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Informe de actividad comercial",
+        "url": "https://plantillas.alfonsoautomatiza.com/plantillas/4006-informe-de-actividad-comercial/",
+        "applicationSuite": "S50bi",
+        "applicationCategory": "Dashboard y Gráficos",
+        "description": "Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.",
+        "softwareVersion": "1.0.0",
+        "keywords": [
+          "actividad",
+          "comercial",
+          "crm",
+          "clientes",
+          "informe"
+        ],
+        "operatingSystem": [
+          "sage50bi"
+        ],
+        "softwareRequirements": "1.0.0",
+        "recommendations": [],
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "fecha": "2026-11-03",
+            "cambios": "Versión inicial"
+          }
+        ],
+        "isPartOf": {
+          "@type": "SoftwareApplication",
+          "name": "S50bi",
+          "url": "https://plantillas.alfonsoautomatiza.com/"
+        }
+      }
+    }
+  ]
+}

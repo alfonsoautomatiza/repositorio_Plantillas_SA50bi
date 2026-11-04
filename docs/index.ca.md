@@ -25,7 +25,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <a class="sage-button sage-button--primary" href="#cataleg-tecnic-ultimes-plantilles">Veure catàleg de plantilles</a>
 <a class="sage-button sage-button--secondary" href="#contacto">Sol·licitar una adaptació a mida</a>
 </div>
-<p class="sage-hero__requirement">Requisit: necessites tenir <strong>Sage50BI</strong> instal·lat al teu Sage 50 per instal·lar aquestes plantilles. <a href="https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe">Descarregar Sage50BI</a></p>
+<p class="sage-hero__requirement">Requisit: necessites tenir <strong>Sage50BI</strong> instal·lat al teu Sage 50 per instal·lar aquestes plantilles. <a href="https://apps.microsoft.com/detail/9n2r7nqkv7xh?hl=ca-ES&gl=ES">Descarregar Sage50BI</a></p>
 <div class="sage-hero__metrics">
 <span><strong>14</strong>plantilles llestes</span>
 <span><strong>2</strong>paquets de treball</span>
@@ -84,14 +84,9 @@ Totes les plantilles públiques d'un cop d'ull: explora cada una i instal·la-la
 <div class="sage-carousel" markdown="1">
 <div class="sage-carousel__track" markdown="1">
 <article class="sage-carousel__card" markdown="1">
-[![Informe de actividad comercial](img/og-4006.png)](plantillas/4006-informe-de-actividad-comercial.md)
+[![Deuda por vendedor](img/og-1002.png)](plantillas/1002-deuda-por-vendedor.md)
 
-### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
-[![Deuda y plazo medio por vendedor](img/og-1004.png)](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
-
-### [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
+### [Deuda por vendedor](plantillas/1002-deuda-por-vendedor.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
 [![Cuotas de cliente por concepto](img/og-1003.png)](plantillas/1003-cuotas-de-cliente-por-concepto.md)
@@ -99,14 +94,14 @@ Totes les plantilles públiques d'un cop d'ull: explora cada una i instal·la-la
 ### [Cuotas de cliente por concepto](plantillas/1003-cuotas-de-cliente-por-concepto.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Detalle de carga de camión](img/og-4005.png)](plantillas/4005-detalle-de-carga-de-camion.md)
+[![Deuda y plazo medio por vendedor](img/og-1004.png)](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 
-### [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md)
+### [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Rentabilidad de albaranes por lote](img/og-4004.png)](plantillas/4004-rentabilidad-de-albaranes-por-lote.md)
+[![Carga de camión](img/og-4001.png)](plantillas/4001-carga-de-camion.md)
 
-### [Rentabilidad de albaranes por lote](plantillas/4004-rentabilidad-de-albaranes-por-lote.md)
+### [Carga de camión](plantillas/4001-carga-de-camion.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
 [![Ventas y descuentos por artículo](img/og-4002.png)](plantillas/4002-ventas-y-descuentos-por-articulo.md)
@@ -114,19 +109,39 @@ Totes les plantilles públiques d'un cop d'ull: explora cada una i instal·la-la
 ### [Ventas y descuentos por artículo](plantillas/4002-ventas-y-descuentos-por-articulo.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Deuda por vendedor](img/og-1002.png)](plantillas/1002-deuda-por-vendedor.md)
-
-### [Deuda por vendedor](plantillas/1002-deuda-por-vendedor.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
 [![Ranking de ventas por vendedor](img/og-4003.png)](plantillas/4003-ranking-de-ventas-por-vendedor.md)
 
 ### [Ranking de ventas por vendedor](plantillas/4003-ranking-de-ventas-por-vendedor.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Carga de camión](img/og-4001.png)](plantillas/4001-carga-de-camion.md)
+[![Rentabilidad de albaranes por lote](img/og-4004.png)](plantillas/4004-rentabilidad-de-albaranes-por-lote.md)
 
-### [Carga de camión](plantillas/4001-carga-de-camion.md)
+### [Rentabilidad de albaranes por lote](plantillas/4004-rentabilidad-de-albaranes-por-lote.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Detalle de carga de camión](img/og-4005.png)](plantillas/4005-detalle-de-carga-de-camion.md)
+
+### [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Informe de actividad comercial](img/og-4006.png)](plantillas/4006-informe-de-actividad-comercial.md)
+
+### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
+
+### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
+
+### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
+</article>
+<article class="sage-carousel__card" markdown="1">
+[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
+
+### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
 [![Balance de situación](img/og-3000.png)](plantillas/3000-balance-de-situacion.md)
@@ -137,21 +152,6 @@ Totes les plantilles públiques d'un cop d'ull: explora cada una i instal·la-la
 [![Dashboard de ventas por cliente](img/og-4000.png)](plantillas/4000-dashboard-de-ventas-por-cliente.md)
 
 ### [Dashboard de ventas por cliente](plantillas/4000-dashboard-de-ventas-por-cliente.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
-[![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)
-
-### [Listado de clientes ESPAÑA](plantillas/1000-listado-de-clientes-espana.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
-[![Modelo de factura con totales](img/og-2000.png)](plantillas/2000-modelo-de-factura-con-totales.md)
-
-### [Modelo de factura con totales](plantillas/2000-modelo-de-factura-con-totales.md)
-</article>
-<article class="sage-carousel__card" markdown="1">
-[![Listado de proveedores por provincia](img/og-1001.png)](plantillas/1001-listado-de-proveedores-por-provincia.md)
-
-### [Listado de proveedores por provincia](plantillas/1001-listado-de-proveedores-por-provincia.md)
 </article>
 </div>
 </div>
@@ -181,6 +181,11 @@ Totes les plantilles públiques d'un cop d'ull: explora cada una i instal·la-la
 <strong>Dashboards</strong>
 <span>Converteix consultes en panells visuals per a direcció, administració i equips.</span>
 </a>
+<a class="sage-business-tile" href="categorias/crm-ssm.md">
+<span class="sage-business-tile__range">5000-5999</span>
+<strong>CRM SSM</strong>
+<span>Sigue la actividad comercial y las relaciones con clientes desde Sage50BI.</span>
+</a>
 </div>
 </section>
 
@@ -191,13 +196,13 @@ Una entrada ràpida al catàleg: peces útils per validar el valor de Sage50BI a
 
 <div class="sage-featured-grid" markdown="1">
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#1004</span>
-### [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
+<span class="sage-featured-card__id">#1002</span>
+### [Deuda por vendedor](plantillas/1002-deuda-por-vendedor.md)
 
 <p class="sage-featured-card__area">Informes i Llistats</p>
-Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.
+Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.
 
-[**Veure detall**](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md)
+[**Veure detall**](plantillas/1002-deuda-por-vendedor.md)
 </article>
 <article class="sage-featured-card" markdown="1">
 <span class="sage-featured-card__id">#2000</span>
@@ -218,13 +223,13 @@ Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye tota
 [**Veure detall**](plantillas/3000-balance-de-situacion.md)
 </article>
 <article class="sage-featured-card" markdown="1">
-<span class="sage-featured-card__id">#4006</span>
-### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
+<span class="sage-featured-card__id">#4001</span>
+### [Carga de camión](plantillas/4001-carga-de-camion.md)
 
 <p class="sage-featured-card__area">Dashboards i Gràfics</p>
-Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y super...
+Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y e...
 
-[**Veure detall**](plantillas/4006-informe-de-actividad-comercial.md)
+[**Veure detall**](plantillas/4001-carga-de-camion.md)
 </article>
 </div>
 </section>
@@ -259,12 +264,12 @@ La documentació tècnica continua disponible: versió, categoria i descripció 
 
 | # | Plantilla | Àrea | Versió | Descripció |
 |---|-----------|-----------|---------|-------------|
-| 4006 | [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboards i Gràfics | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CR... |
-| 1004 | [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes i Llistats | 1.0.0 | Deuda pendiente y plazo medio de cobro por vendedor y mes, c... |
+| 1002 | [Deuda por vendedor](plantillas/1002-deuda-por-vendedor.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes i Llistats | 1.0.0 | Deuda pendiente de cobro por vendedor con el porcentaje que ... |
 | 1003 | [Cuotas de cliente por concepto](plantillas/1003-cuotas-de-cliente-por-concepto.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes i Llistats | 1.0.0 | Cuotas vigentes por cliente y concepto: fechas de vigencia, ... |
-| 4005 | [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboards i Gràfics | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán d... |
-| 4004 | [Rentabilidad de albaranes por lote](plantillas/4004-rentabilidad-de-albaranes-por-lote.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboards i Gràfics | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: importe... |
+| 1004 | [Deuda y plazo medio por vendedor](plantillas/1004-deuda-y-plazo-medio-por-vendedor.md) | <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes i Llistats | 1.0.0 | Deuda pendiente y plazo medio de cobro por vendedor y mes, c... |
+| 4001 | [Carga de camión](plantillas/4001-carga-de-camion.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboards i Gràfics | 1.0.0 | Informe de carga de camión por familias a partir de albarane... |
 | 4002 | [Ventas y descuentos por artículo](plantillas/4002-ventas-y-descuentos-por-articulo.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboards i Gràfics | 1.0.0 | Ventas de albaranes por familia, artículo, cliente y vendedo... |
+| 4003 | [Ranking de ventas por vendedor](plantillas/4003-ranking-de-ventas-por-vendedor.md) | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Dashboards i Gràfics | 1.0.0 | Ranking de ventas por vendedor y ejercicio: pedidos, albaran... |
 </section>
 
 <section class="sage-section sage-section--split" markdown="1">
@@ -279,6 +284,7 @@ Entra per l'àrea que vulguis millorar primer i baixa al detall de cada plantill
 | <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> | [Factures i Documents](categorias/facturas-documentos.md) | 2000-2999 |
 | <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> | [Balanços i Comptabilitat](categorias/balances-contabilidad.md) | 3000-3999 |
 | <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> | [Dashboards i Gràfics](categorias/dashboards-graficos.md) | 4000-4999 |
+| <span class="sage-icon sage-icon--crm-ssm" aria-hidden="true"></span> | [CRM SSM](categorias/crm-ssm.md) | 5000-5999 |
 </div>
 <div class="sage-steps" markdown="1">
 ## Com funciona
@@ -287,7 +293,7 @@ Entra per l'àrea que vulguis millorar primer i baixa al detall de cada plantill
 <span>1</span>
 ### Descarrega Sage50BI
 
-Instal·la Sage50BI al teu Sage 50 si encara no el tens: és el requisit previ per poder instal·lar qualsevol plantilla. [Descarregar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe)
+Instal·la Sage50BI al teu Sage 50 si encara no el tens: és el requisit previ per poder instal·lar qualsevol plantilla. [Descarregar Sage50BI](https://apps.microsoft.com/detail/9n2r7nqkv7xh?hl=ca-ES&gl=ES)
 </article>
 <article class="sage-step" markdown="1">
 <span>2</span>
@@ -318,4 +324,4 @@ Sol·licita una adaptació a mida quan els teus informes o dashboards necessitin
 <a class="sage-button sage-button--primary" href="como-cargar.md">Sol·licitar una adaptació a mida</a>
 </section>
 
-*Última actualització: 2026-11-03*
+*Última actualització: 2026-11-05*

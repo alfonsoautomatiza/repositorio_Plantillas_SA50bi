@@ -6,7 +6,7 @@ description: "Guia d'ús del catàleg de plantilles dins de Sage50BI: què són,
 # Com es carrega a Sage50BI
 
 !!! warning "Requisit previ"
-    Abans d'instal·lar qualsevol plantilla necessites tenir **Sage50BI** instal·lat al teu Sage 50. [Descarregar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe).
+    Abans d'instal·lar qualsevol plantilla necessites tenir **Sage50BI** instal·lat al teu Sage 50. [Descarregar Sage50BI](https://apps.microsoft.com/detail/9n2r7nqkv7xh?hl=ca-ES&gl=ES).
 
 ## Què és Sage50BI?
 
@@ -14,7 +14,7 @@ Sage50BI és una extensió que s'instal·la dins de Sage 50 i et permet consulta
 
 ## Què són aquestes plantilles?
 
-El catàleg agrupa plantilles gratuïtes llestes per instal·lar des de Sage50BI: informes i llistats, factures i documents, balanços i comptabilitat, i dashboards i gràfics. Cada plantilla inclou una consulta SQL (o un dashboard) ja preparada per cobrir una necessitat concreta de la teva empresa.
+El catàleg agrupa plantilles gratuïtes llestes per instal·lar des de Sage50BI: informes i llistats, factures i documents, balanços i comptabilitat, CRM SSM i dashboards i gràfics. Cada plantilla inclou una consulta SQL (o un dashboard) ja preparada per cobrir una necessitat concreta de la teva empresa.
 
 ## Com es carreguen
 
@@ -36,8 +36,4 @@ Des de Sage50BI pots desinstal·lar una plantilla en qualsevol moment: s'elimina
 
 ## Enllaços útils
 
-[Catàleg de plantilles Sage50BI](https://alfonsoautomatiza.github.io/sage50bi/)
-
-## Vídeo explicatiu
-
-[Vídeo explicatiu: com carregar plantilles a Sage50BI](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[Catàleg de plantilles Sage50BI](https://plantillas.alfonsoautomatiza.com/)

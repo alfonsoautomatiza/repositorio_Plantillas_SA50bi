@@ -1,10 +1,10 @@
 # 🏢 Plantillas Gratuitas para Sage50BI
 
-[![Plantillas](https://img.shields.io/badge/Plantillas-14-blue)](https://plantillas.sage50eia.com/)
-[![Packs](https://img.shields.io/badge/Packs-2-purple)](https://plantillas.sage50eia.com/packs/)
+[![Plantillas](https://img.shields.io/badge/Plantillas-14-blue)](https://plantillas.alfonsoautomatiza.com/)
+[![Packs](https://img.shields.io/badge/Packs-2-purple)](https://plantillas.alfonsoautomatiza.com/#packs-destacados)
 [![Versión](https://img.shields.io/badge/Manifest-1.0.0-green)]()
 [![Gratis](https://img.shields.io/badge/Gratuitas-100%25-success)]()
-[![Sage50BI](https://img.shields.io/badge/Sage50BI-Compatible-orange)](https://plantillas.sage50eia.com/)
+[![Sage50BI](https://img.shields.io/badge/Sage50BI-Compatible-orange)](https://plantillas.alfonsoautomatiza.com/)
 
 > ⚠️ **Este archivo se genera automáticamente.** No editar manualmente.
 > Para modificar, use el tool de gestión: `python gestion/gestion.py`
@@ -88,7 +88,7 @@ Cada plantilla puede incluir:
 | 🧾 2000–2999 | Facturas y Documentos | Modelos de facturas, albaranes, pedidos... |
 | 📊 3000–3999 | Balances y Contabilidad | Balances, cuentas de resultados, sumas y saldos... |
 | 📈 4000–4999 | Dashboard y Gráficos | Cuadros de mando Streamlit, gráficos... |
-| 🔮 5000–5999 | Reservado futuro | — |
+| 🤝 5000–5999 | CRM SSM | Actividad comercial y seguimiento CRM SSM |
 
 ## 🚀 Uso desde Sage50BI
 
@@ -115,17 +115,16 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 > El SQL publicado está cifrado. El mantenimiento de plantillas en claro se realiza fuera de este repositorio público.
 
 ### También puedes:
-- 📖 Ver el [catálogo web completo](https://plantillas.sage50eia.com/)
-- 📡 Suscribirte al [RSS de novedades](https://plantillas.sage50eia.com/feed.xml)
-- 🎥 Ver los [vídeos en YouTube](https://youtube.com/)
+- 📖 Ver el [catálogo web completo](https://plantillas.alfonsoautomatiza.com/)
+- 📡 Suscribirte al [RSS de novedades](https://plantillas.alfonsoautomatiza.com/feed.xml)
 
 ## 🔗 Enlaces
 
-- 📖 [Catálogo web](https://plantillas.sage50eia.com/)
-- 📡 [RSS Novedades](https://plantillas.sage50eia.com/feed.xml)
+- 📖 [Catálogo web](https://plantillas.alfonsoautomatiza.com/)
+- 📡 [RSS Novedades](https://plantillas.alfonsoautomatiza.com/feed.xml)
 
 ---
 
-© 2026 AlfonsoAutomatiza.com — Plantillas gratuitas para usuarios de SA50bi.
+© 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
 
-*Generado automáticamente el 2026-11-03 23:30*
+*Generado automáticamente el 2026-11-05 00:07*

@@ -1,5 +1,5 @@
 site_name: Catálogo Sage50BI
-site_url: https://plantillas.sage50eia.com/
+site_url: https://plantillas.alfonsoautomatiza.com/
 site_description: 'Catálogo de plantillas gratuitas para Sage50BI'
 repo_url: https://github.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi
 repo_name: repositorio_Sage50bi
@@ -134,6 +134,7 @@ nav:
       - Facturas y Documentos: categorias/facturas-documentos.md
       - Balances y Contabilidad: categorias/balances-contabilidad.md
       - Dashboard y Gráficos: categorias/dashboards-graficos.md
+      - CRM SSM: categorias/crm-ssm.md
   - Packs:
       - Gestión Comercial: packs/pack-gestion-comercial.md
       - Contabilidad Completa: packs/pack-contabilidad-completa.md

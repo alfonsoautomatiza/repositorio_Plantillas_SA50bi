@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://plantillas.sage50eia.com/sitemap.xml
+Sitemap: https://plantillas.alfonsoautomatiza.com/sitemap.xml

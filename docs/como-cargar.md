@@ -6,7 +6,7 @@ description: "Guía de uso del catálogo de plantillas dentro de Sage50BI: qué 
 # Cómo se carga en Sage50BI
 
 !!! warning "Requisito previo"
-    Antes de instalar cualquier plantilla necesitas tener **Sage50BI** instalado en tu Sage 50. [Descargar Sage50BI](https://github.com/alfonsoautomatiza/Sage50bi/releases/latest/download/Sage50bi.exe).
+    Antes de instalar cualquier plantilla necesitas tener **Sage50BI** instalado en tu Sage 50. [Descargar Sage50BI](https://apps.microsoft.com/detail/9n2r7nqkv7xh?hl=es-ES&gl=ES).
 
 ## ¿Qué es Sage50BI?
 
@@ -14,7 +14,7 @@ Sage50BI es una extensión que se instala dentro de Sage 50 y te permite consult
 
 ## ¿Qué son estas plantillas?
 
-El catálogo agrupa plantillas gratuitas listas para instalar desde Sage50BI: informes y listados, facturas y documentos, balances y contabilidad, y dashboards y gráficos. Cada plantilla incluye una consulta SQL (o un dashboard) ya preparada para cubrir una necesidad concreta de tu empresa.
+El catálogo agrupa plantillas gratuitas listas para instalar desde Sage50BI: informes y listados, facturas y documentos, balances y contabilidad, CRM SSM y dashboards y gráficos. Cada plantilla incluye una consulta SQL (o un dashboard) ya preparada para cubrir una necesidad concreta de tu empresa.
 
 ## Cómo se cargan
 
@@ -36,8 +36,4 @@ Desde Sage50BI puedes desinstalar una plantilla en cualquier momento: se elimina
 
 ## Enlaces útiles
 
-[Catálogo de plantillas Sage50BI](https://alfonsoautomatiza.github.io/sage50bi/)
-
-## Vídeo explicativo
-
-[Vídeo explicativo: cómo cargar plantillas en Sage50BI](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[Catálogo de plantillas Sage50BI](https://plantillas.alfonsoautomatiza.com/)
