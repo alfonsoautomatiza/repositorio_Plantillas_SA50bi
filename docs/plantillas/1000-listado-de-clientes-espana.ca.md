@@ -31,6 +31,7 @@ Listado completo de clientes con filtros por provincia, forma de pago y fecha de
 - Versió inicial
 
 <div class="sage-dock-spacer" aria-hidden="true"></div>
+<p class="sage-dock__explanation">El botó obre Microsoft Store. Després d&#x27;instal·lar S50bi, obre aquesta fitxa i confirma amb «Instal·la». Si ho prefereixes, copia el codi com a alternativa.</p>
 <nav class="sage-dock" aria-label="Accions de la plantilla">
 <div class="sage-dock__code" aria-describedby="sage-dock-code-help"><span id="sage-dock-code-help">Enganxa'l a S50bi &gt; Plantilles</span><strong class="sage-dock__code-value">1000</strong><span class="sage-dock__code-status" aria-live="polite"></span><button class="sage-dock__action sage-dock__action--copy" type="button" data-template-code="1000" data-copied-label="Codi copiat" aria-label="Copia el codi" title="Copia el codi">Copia el codi</button></div>
 <a class="sage-dock__action sage-dock__action--use" href="https://apps.microsoft.com/detail/9n2r7nqkv7xh?hl=ca-ES&amp;gl=ES" target="_blank" rel="noopener" data-store-app="ms-windows-store://pdp/?productid=9N2R7NQKV7XH" aria-label="Fes-la servir ara a S50bi" title="Obre la fitxa de S50bi a Microsoft Store (pestanya nova)"><svg class="sage-dock__icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg><span class="sage-dock__full">Fes-la servir ara a S50bi</span><span class="sage-dock__short" aria-hidden="true">Usar a S50bi</span></a>
