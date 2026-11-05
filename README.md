@@ -127,4 +127,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 S50bi. Plantillas gratuitas para usuarios de Sage 50.
 
-*Generado automáticamente el 2026-11-05 06:44*
+*Generado automáticamente el 2026-11-05 07:13*
