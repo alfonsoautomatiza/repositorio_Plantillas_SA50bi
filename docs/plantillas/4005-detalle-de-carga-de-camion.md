@@ -38,6 +38,7 @@ tus datos en tiempo real con gráficos dinámicos.
 - Versión inicial
 
 <div class="sage-dock-spacer" aria-hidden="true"></div>
+<p class="sage-dock__explanation">El botón abre Microsoft Store. Después de instalar S50bi, abre esta ficha y confirma con «Instalar». Si lo prefieres, copia el código como alternativa.</p>
 <nav class="sage-dock" aria-label="Acciones de la plantilla">
 <div class="sage-dock__code" aria-describedby="sage-dock-code-help"><span id="sage-dock-code-help">Pégalo en S50bi &gt; Plantillas</span><strong class="sage-dock__code-value">4005</strong><span class="sage-dock__code-status" aria-live="polite"></span><button class="sage-dock__action sage-dock__action--copy" type="button" data-template-code="4005" data-copied-label="Código copiado" aria-label="Copiar código" title="Copiar código">Copiar código</button></div>
 <a class="sage-dock__action sage-dock__action--use" href="https://apps.microsoft.com/detail/9n2r7nqkv7xh?hl=es-ES&amp;gl=ES" target="_blank" rel="noopener" data-store-app="ms-windows-store://pdp/?productid=9N2R7NQKV7XH" aria-label="Úsalo ahora en S50bi" title="Abre la ficha de S50bi en Microsoft Store (nueva pestaña)"><svg class="sage-dock__icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg><span class="sage-dock__full">Úsalo ahora en S50bi</span><span class="sage-dock__short" aria-hidden="true">Usar en S50bi</span></a>
