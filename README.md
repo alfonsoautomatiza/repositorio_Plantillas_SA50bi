@@ -77,6 +77,11 @@ Cada plantilla puede incluir:
 | 4003 | Ranking de ventas por vendedor | 1.0.0 | Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido s... | `ventas` `vendedores` `ranking` |  |
 | 4004 | Rentabilidad de albaranes por lote | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio ... | `rentabilidad` `albaranes` `lotes` |  |
 | 4005 | Detalle de carga de camión | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, u... | `carga` `camion` `albaranes` |  |
+
+### 🤝 CRM SSM
+
+| # | Plantilla | Versión | Descripción | Tags | YouTube |
+|---|-----------|---------|-------------|------|---------|
 | 4006 | Informe de actividad comercial | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CRM: actividades por c... | `actividad` `comercial` `crm` |  |
 
 ## 📂 Categorías
@@ -127,4 +132,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 S50bi. Plantillas gratuitas para usuarios de Sage 50.
 
-*Generado automáticamente el 2026-11-05 08:16*
+*Generado automáticamente el 2026-11-05 13:59*

@@ -7,7 +7,7 @@ description: "Catálogo de dashboard y gráficos para S50bi"
 
 Colección de plantillas de **Dashboard y Gráficos** para S50bi.
 
-**7 plantillas disponibles**
+**6 plantillas disponibles**
 
 ## 4000 — Dashboard de ventas por cliente
 
@@ -78,17 +78,5 @@ Detalle de carga de camión por etiqueta de envío y albarán de venta: artícul
 **Versión:** 1.0.0 | **Tags:** `carga` `camion` `albaranes` `etiquetas`
 
 [📄 Ver detalle](../plantillas/4005-detalle-de-carga-de-camion.md)
-
----
-
-## 4006 — Informe de actividad comercial
-
-![Vista previa de Informe de actividad comercial](../img/og-4006.png){ loading=lazy width=1200 height=630 }
-
-Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.
-
-**Versión:** 1.0.0 | **Tags:** `actividad` `comercial` `crm` `clientes`
-
-[📄 Ver detalle](../plantillas/4006-informe-de-actividad-comercial.md)
 
 ---

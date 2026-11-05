@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-05T08:16:42.268701Z",
+  "fecha_generacion": "2026-11-05T13:59:32.037151Z",
   "total_plantillas": 14,
   "total_packs": 2,
   "plantillas": [
@@ -389,7 +389,7 @@
       "nombre": "Informe de actividad comercial",
       "version": "1.0.0",
       "tipo": "publica",
-      "categoria": "Dashboard y Gráficos",
+      "categoria": "CRM SSM",
       "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4006%20-%20Informe%20de%20actividad%20comercial/",
       "archivos": {
         "sql": {

@@ -4,9 +4,9 @@
   "slug": "4006-informe-de-actividad-comercial",
   "version": "1.0.0",
   "categoria": {
-    "rango": "4000-4999",
-    "nombre": "Dashboard y Gráficos",
-    "icono": "📈"
+    "rango": "5000-5999",
+    "nombre": "CRM SSM",
+    "icono": "🤝"
   },
   "descripcion": "Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.",
   "descripcion_larga": "📈 Informe de actividad comercial\n\nSistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.\n\nCuadro de mando interactivo con Streamlit para S50bi. Visualiza \ntus datos en tiempo real con gráficos dinámicos.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",

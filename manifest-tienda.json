@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-03T23:30:45.258939Z",
+  "fecha_generacion": "2026-11-05T13:59:32.196580Z",
   "total_plantillas": 14,
   "total_packs": 2,
   "plantillas": [
@@ -33,7 +33,9 @@
           "hash_sha256": "94ca06199adbd89c4687fcd3175ebbf9640e55a2253a3fae610a592291309326",
           "opcional": false
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 1001,
@@ -64,7 +66,9 @@
           "hash_sha256": "b88758722c46291ed99b1edc65e3a478f3e563426001a1a362a637a7cd388603",
           "opcional": false
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 1002,
@@ -101,7 +105,9 @@
           "hash_sha256": "eeaa5f1ee59ef3a5ee63c052817b1680bd3d6ca501a55ec15bd6269e9e713b97",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 1003,
@@ -138,7 +144,9 @@
           "hash_sha256": "cf758f18c0d727c93b54d034a455366ef8ef3d949ef253afd635c685461f5190",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 1004,
@@ -175,7 +183,9 @@
           "hash_sha256": "a89538a1d93160ba37b908dff054f823b142133ad84913197a7af69ae067ead9",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 2000,
@@ -206,7 +216,9 @@
           "hash_sha256": "f2e39f79838fc5792e15bb7ed66fa7c70c743cf973923574c1b533c57a7b045e",
           "opcional": false
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 3000,
@@ -238,7 +250,9 @@
           "hash_sha256": "62b7740db405bae7e16829767f59f787f7109581f2c8edebacc6d7f8e16d33a8",
           "opcional": false
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4000,
@@ -269,7 +283,9 @@
           "hash_sha256": "30be6fab8efef52d89ed79522c8d8445549448896844f02aa5559346860935b6",
           "opcional": false
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4001,
@@ -307,7 +323,9 @@
           "hash_sha256": "346c1b00d60be71ad4b51ad90dc402501abf979b607bbd33e8409657989445b3",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4002,
@@ -344,7 +362,9 @@
           "hash_sha256": "995ef9d929c447a5150aa5e56fe9ce2991084b2ea10e40e856ed21cc96b4afa2",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4003,
@@ -381,7 +401,9 @@
           "hash_sha256": "683e6a46c43df52be7fed4987417ac3d15584eddf7d7707d2077f6b757ee1a2e",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4004,
@@ -418,7 +440,9 @@
           "hash_sha256": "1682b105a98a3058399a9a6e9eed2001e852e093b9afffb6565253c3e413df1c",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4005,
@@ -455,7 +479,9 @@
           "hash_sha256": "82218bd8215f20b1087b03997d90801d78ea2d2cdeffd6bde2d20cad07efecf0",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     },
     {
       "id": 4006,
@@ -464,8 +490,8 @@
       "version": "1.0.0",
       "tipo": "publica",
       "gratuita": true,
-      "categoria": "Dashboard y Gráficos",
-      "categoria_icono": "📈",
+      "categoria": "CRM SSM",
+      "categoria_icono": "🤝",
       "descripcion": "Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.",
       "descripcion_corta": "Sistema de informes de actividad comercial conectado a tu CRM: actividades por…",
       "tags": [
@@ -498,7 +524,9 @@
           "hash_sha256": "",
           "opcional": true
         }
-      }
+      },
+      "feedback_issue_url": "",
+      "feedback_issue_number": ""
     }
   ],
   "packs": [
@@ -518,7 +546,7 @@
       "id": "pack-gestion-comercial",
       "nombre": "Pack Gestión Comercial",
       "slug": "pack-gestion-comercial",
-      "descripcion": "Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI.",
+      "descripcion": "Todo lo que necesitas para gestionar clientes, proveedores y facturas en S50bi.",
       "icono": "📦",
       "plantillas": [
         1000,

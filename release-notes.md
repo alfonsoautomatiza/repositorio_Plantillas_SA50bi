@@ -1,6 +1,6 @@
-## Sage50BI — Catálogo de Plantillas v1.0.0
+## S50bi — Catálogo de Plantillas v1.0.0
 
-**Fecha:** 2026-11-03 | **Total:** 14 plantillas, 2 packs
+**Fecha:** 2026-11-05 | **Total:** 14 plantillas, 2 packs
 
 ### 📊 Resumen por categoría
 
@@ -9,7 +9,7 @@
 | 📋 Informes y Listados | 5 |
 | 🧾 Facturas y Documentos | 1 |
 | 📊 Balances y Contabilidad | 1 |
-| 📈 Dashboard y Gráficos | 7 |
+| 📈 Dashboard y Gráficos | 6 |
 
 ### 📋 Detalle de plantillas
 
@@ -45,7 +45,6 @@
 | 4003 | Ranking de ventas por vendedor | 1.0.0 | Ranking de ventas por vendedor y ejercicio: pedidos, albara… |
 | 4004 | Rentabilidad de albaranes por lote | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: import… |
 | 4005 | Detalle de carga de camión | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán… |
-| 4006 | Informe de actividad comercial | 1.0.0 | Sistema de informes de actividad comercial conectado a tu C… |
 
 ### 📦 Packs disponibles
 
