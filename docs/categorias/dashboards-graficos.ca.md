@@ -1,11 +1,11 @@
 ---
-title: "Tauler i Gràfics — Plantilles Sage50BI"
-description: "Catàleg de dashboard y gráficos per a Sage50BI"
+title: "Tauler i Gràfics — Plantilles S50bi"
+description: "Catàleg de dashboard y gráficos per a S50bi"
 ---
 
 # <span class="sage-icon sage-icon--dashboards" aria-hidden="true"></span> Tauler i Gràfics
 
-Colección de plantilles de **Tauler i Gràfics** per a Sage50BI.
+Colección de plantilles de **Tauler i Gràfics** per a S50bi.
 
 **7 plantilles disponibles**
 

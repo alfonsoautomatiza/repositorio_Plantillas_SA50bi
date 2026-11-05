@@ -1,5 +1,5 @@
 ---
-title: "Pack Contabilidad Completa — Pack Sage50BI"
+title: "Pack Contabilidad Completa — Pack S50bi"
 description: "Balances y dashboard."
 ---
 
@@ -18,4 +18,4 @@ Balances y dashboard.
 
 ---
 
-*Pack instalable directamente desde Sage50BI con un solo click.*
+*Pack instalable directamente desde S50bi con un solo clic.*

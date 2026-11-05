@@ -1,32 +1,32 @@
-# 🏢 Plantillas Gratuitas para Sage50BI
+# Plantillas gratuitas para S50bi
 
 [![Plantillas](https://img.shields.io/badge/Plantillas-14-blue)](https://plantillas.alfonsoautomatiza.com/)
 [![Packs](https://img.shields.io/badge/Packs-2-purple)](https://plantillas.alfonsoautomatiza.com/#packs-destacados)
 [![Versión](https://img.shields.io/badge/Manifest-1.0.0-green)]()
 [![Gratis](https://img.shields.io/badge/Gratuitas-100%25-success)]()
-[![Sage50BI](https://img.shields.io/badge/Sage50BI-Compatible-orange)](https://plantillas.alfonsoautomatiza.com/)
+[![S50bi](https://img.shields.io/badge/S50bi-Compatible-orange)](https://plantillas.alfonsoautomatiza.com/)
 
 > ⚠️ **Este archivo se genera automáticamente.** No editar manualmente.
 > Para modificar, use el tool de gestión: `python gestion/gestion.py`
 
 ## ¿Para qué sirve este repositorio?
 
-Este repositorio es el **catálogo público de plantillas para Sage50BI**. Su función es publicar, versionar y distribuir plantillas gratuitas que Sage50BI puede consultar, descargar e instalar automáticamente.
+Este repositorio es el catálogo público de plantillas para S50bi. Publica, versiona y distribuye plantillas gratuitas que S50bi puede consultar, descargar e instalar automáticamente.
 
-Sirve como punto central para:
+Desde aquí puedes:
 
 - 📋 Consultar el catálogo de plantillas disponibles.
 - 📦 Descargar packs temáticos de plantillas.
-- 🔄 Mantener Sage50BI actualizado con nuevas plantillas y versiones.
+- 🔄 Mantener S50bi actualizado con nuevas plantillas y versiones.
 - 🌐 Publicar la documentación web del catálogo.
 - 🚀 Distribuir los archivos usados por la tienda de plantillas mediante GitHub Pages y GitHub Releases.
 
 Cada plantilla puede incluir:
 
-- 📊 Consultas SQL preparadas para Sage50.
+- 📊 Consultas SQL preparadas para Sage 50.
 - 🐍 Dashboards interactivos con Streamlit cuando la plantilla lo requiera.
 - 🎥 Vídeos explicativos en YouTube cuando estén disponibles.
-- 🔄 Metadatos de versión para actualización automática desde Sage50BI.
+- 🔄 Metadatos de versión para actualizar el catálogo desde S50bi.
 - 📦 Packs temáticos para instalar varias plantillas a la vez.
 
 ### ¿Para quién son?
@@ -41,7 +41,7 @@ Cada plantilla puede incluir:
 | Pack | Plantillas | Descripción |
 |------|-----------|-------------|
 | 📦 Pack Contabilidad Completa | 2 | Balances y dashboard. |
-| 📦 Pack Gestión Comercial | 3 | Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI. |
+| 📦 Pack Gestión Comercial | 3 | Todo lo que necesitas para gestionar clientes, proveedores y facturas en S50bi. |
 
 ## 📋 Catálogo de Plantillas
 
@@ -90,14 +90,14 @@ Cada plantilla puede incluir:
 | 📈 4000–4999 | Dashboard y Gráficos | Cuadros de mando Streamlit, gráficos... |
 | 🤝 5000–5999 | CRM SSM | Actividad comercial y seguimiento CRM SSM |
 
-## 🚀 Uso desde Sage50BI
+## Uso desde S50bi
 
-1. Instala o abre **Sage50BI**.
-2. Entra en el catálogo o tienda de plantillas.
-3. Sage50BI lee el manifiesto público de este repositorio.
+1. Instala o abre **S50bi** en Sage 50.
+2. Abre el catálogo o la tienda de plantillas.
+3. S50bi lee el manifiesto público de este repositorio.
 4. Elige una plantilla o un pack.
-5. Sage50BI descarga la plantilla cifrada y la instala en tu entorno.
-6. Cuando se publiquen nuevas versiones, Sage50BI puede detectarlas y actualizar el catálogo.
+5. S50bi descarga la plantilla cifrada y la instala en tu entorno.
+6. S50bi puede detectar las nuevas versiones y actualizar el catálogo.
 
 ## 🧩 Uso de este repositorio
 
@@ -107,7 +107,7 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 |-------------------|-----|
 | `publicas/` | Plantillas públicas cifradas y sus metadatos. |
 | `packs/` | Packs de plantillas agrupadas por temática. |
-| `manifest-templates.json` | Manifest principal que Sage50BI usa para leer el catálogo. |
+| `manifest-templates.json` | Manifest principal que S50bi usa para leer el catálogo. |
 | `manifest-tienda.json` | Manifest preparado para la tienda de plantillas. |
 | `plantillas.csv` | Listado tabular de plantillas, útil para revisión o consumo externo. |
 | `release-notes.md` | Notas de publicación de la versión actual. |
@@ -125,6 +125,6 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 ---
 
-© 2026 Sage50BI — Plantillas gratuitas para usuarios de Sage50BI.
+© 2026 S50bi. Plantillas gratuitas para usuarios de Sage 50.
 
-*Generado automáticamente el 2026-11-05 00:07*
+*Generado automáticamente el 2026-11-05 06:44*

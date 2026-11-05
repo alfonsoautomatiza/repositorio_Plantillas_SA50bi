@@ -1,5 +1,5 @@
 ---
-title: "Balance de situación — Plantilla gratuita Sage50BI"
+title: "Balance de situación — Plantilla gratuita S50bi"
 description: "Balance de situación con desglose por cuentas, grupos y subgrupos. Inclou totales de activo, pasivo y patrimonio neto."
 ---
 

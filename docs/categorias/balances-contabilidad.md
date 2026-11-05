@@ -1,11 +1,11 @@
 ---
-title: "Balances y Contabilidad — Plantillas Sage50BI"
-description: "Catálogo de balances y contabilidad para Sage50BI"
+title: "Balances y Contabilidad — Plantillas S50bi"
+description: "Catálogo de balances y contabilidad para S50bi"
 ---
 
 # <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> Balances y Contabilidad
 
-Colección de plantillas de **Balances y Contabilidad** para Sage50BI.
+Colección de plantillas de **Balances y Contabilidad** para S50bi.
 
 **1 plantillas disponibles**
 

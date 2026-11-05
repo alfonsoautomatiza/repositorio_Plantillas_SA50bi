@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Plantillas Sage50BI — Novedades</title>
+    <title>Plantillas S50bi — Novedades</title>
     <link>https://plantillas.alfonsoautomatiza.com/</link>
-    <description>Ultimas plantillas gratuitas para Sage50BI</description>
+    <description>Ultimas plantillas gratuitas para S50bi</description>
     <language>es</language>
     <lastBuildDate>Thu, 05 Nov 2026</lastBuildDate>
     <item>
-      <title>Deuda por vendedor</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1002-deuda-por-vendedor/</link>
-      <description>Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.</description>
+      <title>Informe de actividad comercial</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4006-informe-de-actividad-comercial/</link>
+      <description>Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
+      <title>Deuda y plazo medio por vendedor</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1004-deuda-y-plazo-medio-por-vendedor/</link>
+      <description>Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.</description>
       <pubDate>2026-11-03</pubDate>
       <category>Informes y Listados</category>
     </item>
@@ -21,30 +28,9 @@
       <category>Informes y Listados</category>
     </item>
     <item>
-      <title>Deuda y plazo medio por vendedor</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1004-deuda-y-plazo-medio-por-vendedor/</link>
-      <description>Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.</description>
-      <pubDate>2026-11-03</pubDate>
-      <category>Informes y Listados</category>
-    </item>
-    <item>
-      <title>Carga de camión</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4001-carga-de-camion/</link>
-      <description>Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.</description>
-      <pubDate>2026-11-03</pubDate>
-      <category>Dashboard y Gráficos</category>
-    </item>
-    <item>
-      <title>Ventas y descuentos por artículo</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4002-ventas-y-descuentos-por-articulo/</link>
-      <description>Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.</description>
-      <pubDate>2026-11-03</pubDate>
-      <category>Dashboard y Gráficos</category>
-    </item>
-    <item>
-      <title>Ranking de ventas por vendedor</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4003-ranking-de-ventas-por-vendedor/</link>
-      <description>Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.</description>
+      <title>Detalle de carga de camión</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4005-detalle-de-carga-de-camion/</link>
+      <description>Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.</description>
       <pubDate>2026-11-03</pubDate>
       <category>Dashboard y Gráficos</category>
     </item>
@@ -56,39 +42,32 @@
       <category>Dashboard y Gráficos</category>
     </item>
     <item>
-      <title>Detalle de carga de camión</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4005-detalle-de-carga-de-camion/</link>
-      <description>Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.</description>
+      <title>Ventas y descuentos por artículo</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4002-ventas-y-descuentos-por-articulo/</link>
+      <description>Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.</description>
       <pubDate>2026-11-03</pubDate>
       <category>Dashboard y Gráficos</category>
     </item>
     <item>
-      <title>Informe de actividad comercial</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4006-informe-de-actividad-comercial/</link>
-      <description>Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.</description>
+      <title>Deuda por vendedor</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1002-deuda-por-vendedor/</link>
+      <description>Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Informes y Listados</category>
+    </item>
+    <item>
+      <title>Ranking de ventas por vendedor</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4003-ranking-de-ventas-por-vendedor/</link>
+      <description>Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.</description>
       <pubDate>2026-11-03</pubDate>
       <category>Dashboard y Gráficos</category>
     </item>
     <item>
-      <title>Listado de clientes ESPAÑA</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1000-listado-de-clientes-espana/</link>
-      <description>Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.</description>
-      <pubDate>2026-04-07</pubDate>
-      <category>Informes y Listados</category>
-    </item>
-    <item>
-      <title>Listado de proveedores por provincia</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1001-listado-de-proveedores-por-provincia/</link>
-      <description>Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.</description>
-      <pubDate>2026-04-07</pubDate>
-      <category>Informes y Listados</category>
-    </item>
-    <item>
-      <title>Modelo de factura con totales</title>
-      <link>https://plantillas.alfonsoautomatiza.com/plantillas/2000-modelo-de-factura-con-totales/</link>
-      <description>Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.</description>
-      <pubDate>2026-04-07</pubDate>
-      <category>Facturas y Documentos</category>
+      <title>Carga de camión</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/4001-carga-de-camion/</link>
+      <description>Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.</description>
+      <pubDate>2026-11-03</pubDate>
+      <category>Dashboard y Gráficos</category>
     </item>
     <item>
       <title>Balance de situación</title>
@@ -103,6 +82,27 @@
       <description>Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Incluye gráficos de barras y líneas.</description>
       <pubDate>2026-04-07</pubDate>
       <category>Dashboard y Gráficos</category>
+    </item>
+    <item>
+      <title>Listado de clientes ESPAÑA</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1000-listado-de-clientes-espana/</link>
+      <description>Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Incluye totales agrupados.</description>
+      <pubDate>2026-04-07</pubDate>
+      <category>Informes y Listados</category>
+    </item>
+    <item>
+      <title>Modelo de factura con totales</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/2000-modelo-de-factura-con-totales/</link>
+      <description>Modelo de factura profesional con desglose de líneas, IVA, retenciones y totales. Formato optimizado para impresión.</description>
+      <pubDate>2026-04-07</pubDate>
+      <category>Facturas y Documentos</category>
+    </item>
+    <item>
+      <title>Listado de proveedores por provincia</title>
+      <link>https://plantillas.alfonsoautomatiza.com/plantillas/1001-listado-de-proveedores-por-provincia/</link>
+      <description>Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.</description>
+      <pubDate>2026-04-07</pubDate>
+      <category>Informes y Listados</category>
     </item>
   </channel>
 </rss>

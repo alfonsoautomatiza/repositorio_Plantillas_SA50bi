@@ -1,9 +1,9 @@
-site_name: Catálogo Sage50BI
+site_name: Catálogo S50bi
 site_url: https://plantillas.alfonsoautomatiza.com/
-site_description: 'Catálogo de plantillas gratuitas para Sage50BI'
+site_description: 'Catálogo de plantillas gratuitas para S50bi'
 repo_url: https://github.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi
-repo_name: repositorio_Sage50bi
-copyright: 'Copyright &copy; Sage50BI'
+repo_name: repositorio_Plantillas_SA50bi
+copyright: 'Copyright &copy; S50bi'
 
 # Configuración de tema Material
 theme:
@@ -96,17 +96,17 @@ plugins:
             Inicio: Inicio
             Plantillas: Plantillas
             Packs: Packs
-            Cómo se carga en Sage50BI: Cómo se carga en Sage50BI
+            Cómo instalar plantillas en S50bi: Cómo instalar plantillas en S50bi
         - locale: ca
           name: Català
           build: true
-          site_name: Catàleg Sage50BI
-          site_description: 'Catàleg de plantilles gratuïtes per a Sage50BI'
+          site_name: Catàleg S50bi
+          site_description: 'Catàleg de plantilles gratuïtes per a S50bi'
           nav_translations:
             Inicio: Inici
             Plantillas: Plantilles
             Packs: Paquets
-            Cómo se carga en Sage50BI: Com es carrega a Sage50BI
+            Cómo instalar plantillas en S50bi: Com instal·lar plantilles a S50bi
   - search:
       lang: es
   - social
@@ -114,8 +114,8 @@ plugins:
       optimize_png: false
   - rss:
       match_path: plantillas/*.md
-      feed_title: Plantillas Sage50BI — Novedades
-      feed_description: Últimas plantillas gratuitas para Sage50BI
+      feed_title: Plantillas S50bi — Novedades
+      feed_description: Últimas plantillas gratuitas para S50bi
       image: img/og-default.png
       categories: [plantillas]
   - git-revision-date-localized:
@@ -138,7 +138,7 @@ nav:
   - Packs:
       - Gestión Comercial: packs/pack-gestion-comercial.md
       - Contabilidad Completa: packs/pack-contabilidad-completa.md
-  - Cómo se carga en Sage50BI: como-cargar.md
+  - Cómo instalar plantillas en S50bi: como-cargar.md
 
 # Extra CSS
 extra_css:

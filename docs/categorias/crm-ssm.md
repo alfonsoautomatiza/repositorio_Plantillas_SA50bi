@@ -1,11 +1,11 @@
 ---
-title: "CRM SSM — Plantillas Sage50BI"
-description: "Catálogo de crm ssm para Sage50BI"
+title: "CRM SSM — Plantillas S50bi"
+description: "Catálogo de crm ssm para S50bi"
 ---
 
 # <span class="sage-icon sage-icon--crm-ssm" aria-hidden="true"></span> CRM SSM
 
-Colección de plantillas de **CRM SSM** para Sage50BI.
+Colección de plantillas de **CRM SSM** para S50bi.
 
 **0 plantillas disponibles**
 

@@ -50,11 +50,11 @@
     }
   ],
   "youtube_seo": {
-    "titulo": "Listado de proveedores por provincia — Plantilla gratuita para Sage50BI",
-    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nListado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "titulo": "Listado de proveedores por provincia — Plantilla gratuita para S50bi",
+    "descripcion": "📊 Plantilla gratuita para S50bi de ALCA TIC.\n\nListado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
     "tags_youtube": [
       "sage50",
-      "sage50bi",
+      "s50bi",
       "plantillas sql",
       "proveedores",
       "listado",
@@ -62,7 +62,7 @@
     ]
   },
   "open_graph": {
-    "title": "Listado de proveedores por provincia — Plantilla gratuita Sage50BI",
+    "title": "Listado de proveedores por provincia — Plantilla gratuita S50bi",
     "description": "Listado agrupado de proveedores por provincia con totales de facturación y estadísticas de compra.",
     "image": "preview.png",
     "type": "article"

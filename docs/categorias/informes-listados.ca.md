@@ -1,11 +1,11 @@
 ---
-title: "Informes i Llistats — Plantilles Sage50BI"
-description: "Catàleg de informes y listados per a Sage50BI"
+title: "Informes i Llistats — Plantilles S50bi"
+description: "Catàleg de informes y listados per a S50bi"
 ---
 
 # <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes i Llistats
 
-Colección de plantilles de **Informes i Llistats** per a Sage50BI.
+Colección de plantilles de **Informes i Llistats** per a S50bi.
 
 **5 plantilles disponibles**
 

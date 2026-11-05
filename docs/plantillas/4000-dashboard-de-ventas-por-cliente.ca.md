@@ -1,5 +1,5 @@
 ---
-title: "Dashboard de ventas por cliente — Plantilla gratuita Sage50BI"
+title: "Dashboard de ventas por cliente — Plantilla gratuita S50bi"
 description: "Cuadro de mando interactivo con Streamlit mostrando ventas por cliente, evolución mensual y top 10 clientes. Inclou gráficos de barras y líneas."
 ---
 

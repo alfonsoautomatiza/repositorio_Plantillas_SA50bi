@@ -51,11 +51,11 @@
     }
   ],
   "youtube_seo": {
-    "titulo": "Balance de situación — Plantilla gratuita para Sage50BI",
-    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nBalance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "titulo": "Balance de situación — Plantilla gratuita para S50bi",
+    "descripcion": "📊 Plantilla gratuita para S50bi de ALCA TIC.\n\nBalance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
     "tags_youtube": [
       "sage50",
-      "sage50bi",
+      "s50bi",
       "plantillas sql",
       "balance",
       "situacion",
@@ -63,7 +63,7 @@
     ]
   },
   "open_graph": {
-    "title": "Balance de situación — Plantilla gratuita Sage50BI",
+    "title": "Balance de situación — Plantilla gratuita S50bi",
     "description": "Balance de situación con desglose por cuentas, grupos y subgrupos. Incluye totales de activo, pasivo y patrimonio neto.",
     "image": "preview.png",
     "type": "article"

@@ -1,11 +1,11 @@
 ---
-title: "Facturas y Documentos — Plantillas Sage50BI"
-description: "Catálogo de facturas y documentos para Sage50BI"
+title: "Facturas y Documentos — Plantillas S50bi"
+description: "Catálogo de facturas y documentos para S50bi"
 ---
 
 # <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Facturas y Documentos
 
-Colección de plantillas de **Facturas y Documentos** para Sage50BI.
+Colección de plantillas de **Facturas y Documentos** para S50bi.
 
 **1 plantillas disponibles**
 

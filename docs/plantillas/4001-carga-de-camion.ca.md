@@ -1,5 +1,5 @@
 ---
-title: "Carga de camión — Plantilla gratuita Sage50BI"
+title: "Carga de camión — Plantilla gratuita S50bi"
 description: "Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y "
 ---
 
@@ -13,7 +13,7 @@ description: "Informe de carga de camión por familias a partir de albaranes de 
 
 Informe de carga de camión por familias a partir de albaranes de venta: filtros de fecha, orden por código o nombre de familia y exportación a TXT imprimible y Excel.
 
-Cuadro de mando interactivo con Streamlit per a Sage50BI. Visualiza 
+Cuadro de mando interactivo con Streamlit per a S50bi. Visualiza 
 tus datos en tiempo real con gráficos dinámicos.
 
 ✅ Gratuita ✅ Actualització automática ✅ Sin registro

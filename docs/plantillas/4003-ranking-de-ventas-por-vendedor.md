@@ -1,5 +1,5 @@
 ---
-title: "Ranking de ventas por vendedor — Plantilla gratuita Sage50BI"
+title: "Ranking de ventas por vendedor — Plantilla gratuita S50bi"
 description: "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe."
 ---
 
@@ -13,7 +13,7 @@ description: "Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y t
 
 Ranking de ventas por vendedor y ejercicio: pedidos, albaranes y total vendido sin IVA con posición por importe.
 
-Cuadro de mando interactivo con Streamlit para Sage50BI. Visualiza 
+Cuadro de mando interactivo con Streamlit para S50bi. Visualiza 
 tus datos en tiempo real con gráficos dinámicos.
 
 ✅ Gratuita ✅ Actualización automática ✅ Sin registro

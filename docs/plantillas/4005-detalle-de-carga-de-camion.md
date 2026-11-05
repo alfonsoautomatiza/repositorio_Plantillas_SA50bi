@@ -1,5 +1,5 @@
 ---
-title: "Detalle de carga de camión — Plantilla gratuita Sage50BI"
+title: "Detalle de carga de camión — Plantilla gratuita S50bi"
 description: "Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento."
 ---
 
@@ -13,7 +13,7 @@ description: "Detalle de carga de camión por etiqueta de envío y albarán de v
 
 Detalle de carga de camión por etiqueta de envío y albarán de venta: artículo, unidades e importe cargado por documento.
 
-Cuadro de mando interactivo con Streamlit para Sage50BI. Visualiza 
+Cuadro de mando interactivo con Streamlit para S50bi. Visualiza 
 tus datos en tiempo real con gráficos dinámicos.
 
 ✅ Gratuita ✅ Actualización automática ✅ Sin registro

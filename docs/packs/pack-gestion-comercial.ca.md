@@ -1,11 +1,11 @@
 ---
-title: "Pack Gestión Comercial — Pack Sage50BI"
-description: "Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI."
+title: "Pack Gestión Comercial — Pack S50bi"
+description: "Todo lo que necesitas para gestionar clientes, proveedores y facturas en S50bi."
 ---
 
 # <span class="sage-icon sage-icon--pack" aria-hidden="true"></span> Pack Gestión Comercial
 
-Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI.
+Todo lo que necesitas para gestionar clientes, proveedores y facturas en S50bi.
 
 **3 plantilles incluidas**
 
@@ -19,4 +19,4 @@ Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50B
 
 ---
 
-*Pack instal·lable directament des de Sage50BI amb un sol clic.*
+*Pack instalable directamente desde S50bi con un solo clic.*

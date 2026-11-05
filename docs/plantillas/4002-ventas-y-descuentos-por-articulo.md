@@ -1,5 +1,5 @@
 ---
-title: "Ventas y descuentos por artículo — Plantilla gratuita Sage50BI"
+title: "Ventas y descuentos por artículo — Plantilla gratuita S50bi"
 description: "Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros."
 ---
 
@@ -13,7 +13,7 @@ description: "Ventas de albaranes por familia, artículo, cliente y vendedor: im
 
 Ventas de albaranes por familia, artículo, cliente y vendedor: importe sin y con descuento, descuento medio ponderado y descuento en euros.
 
-Cuadro de mando interactivo con Streamlit para Sage50BI. Visualiza 
+Cuadro de mando interactivo con Streamlit para S50bi. Visualiza 
 tus datos en tiempo real con gráficos dinámicos.
 
 ✅ Gratuita ✅ Actualización automática ✅ Sin registro

@@ -1,5 +1,5 @@
 ---
-title: "Rentabilidad de albaranes por lote — Plantilla gratuita Sage50BI"
+title: "Rentabilidad de albaranes por lote — Plantilla gratuita S50bi"
 description: "Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades."
 ---
 
@@ -13,7 +13,7 @@ description: "Rentabilidad de albaranes de venta por línea y lote: importes, co
 
 Rentabilidad de albaranes de venta por línea y lote: importes, coste, beneficio y coste prorrateado por lote según peso o unidades.
 
-Cuadro de mando interactivo con Streamlit per a Sage50BI. Visualiza 
+Cuadro de mando interactivo con Streamlit per a S50bi. Visualiza 
 tus datos en tiempo real con gráficos dinámicos.
 
 ✅ Gratuita ✅ Actualització automática ✅ Sin registro

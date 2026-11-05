@@ -1,5 +1,5 @@
 ---
-title: "Cuotas de cliente por concepto — Plantilla gratuita Sage50BI"
+title: "Cuotas de cliente por concepto — Plantilla gratuita S50bi"
 description: "Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses."
 ---
 
@@ -13,7 +13,7 @@ description: "Cuotas vigentes por cliente y concepto: fechas de vigencia, import
 
 Cuotas vigentes por cliente y concepto: fechas de vigencia, importe, meses de cobro y periodicidad en meses.
 
-Este informe de Sage50BI te permite obtener un listado completo con filtros 
+Este informe de S50bi te permite obtener un listado completo con filtros 
 personalizables y exportación a Excel.
 
 ✅ Gratuita ✅ Actualización automática ✅ Sin registro

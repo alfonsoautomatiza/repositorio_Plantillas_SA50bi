@@ -1,11 +1,11 @@
 ---
-title: "Informes y Listados — Plantillas Sage50BI"
-description: "Catálogo de informes y listados para Sage50BI"
+title: "Informes y Listados — Plantillas S50bi"
+description: "Catálogo de informes y listados para S50bi"
 ---
 
 # <span class="sage-icon sage-icon--informes" aria-hidden="true"></span> Informes y Listados
 
-Colección de plantillas de **Informes y Listados** para Sage50BI.
+Colección de plantillas de **Informes y Listados** para S50bi.
 
 **5 plantillas disponibles**
 

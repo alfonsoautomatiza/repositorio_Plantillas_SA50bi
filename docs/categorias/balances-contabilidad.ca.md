@@ -1,11 +1,11 @@
 ---
-title: "Balanços i Comptabilitat — Plantilles Sage50BI"
-description: "Catàleg de balances y contabilidad per a Sage50BI"
+title: "Balanços i Comptabilitat — Plantilles S50bi"
+description: "Catàleg de balances y contabilidad per a S50bi"
 ---
 
 # <span class="sage-icon sage-icon--balances" aria-hidden="true"></span> Balanços i Comptabilitat
 
-Colección de plantilles de **Balanços i Comptabilitat** per a Sage50BI.
+Colección de plantilles de **Balanços i Comptabilitat** per a S50bi.
 
 **1 plantilles disponibles**
 

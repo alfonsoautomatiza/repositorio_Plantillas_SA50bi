@@ -1,5 +1,5 @@
 ---
-title: "Deuda y plazo medio por vendedor — Plantilla gratuita Sage50BI"
+title: "Deuda y plazo medio por vendedor — Plantilla gratuita S50bi"
 description: "Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro."
 ---
 
@@ -13,7 +13,7 @@ description: "Deuda pendiente y plazo medio de cobro por vendedor y mes, con dí
 
 Deuda pendiente y plazo medio de cobro por vendedor y mes, con días medios entre emisión y cobro.
 
-Este informe de Sage50BI te permite obtener un listado completo con filtros 
+Este informe de S50bi te permite obtener un listado completo con filtros 
 personalizables y exportación a Excel.
 
 ✅ Gratuita ✅ Actualització automática ✅ Sin registro

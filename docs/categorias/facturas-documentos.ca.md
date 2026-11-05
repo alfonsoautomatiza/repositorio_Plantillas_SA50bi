@@ -1,11 +1,11 @@
 ---
-title: "Factures i Documents — Plantilles Sage50BI"
-description: "Catàleg de facturas y documentos per a Sage50BI"
+title: "Factures i Documents — Plantilles S50bi"
+description: "Catàleg de facturas y documentos per a S50bi"
 ---
 
 # <span class="sage-icon sage-icon--facturas" aria-hidden="true"></span> Factures i Documents
 
-Colección de plantilles de **Factures i Documents** per a Sage50BI.
+Colección de plantilles de **Factures i Documents** per a S50bi.
 
 **1 plantilles disponibles**
 

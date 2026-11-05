@@ -1,5 +1,5 @@
 ---
-title: "Deuda por vendedor — Plantilla gratuita Sage50BI"
+title: "Deuda por vendedor — Plantilla gratuita S50bi"
 description: "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa."
 ---
 
@@ -13,7 +13,7 @@ description: "Deuda pendiente de cobro por vendedor con el porcentaje que repres
 
 Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.
 
-Este informe de Sage50BI te permite obtener un listado completo con filtros 
+Este informe de S50bi te permite obtener un listado completo con filtros 
 personalizables y exportación a Excel.
 
 ✅ Gratuita ✅ Actualización automática ✅ Sin registro

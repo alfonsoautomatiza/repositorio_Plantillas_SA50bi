@@ -9,7 +9,7 @@
     "icono": "📋"
   },
   "descripcion": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.",
-  "descripcion_larga": "📋 Deuda por vendedor\n\nDeuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.\n\nEste informe de Sage50BI te permite obtener un listado completo con filtros \npersonalizables y exportación a Excel.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
+  "descripcion_larga": "📋 Deuda por vendedor\n\nDeuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.\n\nEste informe de S50bi te permite obtener un listado completo con filtros \npersonalizables y exportación a Excel.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro",
   "tags": [
     "deuda",
     "vendedor",
@@ -56,11 +56,11 @@
     }
   ],
   "youtube_seo": {
-    "titulo": "Deuda por vendedor — Plantilla gratuita para Sage50BI",
-    "descripcion": "📊 Plantilla gratuita para Sage50BI de ALCA TIC.\n\nDeuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
+    "titulo": "Deuda por vendedor — Plantilla gratuita para S50bi",
+    "descripcion": "📊 Plantilla gratuita para S50bi de ALCA TIC.\n\nDeuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.\n\n✅ Gratuita ✅ Actualización automática ✅ Sin registro\n\n🔗 Más plantillas: https://plantillas.alfonsoautomatiza.com/\n🏢 ALCA TIC: https://pedironline.com",
     "tags_youtube": [
       "sage50",
-      "sage50bi",
+      "s50bi",
       "plantillas sql",
       "deuda",
       "vendedor",
@@ -68,7 +68,7 @@
     ]
   },
   "open_graph": {
-    "title": "Deuda por vendedor — Plantilla gratuita Sage50BI",
+    "title": "Deuda por vendedor — Plantilla gratuita S50bi",
     "description": "Deuda pendiente de cobro por vendedor con el porcentaje que representa sobre la deuda total de la empresa.",
     "image": "preview.png",
     "type": "article"

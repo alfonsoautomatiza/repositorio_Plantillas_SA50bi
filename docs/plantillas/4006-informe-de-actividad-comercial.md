@@ -1,5 +1,5 @@
 ---
-title: "Informe de actividad comercial — Plantilla gratuita Sage50BI"
+title: "Informe de actividad comercial — Plantilla gratuita S50bi"
 description: "Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métri"
 ---
 
@@ -13,7 +13,7 @@ description: "Sistema de informes de actividad comercial conectado a tu CRM: act
 
 Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.
 
-Cuadro de mando interactivo con Streamlit para Sage50BI. Visualiza 
+Cuadro de mando interactivo con Streamlit para S50bi. Visualiza 
 tus datos en tiempo real con gráficos dinámicos.
 
 ✅ Gratuita ✅ Actualización automática ✅ Sin registro

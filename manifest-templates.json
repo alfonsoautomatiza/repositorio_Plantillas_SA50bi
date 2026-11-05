@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-05T00:07:55.676327Z",
+  "fecha_generacion": "2026-11-05T06:44:42.545780Z",
   "total_plantillas": 14,
   "total_packs": 2,
   "plantillas": [
@@ -436,7 +436,7 @@
     {
       "id": "pack-gestion-comercial",
       "nombre": "Pack Gestión Comercial",
-      "descripcion": "Todo lo que necesitas para gestionar clientes, proveedores y facturas en Sage50BI.",
+      "descripcion": "Todo lo que necesitas para gestionar clientes, proveedores y facturas en S50bi.",
       "icono": "📦",
       "plantillas": [
         1000,

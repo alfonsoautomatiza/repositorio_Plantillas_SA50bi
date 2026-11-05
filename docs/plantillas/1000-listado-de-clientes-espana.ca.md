@@ -1,5 +1,5 @@
 ---
-title: "Listado de clientes ESPAÑA — Plantilla gratuita Sage50BI"
+title: "Listado de clientes ESPAÑA — Plantilla gratuita S50bi"
 description: "Listado completo de clientes con filtros por provincia, forma de pago y fecha de alta. Inclou totales agrupados."
 ---
 

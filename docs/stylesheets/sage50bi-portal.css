@@ -1,4 +1,4 @@
-/* === Sage50BI · The Spreadsheet — commercial showcase for MkDocs Material === */
+/* === S50bi · The Spreadsheet — commercial showcase for MkDocs Material === */
 /* The catalog as a live spreadsheet: every template is a cell that opens. */
 
 :root {
@@ -243,7 +243,7 @@
     margin-top: 0.6rem;
 }
 
-/* Prerequisite callout: makes the Sage50BI dependency impossible to miss */
+/* Prerequisite callout: makes the S50bi dependency impossible to miss */
 .md-typeset .sage-hero__requirement {
     position: relative;
     grid-column: 1;
