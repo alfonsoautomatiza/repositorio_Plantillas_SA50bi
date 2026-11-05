@@ -82,7 +82,7 @@ Cada plantilla puede incluir:
 
 | # | Plantilla | Versión | Descripción | Tags | YouTube |
 |---|-----------|---------|-------------|------|---------|
-| 4006 | Informe de actividad comercial | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CRM: actividades por c... | `actividad` `comercial` `crm` |  |
+| 5006 | Informe de actividad comercial | 1.0.0 | Sistema de informes de actividad comercial conectado a tu CRM: actividades por c... | `actividad` `comercial` `crm` |  |
 
 ## 📂 Categorías
 
@@ -132,4 +132,4 @@ Este repositorio está pensado principalmente para **distribución**, no para de
 
 © 2026 S50bi. Plantillas gratuitas para usuarios de Sage 50.
 
-*Generado automáticamente el 2026-11-05 13:59*
+*Generado automáticamente el 2026-11-05 14:10*

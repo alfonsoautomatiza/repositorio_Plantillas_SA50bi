@@ -174,7 +174,7 @@ Portal: https://plantillas.alfonsoautomatiza.com/
 
 ## Informe de actividad comercial
 
-- URL: https://plantillas.alfonsoautomatiza.com/plantillas/4006-informe-de-actividad-comercial/
+- URL: https://plantillas.alfonsoautomatiza.com/plantillas/5006-informe-de-actividad-comercial/
 - Versión: 1.0.0
 - Categoría: CRM SSM
 - Descripción: Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.

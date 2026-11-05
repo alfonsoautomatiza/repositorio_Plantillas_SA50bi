@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-05T13:59:32.037151Z",
+  "fecha_generacion": "2026-11-05T14:10:24.544508Z",
   "total_plantillas": 14,
   "total_packs": 2,
   "plantillas": [
@@ -385,12 +385,12 @@
       ]
     },
     {
-      "id": 4006,
+      "id": 5006,
       "nombre": "Informe de actividad comercial",
       "version": "1.0.0",
       "tipo": "publica",
       "categoria": "CRM SSM",
-      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4006%20-%20Informe%20de%20actividad%20comercial/",
+      "url_base": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/5006%20-%20Informe%20de%20actividad%20comercial/",
       "archivos": {
         "sql": {
           "nombre": "template.sql",
@@ -408,7 +408,7 @@
           "opcional": true
         }
       },
-      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4006%20-%20Informe%20de%20actividad%20comercial/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/5006%20-%20Informe%20de%20actividad%20comercial/preview.png",
       "youtube_url": "",
       "recomendaciones": [],
       "descripcion": "Sistema de informes de actividad comercial conectado a tu CRM: actividades por cliente y comercial con login por comercial y supervisor, filtros de fecha, métricas, análisis, gráficos y exportación a CSV, TXT y PDF.",

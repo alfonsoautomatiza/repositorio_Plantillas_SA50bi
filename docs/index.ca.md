@@ -124,9 +124,9 @@ Explora les plantilles públiques i obre cada una des de S50bi.
 ### [Detalle de carga de camión](plantillas/4005-detalle-de-carga-de-camion.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
-[![Informe de actividad comercial](img/og-4006.png)](plantillas/4006-informe-de-actividad-comercial.md)
+[![Informe de actividad comercial](img/og-5006.png)](plantillas/5006-informe-de-actividad-comercial.md)
 
-### [Informe de actividad comercial](plantillas/4006-informe-de-actividad-comercial.md)
+### [Informe de actividad comercial](plantillas/5006-informe-de-actividad-comercial.md)
 </article>
 <article class="sage-carousel__card" markdown="1">
 [![Listado de clientes ESPAÑA](img/og-1000.png)](plantillas/1000-listado-de-clientes-espana.md)

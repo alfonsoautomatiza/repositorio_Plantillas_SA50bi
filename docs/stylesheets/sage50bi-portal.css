@@ -1221,6 +1221,44 @@
                 background-color var(--sage-transition), border-color var(--sage-transition);
 }
 
+.sage-dock__code {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.25rem 0.35rem 0.25rem 0.65rem;
+    color: var(--sage-ink);
+    font-size: 0.72rem;
+    line-height: 1.2;
+}
+
+.sage-dock__code-value {
+    font-family: var(--sage-font-display);
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+}
+
+.sage-dock__code-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.sage-dock button.sage-dock__action--copy {
+    cursor: pointer;
+    background: transparent;
+    color: var(--sage-ink);
+    border-color: var(--sage-line-strong);
+}
+
+.sage-dock button.sage-dock__action--copy:hover,
+.sage-dock button.sage-dock__action--copy:focus {
+    background: color-mix(in srgb, var(--sage-accent) 14%, transparent);
+    border-color: var(--sage-accent-dark);
+}
+
 .sage-dock__icon {
     width: 1.1rem;
     height: 1.1rem;
@@ -1297,6 +1335,14 @@ body:has(.sage-dock) .md-footer-meta {
     .sage-dock {
         gap: 0.4rem;
         padding: 0.35rem;
+        flex-wrap: wrap;
+    }
+
+    .sage-dock__code {
+        flex: 1 1 100%;
+        justify-content: center;
+        padding: 0.15rem 0.25rem;
+        font-size: 0.68rem;
     }
 
     .sage-dock__action {

@@ -10,6 +10,7 @@
 | 🧾 Facturas y Documentos | 1 |
 | 📊 Balances y Contabilidad | 1 |
 | 📈 Dashboard y Gráficos | 6 |
+| 🤝 CRM SSM | 1 |
 
 ### 📋 Detalle de plantillas
 
@@ -45,6 +46,12 @@
 | 4003 | Ranking de ventas por vendedor | 1.0.0 | Ranking de ventas por vendedor y ejercicio: pedidos, albara… |
 | 4004 | Rentabilidad de albaranes por lote | 1.0.0 | Rentabilidad de albaranes de venta por línea y lote: import… |
 | 4005 | Detalle de carga de camión | 1.0.0 | Detalle de carga de camión por etiqueta de envío y albarán… |
+
+#### 🤝 CRM SSM
+
+| ID | Nombre | Versión | Descripción |
+|----|--------|---------|-------------|
+| 5006 | Informe de actividad comercial | 1.0.0 | Sistema de informes de actividad comercial conectado a tu C… |
 
 ### 📦 Packs disponibles
 

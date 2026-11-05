@@ -1,6 +1,6 @@
 {
   "version_manifest": "1.0.0",
-  "fecha_generacion": "2026-11-05T13:59:32.196580Z",
+  "fecha_generacion": "2026-11-05T14:12:28.693895Z",
   "total_plantillas": 14,
   "total_packs": 2,
   "plantillas": [
@@ -484,9 +484,9 @@
       "feedback_issue_number": ""
     },
     {
-      "id": 4006,
+      "id": 5006,
       "nombre": "Informe de actividad comercial",
-      "slug": "4006-informe-de-actividad-comercial",
+      "slug": "5006-informe-de-actividad-comercial",
       "version": "1.0.0",
       "tipo": "publica",
       "gratuita": true,
@@ -501,7 +501,7 @@
         "clientes",
         "informe"
       ],
-      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/4006%20-%20Informe%20de%20actividad%20comercial/preview.png",
+      "preview_url": "https://raw.githubusercontent.com/alfonsoautomatiza/repositorio_Plantillas_SA50bi/master/publicas/5006%20-%20Informe%20de%20actividad%20comercial/preview.png",
       "youtube_url": "",
       "sage50bi_min_version": "1.0.0",
       "fecha_actualizacion": "2026-11-03",

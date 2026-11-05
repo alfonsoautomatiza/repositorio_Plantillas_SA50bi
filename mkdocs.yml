@@ -142,7 +142,7 @@ nav:
 
 # Extra CSS
 extra_css:
-  - stylesheets/sage50bi-portal.css?v=129fe1fdcd
+  - stylesheets/sage50bi-portal.css?v=d316e58565
 
 # Never publish customer documentation, even if stale files remain in docs/
 exclude_docs: privadas/
